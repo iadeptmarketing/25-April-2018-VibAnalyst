@@ -1,0 +1,3097 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="trlFactoriesPrsnt11.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRUpload.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tbUpTime.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="DevExpress.XtraEditors.v13.2" name="DevExpress.XtraEditors.v13.2, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="tbUpTime.Properties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v13.2">
+    <value>Default</value>
+  </data>
+  <data name="tbUpTime.Properties.Mask.BeepOnError" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tbUpTime.Properties.Mask.EditMask" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbUpTime.Properties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tbUpTime.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v13.2">
+    <value>None</value>
+  </data>
+  <data name="tbUpTime.Properties.Mask.PlaceHolder" type="System.Char, mscorlib" xml:space="preserve">
+    <value>_</value>
+  </data>
+  <data name="tbUpTime.Properties.Mask.SaveLiteral" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tbUpTime.Properties.Mask.ShowPlaceHolders" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tbUpTime.Properties.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tbUpTime.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label10.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnDownloadRoute.ToolTip1" xml:space="preserve">
+    <value>Download Selected Route to Computer</value>
+  </data>
+  <data name="tbDnTime.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tbDnTime.Properties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v13.2">
+    <value>Default</value>
+  </data>
+  <data name="tbDnTime.Properties.Mask.BeepOnError" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tbDnTime.Properties.Mask.EditMask" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbDnTime.Properties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tbDnTime.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v13.2">
+    <value>None</value>
+  </data>
+  <data name="tbDnTime.Properties.Mask.PlaceHolder" type="System.Char, mscorlib" xml:space="preserve">
+    <value>_</value>
+  </data>
+  <data name="tbDnTime.Properties.Mask.SaveLiteral" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tbDnTime.Properties.Mask.ShowPlaceHolders" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tbDnTime.Properties.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tbDnTime.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnUploadRoute.ToolTip1" xml:space="preserve">
+    <value>Upload Selected Route to instrument</value>
+  </data>
+  <data name="tbUnfinised.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tbUnfinised.Properties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v13.2">
+    <value>Default</value>
+  </data>
+  <data name="tbUnfinised.Properties.Mask.BeepOnError" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tbUnfinised.Properties.Mask.EditMask" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbUnfinised.Properties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tbUnfinised.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v13.2">
+    <value>None</value>
+  </data>
+  <data name="tbUnfinised.Properties.Mask.PlaceHolder" type="System.Char, mscorlib" xml:space="preserve">
+    <value>_</value>
+  </data>
+  <data name="tbUnfinised.Properties.Mask.SaveLiteral" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tbUnfinised.Properties.Mask.ShowPlaceHolders" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tbUnfinised.Properties.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tbUnfinised.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="trlRoute11.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRdnload.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label6.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label9.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbRouteElementName11.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tbRouteElementName11.Properties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v13.2">
+    <value>Default</value>
+  </data>
+  <data name="tbRouteElementName11.Properties.Mask.BeepOnError" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tbRouteElementName11.Properties.Mask.EditMask" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbRouteElementName11.Properties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tbRouteElementName11.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v13.2">
+    <value>None</value>
+  </data>
+  <data name="tbRouteElementName11.Properties.Mask.PlaceHolder" type="System.Char, mscorlib" xml:space="preserve">
+    <value>_</value>
+  </data>
+  <data name="tbRouteElementName11.Properties.Mask.SaveLiteral" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tbRouteElementName11.Properties.Mask.ShowPlaceHolders" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tbRouteElementName11.Properties.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tbRouteElementName11.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbArchive.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tbArchive.Properties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v13.2">
+    <value>Default</value>
+  </data>
+  <data name="tbArchive.Properties.Mask.BeepOnError" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tbArchive.Properties.Mask.EditMask" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbArchive.Properties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tbArchive.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v13.2">
+    <value>None</value>
+  </data>
+  <data name="tbArchive.Properties.Mask.PlaceHolder" type="System.Char, mscorlib" xml:space="preserve">
+    <value>_</value>
+  </data>
+  <data name="tbArchive.Properties.Mask.SaveLiteral" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tbArchive.Properties.Mask.ShowPlaceHolders" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tbArchive.Properties.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tbArchive.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label8.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbTaken.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tbTaken.Properties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v13.2">
+    <value>Default</value>
+  </data>
+  <data name="tbTaken.Properties.Mask.BeepOnError" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tbTaken.Properties.Mask.EditMask" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbTaken.Properties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tbTaken.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v13.2">
+    <value>None</value>
+  </data>
+  <data name="tbTaken.Properties.Mask.PlaceHolder" type="System.Char, mscorlib" xml:space="preserve">
+    <value>_</value>
+  </data>
+  <data name="tbTaken.Properties.Mask.SaveLiteral" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tbTaken.Properties.Mask.ShowPlaceHolders" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tbTaken.Properties.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tbTaken.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="splitContainerControl2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="trlFactoriesPrsnt1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="trlRoute1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label7.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbRouteElementName1.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tbRouteElementName1.Properties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v13.2">
+    <value>Default</value>
+  </data>
+  <data name="tbRouteElementName1.Properties.Mask.BeepOnError" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tbRouteElementName1.Properties.Mask.EditMask" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbRouteElementName1.Properties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tbRouteElementName1.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v13.2">
+    <value>None</value>
+  </data>
+  <data name="tbRouteElementName1.Properties.Mask.PlaceHolder" type="System.Char, mscorlib" xml:space="preserve">
+    <value>_</value>
+  </data>
+  <data name="tbRouteElementName1.Properties.Mask.SaveLiteral" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tbRouteElementName1.Properties.Mask.ShowPlaceHolders" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tbRouteElementName1.Properties.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tbRouteElementName1.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="splitContainerControl3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPtHie.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDate.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOverall.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblXAxis.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblYAxis.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlForlabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="panel1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dataGridView3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Column1.Width" type="System.Int32, mscorlib">
+    <value>73</value>
+  </data>
+  <data name="Column2.Width" type="System.Int32, mscorlib">
+    <value>82</value>
+  </data>
+  <data name="dataGridView1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="colDateTime.Width" type="System.Int32, mscorlib">
+    <value>110</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="dataGridViewImageColumn1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        Qk02DwAAAAAAADYAAAAoAAAAQAAAABQAAAABABgAAAAAAAAAAADEDgAAxA4AAAAAAAAAAAAA////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////
+</value>
+  </data>
+  <data name="dataGridView2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="splitContainerControl1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tsTop.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tsbPointInfo.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAgxJREFUOE+lkvtL
+        U2EYx+0PEbtpFwnBKPGKiJImGP0gYhIYs1E5GF5gIxkpA00JRSmMEF0ohMh+GaRWYlqabMVcNdS2QpaI
+        VqiDIYhk397vA6fXhCjyhYdzeM/5fp7vczkAdeL2cwho7v/wWzT1zcN+Pwhr51uY2/y41PQaF+wzKKiZ
+        QvaN58g0jyLd5KEUcQbg+84P/Cm2tncQjW3j68YWIqubCC3FcOJc478BAuGoZM6zvoRnakXEruEIjhc4
+        /g5gZop9c+voGAyLbQIfeBZxLL9BA1jzXvuGbWamuKh+GmmVbswE19A59FEBbmoAG7YbsLtm2mZmiml9
+        cvabNDwpz6YB7LYBoMXCumkJr7LOmnnHzBQ/9X2Bo2cOibm1GsBREbAQiYmw/8lnuCeWkVzcgnZlnw1j
+        3HV/wuNXK6i/9x5Hc6wawDlTXHbLJ+LZUBQPRyKwdQdxutwl1h+NLXHh5Ht1ewBHsiwawCW57HyDAfWR
+        dvl0uhZQ1eqX8aVc7EKLqrum651ATLf9OJx5XQM4KmY0xPzZ0hFAiQJnXB0WwME0E3IsL5B17ZlADqWb
+        NYDrOepdlcysmTWWOrxqbceRWtaLk0VO1XW72D5Vckd2gMBfq8zdpmUG62NJvKM4+XyziDk24xmfWoGE
+        s1c0gHPmbrPTpHNJKOCo2G1mZs20zcwUJ5yp1AB5+8/zEwgF5GMVDxh4AAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="GenFrmSDF.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAgZJREFUOE+tk/tL
+        U3EYxv1HQstriQSGipckRPEGSj+IqATGamgNhik4kqEy8EYoSqGI6MQgJPbLQDMLL6XJVsxlQ02TmCKa
+        og2GIKI9nueF+R2BJOSBLwfOOc/ned7LCQm5jKtp6DuCT+PAEkw9Hhg7v0Lf5kJp42cUmuaQVTWD248m
+        kaofQ7LOjjNvio9P/px7Do9O4PMfYef3IbzbB1jZ8ON6dsPFAO5VnzhnGD/CPrMlYuuoFzFZ5n8D6Eyx
+        c3EfHcOrEpvAXvtPRGfWKQBr/ruEQGw6U5xbM4ukchvmPHvofP1DAzxVADYsGBBcM2PTmWJGn57flYZH
+        ZdQqALsdADBiTvWsHIcWnTXzGZ0pHnf+grlvEZF3nigAR0XAstcvwqG367BNbSI2vxntWnw2jOe5bQ0j
+        n7ZQ8+IbItKNCsA5U1xc7xTx/IoPg2+8qO324FaJVaK/er9Bgbx/3O5GeJpBAbgk9yxf8FJ7ybi8W6zL
+        eNDqkvHdvNuFZq3uqq4FgehaXLiWWqkAHBUdA2J+bOhwo0ADpzwcFUBYkg7phg9Iq3gnkKvJegXgeo45
+        tsWZNbPGIrNDW9sJxBf340auReu6SWLHFTyTHSDwbJW524zMw/pYEp9RHJvXJGKOLXC/El+G0MT7CsA5
+        c7fZadK5JBRwVOw2nVkzY9OZ4tCEcgX4nz/6FBsWMRav/6WAAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="newToolStripButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAQ1JREFUOE+t091q
+        wjAUB3Bfar7D9hrzjWReiOxi6xhScNCBQ8fccA7WTRCxBfeFFDdLV7+q1qr9+I8UCmUmsRcGDrlI8jvJ
+        OSSV2teQ6l38j1JNQbHSgnAth8HNRQ6zNhTEB6SPMnzk6l5lAidCBdUnhY+It20mkD27CQ9HQb3pZbnJ
+        BFzPB0EiiAqcS89UIAgC2M4GxsgOgYPDY3qi09IjdWG98TC2HGi6xQfyxdoW4PkBZvYaA3OBd23MB3IX
+        1S3AWbkwJ0v0fqbofJh8gLwvXhxSuOl8hb4xQ7c3wquqJwfihfvsT9B++0Wj9Z0ciBdO/RpC7gxw96Il
+        A6J+s2ZmG6Mekw27Yl8fOHT+AFQLLl726ASkAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="openToolStripButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAl9JREFUOE+9k1tI
+        E2AYhnfRRVcWaVEIRpaEXYiBIdVFSNJJUUqzwkgTylMHDMU2D206dXMnp650mNt0TZ1WlmFYIRSKRGip
+        o8S0LCgqxcxQydPT3EKTLPCmH96bn+99vvf7fn6B4H+cnGIzEq2Fy3ITeToraUojy+obnawjLF7lMJ0X
+        lpNlh6VIDUQlFyOoM2tYSo01sr92SUgrITxRRWh8gRPQ22VkYqTWoR/DFqYGDVhNKurN0iUhYQlqQuO0
+        BMcWIaitUDM+XLXIPPOphClbElXlcipLczEUZ6EvyOSaUkSRLHUxtNqoYPyLcb7zrN1MrwhssUvqD8CN
+        MhnfP+odsefMTXUKh+5b82mwyLhdmYvVkI1FL8Gku8J1bTqlahE6hdCZplKfy+i7QuZiv2kRU1+lZuaN
+        BAaki/XWftefBj3J8DKRzpoILsaEIDDosvnWJ4f3Su5Uq2h7oHQW/T7CiyhoD2e6NYiJhwG8rvDh3Kn9
+        TkCZVszXVxIGWjOotyiZ7RdDd5wT0BljNx5nui2EieZ9jDbuZqhuO5J4L04EujmXWaLOYKhLyE2zgo4n
+        9iQ9SXbAGeg4yezTw0w+PshY0x6G6/34XO1Ne85qIoM88dvq4gTo8kV0N2dyy5wPfZnw3B732VEmW4IZ
+        exTASIM/g1YfPhi3YFO6Io7djO8294WnLMxLpdYkx3Y3gXaNYF5tyhU0y1ZyL2sVNelrMaS6c/XSRiIP
+        bcLf12MBoJGmoBGfJU8YTdqFY47FnI4I5MiBnezd5cMOHy+8Pd3x2ODGujUurHf9FX1Zv+kfxT8BMS7u
+        X4BvNFkAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="saveToolStripButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAjBJREFUOE+tk99L
+        k2EUx/0XvO8m8KLbmhrDtVgN3nQOZdYwtIh+vZE/StNlmqRYmUotf0C6wqWTptOJOKnIH2CKlIixFK3M
+        XNESh5piE8Hg23Oe6H2arfCiF87Ny/l8znPOc56IiP/xPXkcBIWnew2d7lW0OpfR3BTAfds86mo/w3rH
+        h1vlsygteYeiwink503g4gUvlNoEDvQDtTUb4meYk61vbMKQOoCjqV08lBR3xwoXVFZ8/auA4MDyOvab
+        nkKlkmE+4hK5zkdLXFBa8iWs4Bf8wb+CaKMHhVfmkGJqEbn2xgUuuGx5/4fgd/j1TAC7JDdyc6aRnGQX
+        ufX3/FyQnTURItgKj3j92KFzQpbHYDTaRG5N9ScukM+OKT/Dwf2jHxEZ14T0Y8+RkFAnBFWVc+jrBbtK
+        4MSplzAfH+bTpoFRz3RsqvwTHsRh8zNIklUIrpfNoMcDtgNAi+M7u/dvKL+5yIdKA6OeMzO8CpyY3A29
+        vkIIrhZNw9UGPLRvssUJwpCWExKmkxaknS/mlROTGBzvgk5XJgSW/EkGA9V3g7wyCWhJojUSxt8uYHJ2
+        EXLeDRw0dHJYc8ABrbZYCGgtbQ1Qjk0Cgs8V3MYb3xJ886u4dM2KGJ2Dwc2I2fcAmrgCIcjMeMX6XuM9
+        R+ld2LlHQnvPEDy9I+gbHMXwi3EcMpqh0jYilsG71fVQq3NDBWdOD/H1pA2jJaF7pquiadPAqGeqSkHw
+        3tjsf76bbT/yH8lrzshq9X8NAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="CutToolStripButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAfVJREFUSEu1lLFr
+        20AUxq/QPyYZPWa0x0KHCvoHGE0mUxAZSskSRAdjOhSRwQgPBXUw2INBHQzqUjgPBmUIqENAGTpo6KBR
+        49f3TjrxJGhSUGL47KfT6fd99+7kV/kfQD3n53UDY/BLSL0E1HQhoy+r5zRRWUFgK2HCY8khR7RNkP5G
+        q/yhQLDaIL6t2kAynK27YGlCtf5VIlhG9FsZMK8o3mkE27QG9+bL60fBDAuWMaJ9WoOLCu6FT9f5cLBJ
+        +CVCel9AHzM4U+//wLJ//aXxvc0+M+0I1zG86wDO+3Mkd9XTiSW4b8LXyW1hgNwCTute+i34X8/yuHoK
+        zPcZxlBn5iNYp8PByR3gf63gXFPqZQ7nA/X4KjP1Ylt0jmE/oNL3dKwayZsMdW8I+qnAm2mEyTTE5FIb
+        +GSm4X3Wj4MTOqNW0sT7VsKZFwSJMXpHPb6KDTQ+VlisczMm5/drFfMON5ImDDXjx7KGUAAGbw4l/FWK
+        0dhrA8nnbK34DWolTLivPB7sOJ1vlu3OU2oJrWDs4vTkrA0kw9labQ4VpaglTdx5XkMo7eita8BscjY+
+        xynp443uzO8EpEAq+lnCSpqE3wk8Cw3IX9UbpR/oXPOeNC+InN+vVfijhJU0GVqrYE//YI2kydBaLXYF
+        rKTJ0LoDliZD678IKSuwDWnkEAAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="CopyToolStripButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAdhJREFUSEu1k7Fr
+        wkAUxq/QfyR/gn+C3Rzr1jlTR8nUVTIVJ8kknYRbhHYI3BKwi3AOgToI10FwcbjBwaHDDR1e37v4oomK
+        DqnwgYTL777vey936y2AaPJ3v4cR+D8kDIKbFJsUxiJ4LzWzUMgUygzI1MB0Ycszx+fP/b8IrtctUw1h
+        X4LK17fB9w3UHJuTQSYTDTo3EPYSUPMb4dhAFYzRybFeAaglVrRxkIwVunVYTSGZ4bO0kFq4iynE1waA
+        RbG5CvgFcD8AdosABNcriicOWs8a5HxXvk8c7r0KxtgEkDlAgs7i1EI0tiDRaR0cjYoLW08K5OcBfhZM
+        fRLAebfOu6U6ZGb98yTFC1Fm5SAcWg8lBY+y4pqcVxxTnwRlp+Q2GhlIJgWYf3SGLtVLvBTX8SyYBsXy
+        YOyVXJqVxRdRuYUYLyAo9RqNrHfb7RsvD+7IksHzEtNvBywCtzrhiaLhYQ35YnLrtwQHHnSSklGCFR24
+        ovC1AB87LR3jXAjMDE4vaBevqfuiffcU+yBcNYTSwIM2gvccTi/e5w6u6aGnKxtAwyKXXggN2nHJYOdC
+        zna4p82JnYs3XO4mxelFku3wK2tOnF4M8LNtUpxeDD4Q3KA4feOOOf0fOeitef4xRrYAAAAASUVORK5C
+        YII=
+</value>
+  </data>
+  <data name="PasteToolStripButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAhFJREFUSEu1kzGL
+        2zAYhlXoD8hfyD9otq6n7cbTljF4OjoFTx26BE2hU9BkOgW0BLoE1CHQLgF3MOSGgDsYbsngIUOGGzR0
+        ePt9cuTz0WuuhTrwRMbYj1+/n/zq/giI//l7fZaxuA9EH9LQQkl/fSDKmsQXyNcajFvSend/8dqu54k4
+        L3ZwK9NiFwn80QbqyiC9lTDzlNBhvfSgJ2KW+gcHEP7BwmZpWPWHdygLDT1V0JMR/JYeuBkinag/vsFv
+        YpYyZp6QjB50NJRWoy4SuEwhGUvY2RDlQiAdXxDvDkDELU2QglKaWUIJGUUVnKGEKYnNtBEn17K9t+vh
+        Y9E9YaOYez1Q2n2Kcjl4JKNjEkbk29FfijPdDOtAa0X97hX8egCzpGoyB70g5hbpzCJ5b5BMzT+IOWlF
+        wylIuqVBsZik8avHT9BAPeqjh7rVUBP9rFzkFRCxC05KFLKRbgaolyIkZbFd5wiscpQHEpM0L0rIm6R1
+        RJf4+sMjwvuTe41SvxKNmF6/m7SsPPJ9DTVOg1ReK8gr2XrYJ9zeI8Kb3hcEJeUKahKXGW0r6pRfv5uY
+        e3fbsumfkG+GrYd9wt2R+IyZsbTZSl14UNxpTJoXdZC6TUMr7rjE5+8eEftlF/Yvf1HJjYS6GoUkPH3u
+        NKZ7buXrui5htye8BE+fb3yJrkd8+nZCHwizOaEPxMd1jT7oTfwLRHDL7Ni1QvgAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="DeleteToolStripButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAipJREFUSEu1lLGL
+        GkEUhyeQP8AyZdJdulheedudkEK7SxesDrlCFgsJNrJcIXKFLCnESpgrBBthG8FrFiZFwCsOJoWwzRVT
+        pLBIsUWKX96bUXFdjY0Kn/Ocnfftz6fsm+Q3IE75eruSsfgciHNI7RT0uRJrc/pRcFjBYi52CUcptgmG
+        KXymb1DtGVQ6RNvAaxqUGibbT04n3kM4SSFjOKZAyEyAYORwN3GUGjrnOCzeSmzTkmCdlFNa6o7Luz3i
+        +ev+xHKqM/9v/AVS5g9gGB4f9y5SeGU/n/igeKKsOBwqMCwN+srC0qCn4BNqj5idgt/2IUdOzEnRD4CO
+        D7MwmaQsVS8u8a5jIw6HEeSIoJVrpnhdRa09wLzlA82KZdAZ2L31NfUQQterebFauMRhP4L+ST/CCkWr
+        JdaIYoXkUZK4auXj+8D24J4+N74goTO5xLNf6UosrdRvSwtL/SbVRDRVqNZDjCntWo4WSe9K0C8mJ+Ww
+        IqIZcRH0nHgzir6kb+Hga2uiHslvPeCrB0035N5dOKyInlNwEXQkileVg5Ruaui2ulaIchG4+mBX9by0
+        /dtwWDH+kYKLY8ziZCNMOl3Mh2OkFwLpjZfvpbBCxktw6mPg80fgUwEgWRQbe143vkG9E9C3tUw/hxWD
+        pyW4+C9P9DDhdBcF6LKXOauvLxEVRGaPw4pwuqQHzXFm3yXM+wKiR5U7P3uQmT0OK7oTAy5OCYe1Yi5O
+        CTv/AYsl9zfgLfLRAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="PlantmgrToolStripButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAjJJREFUSEu11KGv
+        2kAcB/Dbf1A5ubpJ6rDUIalDkiokqcKSKvLUSxWZeknNSzZBcoaEmSb3BMkmSG6CZAZRgUAgTjzx3fda
+        rukbbCEvocmX3rXp5378evDh9wEQ9zgsfI+Ie6BVFzQ/bK4t4O695yx0SZi5Cp/vrYs1snn0Ju65f51v
+        gi0KmDqvGuksqor5X26G80UCuUyhN7KC1YtGPomrZKPLhRr4WjtcRamt+KQZBV1kFSxnCbBn2YVE/Mm7
+        qF782AMuf/fZXa9hCRxywmlVoZzG0PMEmgvEH0VjuGcu4PJgIDclkgXzWCKel6wwhDlkMHu2YsWvPgyB
+        RQrzyDlbcRt8MghHEuYElNyGaoca3icwuxhqGSIbcM5qDatV4+g22ILBIEc4Zu9milVzF0wDohHMNoR6
+        DpD2OWcrzIQvkdVfrdhW5OJ67BNOl6z02bAVCumE0JbZ+FBPHtJegHIcohxxIS5i4bZjx2L9y8ClgXsZ
+        kieiC4NoamG/Qk3hERZIuz7KIfGBD9n1Krjt2LGQW76scxzsdTNEc6KzEsGI8NiiokoD933ongfZqeG2
+        Y8dC/iR8TgN3UoRTokMJvxMR9ho06LDHxGqUIGPhoB83jvXE1xcDlzZsQRtV8OWNPERdgbDjI3/iL+9z
+        XaWLXOkKblsiL45wsXC+VNxqXLF1mFf+S9jtx+t2n+s9szNQ3O8ObTt2LL58P8LFrvqetA03FtnqiHtE
+        PCxL3CPi4RvhO+QPUMK6EmNH7WcAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="BearingToolStripButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="AlarmToolStripButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        raDgzCR/ABOrlXYwYKg1AAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="AlarmlogToolStripButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        QmCC
+</value>
+  </data>
+  <data name="helpToolStripButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAqZJREFUOE+Fk1tI
+        01EYwOdr0HOJvfdm9FpPBZFQDyFBCb71ZoZooZiXMeetnJs6L9O8m2s6clNRN7VdtDmnS5uXleQQ3Zzm
+        XRMvYfz6b6KVZh34OHA4v993vu+cEyI6Y1TVudne+C7a3NwRHRwgysi4HnLW3lPrATgQLtcqNbVTqN9M
+        IpUOkJ5u47+SI9jhWKVE5cJiXeGdyUevaRZNkxtJhv1s0Um4o3MRm22bfssWVssGvT2r6HTzNDROCCca
+        /FN0Em5r92M2bdDVtUxr2yItAtisnaWhfhqVyo1cPkpm9uBhSSdhnd4XBPV6P02aOerrPVRWTlFSMoFC
+        MUJOzjBPE0zEPjFwDLtc68GaNU2zaLVzqF/PUFszTVOrD1nzOlFFe0TKtpBU+pCXjBHz2ICudeBQoGke
+        R65wUlPn4VXFZ8qK3SgLx6nS+onXQLkFPswJ4YXavgMeZHtpMbmZ9s4gEkusaLRjSKR9yAqGkOWP8DLP
+        SXWjhzg1aIdgfmGT1Fwjtx9WBWe9Y4ebcU7ylA5EzxINzCz6MJpHSU7pQSy2Bu88q2EJlZlgk47g4VFv
+        UFJUa0eqXiA6xogoNV1NgbKbhU0/s8tCfYVmpFl93MtdQz96KAiMwCkCgmt3yyhtHKGhf5/Qy6WIXuQP
+        Cpl7hTBgso2ztv8Vi/0TEWIfut8EW9/2gnBippHpJaEX5l0uhOX8epmSzD5S0nooKLbi8c+h6pxH3r5z
+        vMEuZJdXOvAI8LjQzIQiNxGRVaefdkqaieeCqMP8hVsJH+lw7rP7AwzvvYTfKGByHko7Vjh/VUm20vz3
+        v5EmNpOU3E1dyyRXooyIq2fQ2HZptOwQr5jkXLiC2KS39I/4/v25VBVO8pV2oh+1Enopi4thqdy5X45M
+        ZWVwzB+EfwLqy1W+BB/4kQAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="FirstRdToolStripButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABUAAAAWCAYAAAAvg9c4AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAYdJREFUSEutkiFv
+        wkAYhm//ZHWzuNnVTe4ccqmaXE5NzJAqglpOEdSSMyRMNOkECZgmnSBhgqSIJpgKBAKBQEy8++4YrC1X
+        1JE8iPfyPv2+Xq9WG4C5/mmpa5hrodk8oz/XsGxNUsdclKb5CipRlYfasvpQjdJjOXjmJ6kts21plepy
+        PKMJdyl4+yC1ZU2vjc0LoMzkKPxJkW5i+G0fg0gi7AtkpUwOJeR7aAj7YcVRkU6WNOGCJvwrx4WEmkkE
+        HY60iM1DdJYWCnGuzJlMJPx7v1mqxtKsnO4OZZVLiG5Al0WiUiZnNN1YQEQBgi5H6651QTqdgz9xhENh
+        hDIRCCMB/8E/ZVoWDgOIPgnfOHjHR+u2Jk1zfQn/jJIM/JGbkpbr1cRreJbp6bTMu/HgXXsVB5ss96gz
+        mmYIXmgSepe6rM9tma2rMxYv9nQ55ww+50aoOZ7bMluXxd8kbEBGJKYVy+e2rN5noy9azTFMJVv6ZNzC
+        BtMtXMPkeAvXsF60hmtY74OkjvkFv5q5Mnn3/roAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="PreviousRdToolStripButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAW1JREFUSEu1lL1r
+        wkAYh6/QP6TZurp1bbautzmWTB1Lpq6SqXQqN4lT4ZaCi3AdBF0C10GwgxCHgIuDg4ODg0OHX9+LeaUY
+        P1o5hUeCuTzvcxfwYjIHhM/PZSlz4nMgziEtTiGjL59wqMhmJPZJGXpUbPMJdKr/PfygmKXRo/QndlIz
+        oNKlhayfIB5OgW16LP22sHODsB5CvSuot6QgaSaVZ9jB70tUpGMqHVFpKTVTBTvVMLmGHpA8VQjvwr1i
+        9lXEuquK7dulgZPqnGQDquzGiDsRomeJ2m3tBHF/CPkgkbzHa2ka03WEuEnSVwnZCFG7+YPY5sA27TSD
+        vJeFzA1wW3eVThhcBwiugsoz7NgcRW+8wi7a/QzRE1U21lvft277dx4gzGhFL2s3rY/hupQ4tO73PR4k
+        zBdJD6A6JKcjOLZuc7+MFO3PFXzCA4ROF/Rf4A+OFK3+Aj7hSKG6C/iEI8VLZwafcKR3MUf+ANlgLgN3
+        lDPIAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="NextRdToolStripButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAVJJREFUSEu1kiFv
+        g0AYhm/Jfshws7jZ4Wb7F/gJqPqTU82ppplowgTJJkgwTZghYWJJK0iYIKlBVCAQE8h330e5TAzoiSvJ
+        QxB8D8/dcXNsAGHzuh1kLL4G4hrSfhdKutlEh4ryRGKbDKHG4nCnkFdH4whjsYoU5FoiLUojubl4K5HX
+        obFc7GtgjDBT4OVzqSIp1+ZNAvV1fk4P5eicPq9pMUnLnwQ5Q8K8CZFQscoCyJiYkXPopJhLWZrUVF4R
+        hTxLdwGCyIe/WsBf+qPV82LeUyrt6yKSbX0Ea4Kki6UH587B5j2dFucV6Df6Dy/VuXfgPrhwH114T15f
+        qaUqSkfn9HmJ9LuDCXIl/6Sv6eSMjhRJ0cEEFvPy5Qvt+8yMjhTJgcQGsFjF+8vvDh8Vb58dbKIjRZi1
+        sImOFJuPFjbRkULtWthER4rn+ASb6EjrYh35C47hL1AYAhdzAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="LastRdToolStripButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAWtJREFUSEu1kiFr
+        w0AYhr/9k8XNxs2ubpP1U/kJUWX2VJkqp0qZKGQi0InCmUJmCjdRaEUhE4GaioqKiInKd981JFyWXpm5
+        wAPJm7sn73fkZlcC5OPaHQEfkA+pcfoT52z3AeUHFnvgqjhZSOhi1/mwK7cLXhXLVEKMBbJt3pK78v+L
+        pwJ6n3Tk0pG3xOs9UJMsJcyYppHZbNrqo4JcVfezlcbko5rCzrNN3jhqF7XELM1/FLSBhfqYQHFjuYwh
+        5gwLVZFczP/KW2LT1EjVnpsXzFZU0kWMOI0QjfqIBpEzt0u2xebsuOm5XcqyaYR4zLC0P+ghuA0QDfn5
+        Qj75yFrHQboA/1IVZtTgLkB4HyJ8CNF77J1b1tKXocTTc7+TyzRrHLWLsu8TXIiRaKTyPWvWuXLbQ2p7
+        ggsjMOOLNz53a50rt9eQ2rDYgRHI+brz3pXbHpp9neADSpYlfECTzxI+ILko4QN6nR/gg1+3uAmt7AqT
+        xgAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="FindReplacetoolStripButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAvNJREFUSEu1lOtL
+        FGEUxqfoD+gPKMgPfSgiWihI+rQLIkUhq6zhh+iyFUpYbEJhpoU7WFipyIBhG5Wyi6SmGCO6aReNMTNX
+        S1hJy4IuY3jZQGhIyadzZmem2UgT1IVn9+z78v7Oc857ZtaMTQDCSn7WGTAGr4aE1YDqXYjSl6mVTCJE
+        VQIbYrAZS/cV5JXJcOUEEPkEXcoHIPAgoq8nnwigsU9DsCeGQHfMMmeaXBB8qliGNgckpYgJYG9hY3zd
+        WZAIthlkc/8EB1siECtlpOcE4XBLSHbH4VyFfd1xQPzjeClgsVoByJXcrSKvUkHS3jjYWu9TIdZE9XWr
+        FX+Dzf7xL/fYBHipFaZjV5ak99qbLyOvlNZ9VAlBdfBjo8f/A4vkUJvR9D4qoxo4AQMcHoncy/rDpO8N
+        aUinRLzHl2c3yLFgX5C7x3RHfFgZUiFRuexuvZMOh6M6ODqqkrT4HoN3ixBDkcXBUohGjEs1Ls0sd6nz
+        bTcpKKNcclx8OexWndCgmBdEbhn8fho4X96O01ebMDwJDFBPz5W1IfdKA1rezCPQNZXgWugc1mCKR4mn
+        gaFcqreYJsIAd/R9RdmtR3AeugPHviKEB76hnP67Dt/F1tRLqOv/YRlkk4JMl2BqMXCo8yNu1PTioK8B
+        yZ4K5JZ24GZdLzy+EDamXEZTZNYyyEYFeYDAhhYCD3+ZRduTEczNA1XNb7Eh1Y/M/Dq9bRMxILOwHZ4L
+        zZZBNio09mgwxe8Ab34QrqM0tzy7pC00TtX1L5Fd1ATnkdvYlXENa7cXwH22FtkXm7EnK4BNrhJs3l9i
+        GWSjQpBm0JQ9iT32Vz3DPLntejEO57Eg3pHLEdJxsVW/k6evpuHODloG+awQ4CfHkD2JPeYWTU3+hHQv
+        ip2e+NtukKaCH56Z77/Q+nwcaSdrLYN8VpDCMZiyJ7HHhRUy6ltfw+cPY0daJXrG5tD/mcCijNDDQZwp
+        ace2jArLIJ8VrreoMGVPstw4AWxPstz4N7u922jOLzeYAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="FindToolStripButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAhNJREFUSEu1lL9L
+        HEEUx0fIH3Cl7ZUpt9PSAwsLC4UUSReWFGIVDgsJaWRIIWIhW4WthLUQLoUwjWCag7EQLoWwKQ5MYbGF
+        xRUppkjx9X1nd845TaKwevDu3r1hPu/7fuzOXd0A6jk/rxoYwS9h6iWgvgulfAV7ziSqrATcGMHBz44t
+        +vsGvY0co2t4s7+A/NvIxxc/5BhcOBTnE+TDyVRcEPlP8OaOgfsDdJf1DDj9PKjjS59mwZFAivsruDgZ
+        QR8YrG8USNYyLK7VcFYRx5NVfaf4KWD91QKiygwr9A8suis1eBq/qKAPSx+ftuI+OPSPv+xxAKTSiqC4
+        9zbzvU63Dfq7Ev8olQjUg783PX4MrEWh++18H+3YgQkISN5kot74h8mfXTqsSyKecXixQPoqDpjhlVfE
+        y/ayQiblUl1nSS6flh5cjisxV58RvKChj0b/B2dHsmIstRlaKLcjl7ure3dn0ppkJZPN0Ogs9JHI/weK
+        7Zgl18bhUG1142DDgORyvMdsDc+ra1cPd9f6fj8An/10CMZV4jYQylLTHdmIJ4JjgfSVkSEEawOOBdJX
+        5oeAG3sMzAuhFb6q42aA0opYIH01OHcIxndAul2g9172lrsr9louERjeFekXg3dbud8WnvPJnJcBxgLp
+        q0J2MFicpK2vcj45jcVJ2voqO50gWJykra/2TioEi5O09WfAcZK2/i3oNOdRBtUyKQAAAABJRU5ErkJg
+        gg==
+</value>
+  </data>
+  <data name="tsbtnConnect.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAgZJREFUOE+tk/tL
+        U3EYxv1HQstriQSGipckRPEGSj+IqATGamgNhik4kqEy8EYoSqGI6MQgJPbLQDMLL6XJVsxlQ02TmCKa
+        og2GIKI9nueF+R2BJOSBLwfOOc/ned7LCQm5jKtp6DuCT+PAEkw9Hhg7v0Lf5kJp42cUmuaQVTWD248m
+        kaofQ7LOjjNvio9P/px7Do9O4PMfYef3IbzbB1jZ8ON6dsPFAO5VnzhnGD/CPrMlYuuoFzFZ5n8D6Eyx
+        c3EfHcOrEpvAXvtPRGfWKQBr/ruEQGw6U5xbM4ukchvmPHvofP1DAzxVADYsGBBcM2PTmWJGn57flYZH
+        ZdQqALsdADBiTvWsHIcWnTXzGZ0pHnf+grlvEZF3nigAR0XAstcvwqG367BNbSI2vxntWnw2jOe5bQ0j
+        n7ZQ8+IbItKNCsA5U1xc7xTx/IoPg2+8qO324FaJVaK/er9Bgbx/3O5GeJpBAbgk9yxf8FJ7ybi8W6zL
+        eNDqkvHdvNuFZq3uqq4FgehaXLiWWqkAHBUdA2J+bOhwo0ADpzwcFUBYkg7phg9Iq3gnkKvJegXgeo45
+        tsWZNbPGIrNDW9sJxBf340auReu6SWLHFTyTHSDwbJW524zMw/pYEp9RHJvXJGKOLXC/El+G0MT7CsA5
+        c7fZadK5JBRwVOw2nVkzY9OZ4tCEcgX4nz/6FBsWMRav/6WAAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnDownload.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAgZJREFUOE+tk/tL
+        U3EYxv1HQstriQSGipckRPEGSj+IqATGamgNhik4kqEy8EYoSqGI6MQgJPbLQDMLL6XJVsxlQ02TmCKa
+        og2GIKI9nueF+R2BJOSBLwfOOc/ned7LCQm5jKtp6DuCT+PAEkw9Hhg7v0Lf5kJp42cUmuaQVTWD248m
+        kaofQ7LOjjNvio9P/px7Do9O4PMfYef3IbzbB1jZ8ON6dsPFAO5VnzhnGD/CPrMlYuuoFzFZ5n8D6Eyx
+        c3EfHcOrEpvAXvtPRGfWKQBr/ruEQGw6U5xbM4ukchvmPHvofP1DAzxVADYsGBBcM2PTmWJGn57flYZH
+        ZdQqALsdADBiTvWsHIcWnTXzGZ0pHnf+grlvEZF3nigAR0XAstcvwqG367BNbSI2vxntWnw2jOe5bQ0j
+        n7ZQ8+IbItKNCsA5U1xc7xTx/IoPg2+8qO324FaJVaK/er9Bgbx/3O5GeJpBAbgk9yxf8FJ7ybi8W6zL
+        eNDqkvHdvNuFZq3uqq4FgehaXLiWWqkAHBUdA2J+bOhwo0ADpzwcFUBYkg7phg9Iq3gnkKvJegXgeo45
+        tsWZNbPGIrNDW9sJxBf340auReu6SWLHFTyTHSDwbJW524zMw/pYEp9RHJvXJGKOLXC/El+G0MT7CsA5
+        c7fZadK5JBRwVOw2nVkzY9OZ4tCEcgX4nz/6FBsWMRav/6WAAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnUpload.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAgZJREFUOE+tk/tL
+        U3EYxv1HQstriQSGipckRPEGSj+IqATGamgNhik4kqEy8EYoSqGI6MQgJPbLQDMLL6XJVsxlQ02TmCKa
+        og2GIKI9nueF+R2BJOSBLwfOOc/ned7LCQm5jKtp6DuCT+PAEkw9Hhg7v0Lf5kJp42cUmuaQVTWD248m
+        kaofQ7LOjjNvio9P/px7Do9O4PMfYef3IbzbB1jZ8ON6dsPFAO5VnzhnGD/CPrMlYuuoFzFZ5n8D6Eyx
+        c3EfHcOrEpvAXvtPRGfWKQBr/ruEQGw6U5xbM4ukchvmPHvofP1DAzxVADYsGBBcM2PTmWJGn57flYZH
+        ZdQqALsdADBiTvWsHIcWnTXzGZ0pHnf+grlvEZF3nigAR0XAstcvwqG367BNbSI2vxntWnw2jOe5bQ0j
+        n7ZQ8+IbItKNCsA5U1xc7xTx/IoPg2+8qO324FaJVaK/er9Bgbx/3O5GeJpBAbgk9yxf8FJ7ybi8W6zL
+        eNDqkvHdvNuFZq3uqq4FgehaXLiWWqkAHBUdA2J+bOhwo0ADpzwcFUBYkg7phg9Iq3gnkKvJegXgeo45
+        tsWZNbPGIrNDW9sJxBf340auReu6SWLHFTyTHSDwbJW524zMw/pYEp9RHJvXJGKOLXC/El+G0MT7CsA5
+        c7fZadK5JBRwVOw2nVkzY9OZ4tCEcgX4nz/6FBsWMRav/6WAAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnUDReports.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAgZJREFUOE+tk/tL
+        U3EYxv1HQstriQSGipckRPEGSj+IqATGamgNhik4kqEy8EYoSqGI6MQgJPbLQDMLL6XJVsxlQ02TmCKa
+        og2GIKI9nueF+R2BJOSBLwfOOc/ned7LCQm5jKtp6DuCT+PAEkw9Hhg7v0Lf5kJp42cUmuaQVTWD248m
+        kaofQ7LOjjNvio9P/px7Do9O4PMfYef3IbzbB1jZ8ON6dsPFAO5VnzhnGD/CPrMlYuuoFzFZ5n8D6Eyx
+        c3EfHcOrEpvAXvtPRGfWKQBr/ruEQGw6U5xbM4ukchvmPHvofP1DAzxVADYsGBBcM2PTmWJGn57flYZH
+        ZdQqALsdADBiTvWsHIcWnTXzGZ0pHnf+grlvEZF3nigAR0XAstcvwqG367BNbSI2vxntWnw2jOe5bQ0j
+        n7ZQ8+IbItKNCsA5U1xc7xTx/IoPg2+8qO324FaJVaK/er9Bgbx/3O5GeJpBAbgk9yxf8FJ7ybi8W6zL
+        eNDqkvHdvNuFZq3uqq4FgehaXLiWWqkAHBUdA2J+bOhwo0ADpzwcFUBYkg7phg9Iq3gnkKvJegXgeo45
+        tsWZNbPGIrNDW9sJxBf340auReu6SWLHFTyTHSDwbJW524zMw/pYEp9RHJvXJGKOLXC/El+G0MT7CsA5
+        c7fZadK5JBRwVOw2nVkzY9OZ4tCEcgX4nz/6FBsWMRav/6WAAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnVuUDRFormats.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAgZJREFUOE+tk/tL
+        U3EYxv1HQstriQSGipckRPEGSj+IqATGamgNhik4kqEy8EYoSqGI6MQgJPbLQDMLL6XJVsxlQ02TmCKa
+        og2GIKI9nueF+R2BJOSBLwfOOc/ned7LCQm5jKtp6DuCT+PAEkw9Hhg7v0Lf5kJp42cUmuaQVTWD248m
+        kaofQ7LOjjNvio9P/px7Do9O4PMfYef3IbzbB1jZ8ON6dsPFAO5VnzhnGD/CPrMlYuuoFzFZ5n8D6Eyx
+        c3EfHcOrEpvAXvtPRGfWKQBr/ruEQGw6U5xbM4ukchvmPHvofP1DAzxVADYsGBBcM2PTmWJGn57flYZH
+        ZdQqALsdADBiTvWsHIcWnTXzGZ0pHnf+grlvEZF3nigAR0XAstcvwqG367BNbSI2vxntWnw2jOe5bQ0j
+        n7ZQ8+IbItKNCsA5U1xc7xTx/IoPg2+8qO324FaJVaK/er9Bgbx/3O5GeJpBAbgk9yxf8FJ7ybi8W6zL
+        eNDqkvHdvNuFZq3uqq4FgehaXLiWWqkAHBUdA2J+bOhwo0ADpzwcFUBYkg7phg9Iq3gnkKvJegXgeo45
+        tsWZNbPGIrNDW9sJxBf340auReu6SWLHFTyTHSDwbJW524zMw/pYEp9RHJvXJGKOLXC/El+G0MT7CsA5
+        c7fZadK5JBRwVOw2nVkzY9OZ4tCEcgX4nz/6FBsWMRav/6WAAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="tsbtnGenerateGraph.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAgZJREFUOE+tk/tL
+        U3EYxv1HQstriQSGipckRPEGSj+IqATGamgNhik4kqEy8EYoSqGI6MQgJPbLQDMLL6XJVsxlQ02TmCKa
+        og2GIKI9nueF+R2BJOSBLwfOOc/ned7LCQm5jKtp6DuCT+PAEkw9Hhg7v0Lf5kJp42cUmuaQVTWD248m
+        kaofQ7LOjjNvio9P/px7Do9O4PMfYef3IbzbB1jZ8ON6dsPFAO5VnzhnGD/CPrMlYuuoFzFZ5n8D6Eyx
+        c3EfHcOrEpvAXvtPRGfWKQBr/ruEQGw6U5xbM4ukchvmPHvofP1DAzxVADYsGBBcM2PTmWJGn57flYZH
+        ZdQqALsdADBiTvWsHIcWnTXzGZ0pHnf+grlvEZF3nigAR0XAstcvwqG367BNbSI2vxntWnw2jOe5bQ0j
+        n7ZQ8+IbItKNCsA5U1xc7xTx/IoPg2+8qO324FaJVaK/er9Bgbx/3O5GeJpBAbgk9yxf8FJ7ybi8W6zL
+        eNDqkvHdvNuFZq3uqq4FgehaXLiWWqkAHBUdA2J+bOhwo0ADpzwcFUBYkg7phg9Iq3gnkKvJegXgeo45
+        tsWZNbPGIrNDW9sJxBf340auReu6SWLHFTyTHSDwbJW524zMw/pYEp9RHJvXJGKOLXC/El+G0MT7CsA5
+        c7fZadK5JBRwVOw2nVkzY9OZ4tCEcgX4nz/6FBsWMRav/6WAAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnlogsend.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAgZJREFUOE+tk/tL
+        U3EYxv1HQstriQSGipckRPEGSj+IqATGamgNhik4kqEy8EYoSqGI6MQgJPbLQDMLL6XJVsxlQ02TmCKa
+        og2GIKI9nueF+R2BJOSBLwfOOc/ned7LCQm5jKtp6DuCT+PAEkw9Hhg7v0Lf5kJp42cUmuaQVTWD248m
+        kaofQ7LOjjNvio9P/px7Do9O4PMfYef3IbzbB1jZ8ON6dsPFAO5VnzhnGD/CPrMlYuuoFzFZ5n8D6Eyx
+        c3EfHcOrEpvAXvtPRGfWKQBr/ruEQGw6U5xbM4ukchvmPHvofP1DAzxVADYsGBBcM2PTmWJGn57flYZH
+        ZdQqALsdADBiTvWsHIcWnTXzGZ0pHnf+grlvEZF3nigAR0XAstcvwqG367BNbSI2vxntWnw2jOe5bQ0j
+        n7ZQ8+IbItKNCsA5U1xc7xTx/IoPg2+8qO324FaJVaK/er9Bgbx/3O5GeJpBAbgk9yxf8FJ7ybi8W6zL
+        eNDqkvHdvNuFZq3uqq4FgehaXLiWWqkAHBUdA2J+bOhwo0ADpzwcFUBYkg7phg9Iq3gnkKvJegXgeo45
+        tsWZNbPGIrNDW9sJxBf340auReu6SWLHFTyTHSDwbJW524zMw/pYEp9RHJvXJGKOLXC/El+G0MT7CsA5
+        c7fZadK5JBRwVOw2nVkzY9OZ4tCEcgX4nz/6FBsWMRav/6WAAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="btclrlog.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAgZJREFUOE+tk/tL
+        U3EYxv1HQstriQSGipckRPEGSj+IqATGamgNhik4kqEy8EYoSqGI6MQgJPbLQDMLL6XJVsxlQ02TmCKa
+        og2GIKI9nueF+R2BJOSBLwfOOc/ned7LCQm5jKtp6DuCT+PAEkw9Hhg7v0Lf5kJp42cUmuaQVTWD248m
+        kaofQ7LOjjNvio9P/px7Do9O4PMfYef3IbzbB1jZ8ON6dsPFAO5VnzhnGD/CPrMlYuuoFzFZ5n8D6Eyx
+        c3EfHcOrEpvAXvtPRGfWKQBr/ruEQGw6U5xbM4ukchvmPHvofP1DAzxVADYsGBBcM2PTmWJGn57flYZH
+        ZdQqALsdADBiTvWsHIcWnTXzGZ0pHnf+grlvEZF3nigAR0XAstcvwqG367BNbSI2vxntWnw2jOe5bQ0j
+        n7ZQ8+IbItKNCsA5U1xc7xTx/IoPg2+8qO324FaJVaK/er9Bgbx/3O5GeJpBAbgk9yxf8FJ7ybi8W6zL
+        eNDqkvHdvNuFZq3uqq4FgehaXLiWWqkAHBUdA2J+bOhwo0ADpzwcFUBYkg7phg9Iq3gnkKvJegXgeo45
+        tsWZNbPGIrNDW9sJxBf340auReu6SWLHFTyTHSDwbJW524zMw/pYEp9RHJvXJGKOLXC/El+G0MT7CsA5
+        c7fZadK5JBRwVOw2nVkzY9OZ4tCEcgX4nz/6FBsWMRav/6WAAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="tsbtnInsert.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAgZJREFUOE+tk/tL
+        U3EYxv1HQstriQSGipckRPEGSj+IqATGamgNhik4kqEy8EYoSqGI6MQgJPbLQDMLL6XJVsxlQ02TmCKa
+        og2GIKI9nueF+R2BJOSBLwfOOc/ned7LCQm5jKtp6DuCT+PAEkw9Hhg7v0Lf5kJp42cUmuaQVTWD248m
+        kaofQ7LOjjNvio9P/px7Do9O4PMfYef3IbzbB1jZ8ON6dsPFAO5VnzhnGD/CPrMlYuuoFzFZ5n8D6Eyx
+        c3EfHcOrEpvAXvtPRGfWKQBr/ruEQGw6U5xbM4ukchvmPHvofP1DAzxVADYsGBBcM2PTmWJGn57flYZH
+        ZdQqALsdADBiTvWsHIcWnTXzGZ0pHnf+grlvEZF3nigAR0XAstcvwqG367BNbSI2vxntWnw2jOe5bQ0j
+        n7ZQ8+IbItKNCsA5U1xc7xTx/IoPg2+8qO324FaJVaK/er9Bgbx/3O5GeJpBAbgk9yxf8FJ7ybi8W6zL
+        eNDqkvHdvNuFZq3uqq4FgehaXLiWWqkAHBUdA2J+bOhwo0ADpzwcFUBYkg7phg9Iq3gnkKvJegXgeo45
+        tsWZNbPGIrNDW9sJxBf340auReu6SWLHFTyTHSDwbJW524zMw/pYEp9RHJvXJGKOLXC/El+G0MT7CsA5
+        c7fZadK5JBRwVOw2nVkzY9OZ4tCEcgX4nz/6FBsWMRav/6WAAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnInstRes.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAgZJREFUOE+tk/tL
+        U3EYxv1HQstriQSGipckRPEGSj+IqATGamgNhik4kqEy8EYoSqGI6MQgJPbLQDMLL6XJVsxlQ02TmCKa
+        og2GIKI9nueF+R2BJOSBLwfOOc/ned7LCQm5jKtp6DuCT+PAEkw9Hhg7v0Lf5kJp42cUmuaQVTWD248m
+        kaofQ7LOjjNvio9P/px7Do9O4PMfYef3IbzbB1jZ8ON6dsPFAO5VnzhnGD/CPrMlYuuoFzFZ5n8D6Eyx
+        c3EfHcOrEpvAXvtPRGfWKQBr/ruEQGw6U5xbM4ukchvmPHvofP1DAzxVADYsGBBcM2PTmWJGn57flYZH
+        ZdQqALsdADBiTvWsHIcWnTXzGZ0pHnf+grlvEZF3nigAR0XAstcvwqG367BNbSI2vxntWnw2jOe5bQ0j
+        n7ZQ8+IbItKNCsA5U1xc7xTx/IoPg2+8qO324FaJVaK/er9Bgbx/3O5GeJpBAbgk9yxf8FJ7ybi8W6zL
+        eNDqkvHdvNuFZq3uqq4FgehaXLiWWqkAHBUdA2J+bOhwo0ADpzwcFUBYkg7phg9Iq3gnkKvJegXgeo45
+        tsWZNbPGIrNDW9sJxBf340auReu6SWLHFTyTHSDwbJW524zMw/pYEp9RHJvXJGKOLXC/El+G0MT7CsA5
+        c7fZadK5JBRwVOw2nVkzY9OZ4tCEcgX4nz/6FBsWMRav/6WAAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnInstElmnt.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAgZJREFUOE+tk/tL
+        U3EYxv1HQstriQSGipckRPEGSj+IqATGamgNhik4kqEy8EYoSqGI6MQgJPbLQDMLL6XJVsxlQ02TmCKa
+        og2GIKI9nueF+R2BJOSBLwfOOc/ned7LCQm5jKtp6DuCT+PAEkw9Hhg7v0Lf5kJp42cUmuaQVTWD248m
+        kaofQ7LOjjNvio9P/px7Do9O4PMfYef3IbzbB1jZ8ON6dsPFAO5VnzhnGD/CPrMlYuuoFzFZ5n8D6Eyx
+        c3EfHcOrEpvAXvtPRGfWKQBr/ruEQGw6U5xbM4ukchvmPHvofP1DAzxVADYsGBBcM2PTmWJGn57flYZH
+        ZdQqALsdADBiTvWsHIcWnTXzGZ0pHnf+grlvEZF3nigAR0XAstcvwqG367BNbSI2vxntWnw2jOe5bQ0j
+        n7ZQ8+IbItKNCsA5U1xc7xTx/IoPg2+8qO324FaJVaK/er9Bgbx/3O5GeJpBAbgk9yxf8FJ7ybi8W6zL
+        eNDqkvHdvNuFZq3uqq4FgehaXLiWWqkAHBUdA2J+bOhwo0ADpzwcFUBYkg7phg9Iq3gnkKvJegXgeo45
+        tsWZNbPGIrNDW9sJxBf340auReu6SWLHFTyTHSDwbJW524zMw/pYEp9RHJvXJGKOLXC/El+G0MT7CsA5
+        c7fZadK5JBRwVOw2nVkzY9OZ4tCEcgX4nz/6FBsWMRav/6WAAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnInstSbElmnt.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAgZJREFUOE+tk/tL
+        U3EYxv1HQstriQSGipckRPEGSj+IqATGamgNhik4kqEy8EYoSqGI6MQgJPbLQDMLL6XJVsxlQ02TmCKa
+        og2GIKI9nueF+R2BJOSBLwfOOc/ned7LCQm5jKtp6DuCT+PAEkw9Hhg7v0Lf5kJp42cUmuaQVTWD248m
+        kaofQ7LOjjNvio9P/px7Do9O4PMfYef3IbzbB1jZ8ON6dsPFAO5VnzhnGD/CPrMlYuuoFzFZ5n8D6Eyx
+        c3EfHcOrEpvAXvtPRGfWKQBr/ruEQGw6U5xbM4ukchvmPHvofP1DAzxVADYsGBBcM2PTmWJGn57flYZH
+        ZdQqALsdADBiTvWsHIcWnTXzGZ0pHnf+grlvEZF3nigAR0XAstcvwqG367BNbSI2vxntWnw2jOe5bQ0j
+        n7ZQ8+IbItKNCsA5U1xc7xTx/IoPg2+8qO324FaJVaK/er9Bgbx/3O5GeJpBAbgk9yxf8FJ7ybi8W6zL
+        eNDqkvHdvNuFZq3uqq4FgehaXLiWWqkAHBUdA2J+bOhwo0ADpzwcFUBYkg7phg9Iq3gnkKvJegXgeo45
+        tsWZNbPGIrNDW9sJxBf340auReu6SWLHFTyTHSDwbJW524zMw/pYEp9RHJvXJGKOLXC/El+G0MT7CsA5
+        c7fZadK5JBRwVOw2nVkzY9OZ4tCEcgX4nz/6FBsWMRav/6WAAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnInstPoint.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAgZJREFUOE+tk/tL
+        U3EYxv1HQstriQSGipckRPEGSj+IqATGamgNhik4kqEy8EYoSqGI6MQgJPbLQDMLL6XJVsxlQ02TmCKa
+        og2GIKI9nueF+R2BJOSBLwfOOc/ned7LCQm5jKtp6DuCT+PAEkw9Hhg7v0Lf5kJp42cUmuaQVTWD248m
+        kaofQ7LOjjNvio9P/px7Do9O4PMfYef3IbzbB1jZ8ON6dsPFAO5VnzhnGD/CPrMlYuuoFzFZ5n8D6Eyx
+        c3EfHcOrEpvAXvtPRGfWKQBr/ruEQGw6U5xbM4ukchvmPHvofP1DAzxVADYsGBBcM2PTmWJGn57flYZH
+        ZdQqALsdADBiTvWsHIcWnTXzGZ0pHnf+grlvEZF3nigAR0XAstcvwqG367BNbSI2vxntWnw2jOe5bQ0j
+        n7ZQ8+IbItKNCsA5U1xc7xTx/IoPg2+8qO324FaJVaK/er9Bgbx/3O5GeJpBAbgk9yxf8FJ7ybi8W6zL
+        eNDqkvHdvNuFZq3uqq4FgehaXLiWWqkAHBUdA2J+bOhwo0ADpzwcFUBYkg7phg9Iq3gnkKvJegXgeo45
+        tsWZNbPGIrNDW9sJxBf340auReu6SWLHFTyTHSDwbJW524zMw/pYEp9RHJvXJGKOLXC/El+G0MT7CsA5
+        c7fZadK5JBRwVOw2nVkzY9OZ4tCEcgX4nz/6FBsWMRav/6WAAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="tsBottom.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="newToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAQpJREFUOE+t021L
+        wlAUB3C/VH6H+hr5jSRfiPSiFiEDgwWGRhZm0EoQcQN7QoblWPNp6py6h3/cwWDkvde98MDhvrnndznn
+        cFOpfYVU7+J/lmoKipUWhGs5TO5bpJgVBfEB6aMMH7m6V5nAiVBB9UnhI+Jtmwlkz27C4iiprVyWm0zA
+        9XwQJIKowLn0TAWCIIDtbGCM7BA4ODymD/O09EgF1hsPY8uBplt8IF+sbQGeH2BmrzEwF3jXxnwgd1Hd
+        ApyVC3OyRO9nis6HyQdIf/Egg5vOV+gbM3R7I7yqenIgPrjP/gTtt180Wt/Jgfjg1K8h5M4Ady9aMiDa
+        N+tkrjHaMbmwK/f1gUPnD9/19ZYU1J08AAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="openToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAl9JREFUOE+9k1tI
+        E2AYhnfRRVcWaVEIRpaEXYiBIdVFSNJJUUqzwkgTylMHDMU2D206dXMnp650mNt0TZ1WlmFYIRSKRGip
+        o8S0LCgqxcxQydPT3EKTLPCmH96bn+99vvf7fn6B4H+cnGIzEq2Fy3ITeToraUojy+obnawjLF7lMJ0X
+        lpNlh6VIDUQlFyOoM2tYSo01sr92SUgrITxRRWh8gRPQ22VkYqTWoR/DFqYGDVhNKurN0iUhYQlqQuO0
+        BMcWIaitUDM+XLXIPPOphClbElXlcipLczEUZ6EvyOSaUkSRLHUxtNqoYPyLcb7zrN1MrwhssUvqD8CN
+        MhnfP+odsefMTXUKh+5b82mwyLhdmYvVkI1FL8Gku8J1bTqlahE6hdCZplKfy+i7QuZiv2kRU1+lZuaN
+        BAaki/XWftefBj3J8DKRzpoILsaEIDDosvnWJ4f3Su5Uq2h7oHQW/T7CiyhoD2e6NYiJhwG8rvDh3Kn9
+        TkCZVszXVxIGWjOotyiZ7RdDd5wT0BljNx5nui2EieZ9jDbuZqhuO5J4L04EujmXWaLOYKhLyE2zgo4n
+        9iQ9SXbAGeg4yezTw0w+PshY0x6G6/34XO1Ne85qIoM88dvq4gTo8kV0N2dyy5wPfZnw3B732VEmW4IZ
+        exTASIM/g1YfPhi3YFO6Io7djO8294WnLMxLpdYkx3Y3gXaNYF5tyhU0y1ZyL2sVNelrMaS6c/XSRiIP
+        bcLf12MBoJGmoBGfJU8YTdqFY47FnI4I5MiBnezd5cMOHy+8Pd3x2ODGujUurHf9FX1Zv+kfxT8BMS7u
+        X4BvNFkAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="saveToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAilJREFUOE+tk91L
+        k3EUx/cvdN9N0EW3NTWGa7EaPOUcyqphWBG9PZEv5dJlmqhYmUYtXyBb4dJJy+kknFT4BqZIjaFMJUsz
+        V7TEoabYRDD49ju/6Pm1Mm/qB+fy8znPOef7qFT/4z17GgWVr30Zbd4lPHYvoLEhgvuOGdTWfIL9dgg3
+        yqdQWjKBwoLXyMsdxYXzQSi9CeztAWqqV7HRW1ldgzGtF4fTnvBSBN7WRS6orPjyV57gyMIKdpufQ62W
+        YTnkEQL3o3kuKC35vK7gJ/w+vIg4kw8Fl6dxwNwkBM76WS64ZHv3h+BXeGQygm2SF9accaSmOIWg7m6Y
+        C7KzRmMEv8ODwTA2692Q5QBMJocQVFd95AL5TEARrAf3+D9gU2IDjhx9gaSkWiG4WTmN7i6wUwLHT76C
+        5dgA3zYtjGamz6bOP+A+HLR0QpLsQnC1bBIdPrAMAE2ub+zuX1F+fY4vlRZGM2dmBBU4ObUdBkOFEFwp
+        HIenGXjoXGPBicKYnhNT5hM2pJ8r4p2TUxi83wO9vkwIbHljDAaq7kR5ZxJQSOK0EobezmJsag5y7jXs
+        NbZxWLvHBZ2uSAgolo57UD6bBASfzb+FN6F5hGaWcLHYjni9i8GNiN/1ANrEfCHIzBhmcy/zmbcaPNiy
+        Q0JLRz98XYPo7vNj4OUQ9pksUOvqkcDg7Zo6aDTWWMHpU/08npQwCgndmU5F26aF0czUlYrgnQnZQvAv
+        f/R3bGg6a0rM640AAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="printToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAi5JREFUOE+tk+1P
+        klEYxlkf+39aW1utttpM1NJqwzIjnM5J0TAmBSHLCFNJ7cVaUqNH5gLdQxY4RkxrbDqDzBJdOt0SKLAg
+        TEDDeLl6nkPgSNz64L1d29nZ7ut3nfucw+HsdBltUxi0f4RpdGZb0SNubMtlDd67ffi3Nn4n4fGvYNA6
+        gZJzV8GtvrLVhG1mlUqlEQxH4HB9IhqyO2Ewj8M140WVSE0MCibQW1z4/DWcB2fJq9E4ZheXQduchFyQ
+        rqXHwSrJ0L2BUB7d6piG0+1BZYMKx87LodG+wL0+62YKRecz0jzinCd0lpolB0IxzC+F0Guwo5Qvg7Kr
+        H0/oMZQyRuQYTW16qB8OgTK/wyOjA/qXb3GXsuH6HSPELVrwGztQXqNA8VkpTl+4iW6dBRKVFsXZId5+
+        +gqRWHzL1NmNRDKF9XiCzOB7eB1fvkUhb6dQJ+1iEsgyCVQPTDC/+YDndhco02vc7xuGumcAsnYdRM09
+        EFzuAK+hBccFchSdkeAis1cpvIGDJ0UZA2X3AHz+YMEEkbUNeAKr2A0O0S6KA764DSXVUuw5WpMxaO40
+        YHpuCczccsWuf0QTmPOtYWw2TJotfw1O1CpwoEK4aaDUUND00vAG4wjH0vD/TGNxOYWJhV8Ynoyi37FC
+        yFkd4YlJcy5BvaQVsls6jE76yN3+j/IM2GNIVI9RUadEmeAauMwzLapqwmFeIw6duoT95ULsK6vHXm5t
+        jpyj78RP/gPgHTGb+rLlcwAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="printPreviewToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAdVJREFUOE+t099L
+        U2Ecx3H/GemqiygrwpsIzESJqJzzx4VOnMQkKFToZjcZQf5oDd0SXa0m/sJjnJU5K5eb1oIig8nUiwah
+        brLUInG6zb3znLB2PNu68QtfHjjweX2f5+E8OTmHUaJnnoMtTPoZdH3G4fwgd9Y5UjhT9Qy/5WRRbXZk
+        1D2XEeh0uJiY8WdHhl99yQiYn7yUw/ud9ij9Yx9VQDy2xdTMFJZHdm63mbhr6iS/RJf+Lp6KPgWwvb2F
+        OD7Oa880och3voUjOAQRnaGRKsMtNWITvArAPe3F5fbI3+IJ+BXdZWU9gdk2hLZarwa6BycVQJfNzvJq
+        5G84/CPOwnIMp3eesspKNdDVN6EAOizdLK2uyZPDG4m98A6+hSgPR3xcLi1VA9JNp5YgOhFdbkIbe5NX
+        YrxfjPLi0yYNzUbKyssxtTQqkVQgmUzyNRjkXoeZ3oHnPPMGsAo+GpqMaLRXGbhfhWi9rkRSgZ1YgvWf
+        UfyBAA8sFvTXDNTU1lGhuYT55jlCj8+z+64ae/uNf8g+IK2ZuuVOK/UlJ5g15rFkPcuaU0OT/uKfo0ih
+        vAu6/3ZB0RX0xcd503yausKjaItPZX9k6X5baRf5x45QeCZXDv8Gd10kHhF4wJIAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="undoToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAZlJREFUOE+1ktsr
+        w2EYx/0p7sidnIkWlmMsSQxzlrkxhxySOV4oM9qSHG+ctuVsLCmxG+5QcoOUhZxP++324zdKDit+ylvP
+        3fP5vM/zfl8vr/88RqsL45LA6JrA1KaAWSyLXeBXd+rnBdzVNSvQanLSPO5kZPVN4FHSZblicvvN7oZ6
+        FlyUGO6I1WwTUWIjJN9KXP0xAzYPArexdfyS0Q2BZpNA76ILle4CuWaLqLI1gnKnia1YJixviozOOybE
+        vm9rVA9cUD74TOWwkyzdI+FFVkIL5kXY/NqsaLLhnzmGvO6Qlgnnd0Gh/pykthuyu5+pHb7BN8lAYI7p
+        vdFbpiWq3I689ogWswdBWvsZwdUnJLRdvU5SoDtFO3b7WaC2k6g9p92TILregazqgHD1FoF5K/grZ/BN
+        7nsXBKvmiFRvoui4RtPv+DnKr1H5JBrE8Q8pNd7TLcb7q7/wsSm0eJ30zgcytDvSYJX+HlnFLqkdD6Q0
+        7OOnGJImiG90iPAT8TV7BCgt0mD3Ckox1piaA4JyZqXDkh/qL8ALl3QQwQeUb4QAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="redoToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAZNJREFUOE/Nkt8r
+        Q2EcxvenuMGSdsE2mptdGGYrU7NiZsoi5HdhyTY/VohdbKSxTdjM1mrKr6SEm7njSolQu9FaRue814/3
+        HFHr0CgXTj1X5/l+3ud9vq9I9Fdf9JwgckYQpgocE8zHWVjXWfyIzw1z8h8R2IMsJrZZOKMsRjcohCon
+        hBv2HhJUWx9R1roHheUAyp4ELB4GAz4WA/53yNYFgXLwWggMnRIYZp4hN66hsjcOmSnGS27eRRuFdHgZ
+        dFNIgPoqOhN82qxUjhAL1cgdCmvnoRs/5H/KTBGUGsMo1q2iYfaVT9K1wkBq3hcmcEQ4wD0K1C7kKW2f
+        BmnzNsQaN4Z9aRgXGGgm05A0bAoBUxSgsT9RsycLsLhPwIk7WT2ZgnzoAWLtkhDQv5xEvTONksZYFoAr
+        TEHvLDUfQKIP8sP5VXNCwMIOQbsnA9XwLe3BnWUQFPbdTg22S+hnXlBuOcm9968gRbTturFr1E2/QNl3
+        hRZX5vcgDqK13kDnZFAzlvw94COZxpFCE11bzif8LwxvxTcHtycxLyQAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="cutToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAaNJREFUOE+V07tL
+        W2EcxnH/AgcHJ6GjWifxVrR4K81gokdOYpoSpcHEYGuJCDFqFNEajdeUGgmIWomCkMugB4cWiqVLK95A
+        xU1EBC+oOGq3rzkRnOTw+s6/5/Pw3lJSBBaJJTD2MBJRfjOzpDwG1PDh8Sndg1NiSHAuznhoEe/gdDJw
+        e/efmPILx2evGKCGJmciBGdjajlnF9c4W3tIT0sVByIra4wGw6xv7fLn7w7mDy3PA8LRH4xNLTARCtPR
+        H8AgW8Xb1S2MfAvj7gtgd/VS1/ARnV5+HqAiNpcPs60Nk3MIyeYTB6zDN1hGrjANHKP3bGDo2KbGu4+h
+        fRNdy09tyOK/5P34Dca+Q0qs3ymQA+hca0jdB7xNhIvr57UBs/8c89ApFc7lZLhAnkDv3kDqOqCyWSHf
+        +FUbqPOdIPcfUdmkkFc7lgRqE+3Vndu8soTIKf+kDRi/HCF59ii1x8k1PByc3v2P0sYo2a/tZLzI1gZq
+        unYpa4wl2kfJLHyXfDxljjgvS2xkFlnIk/zawJvmVQpNk2QVN5Bb1SN+dcJf9YnBe5GF6RjGCzzaAAAA
+        AElFTkSuQmCC
+</value>
+  </data>
+  <data name="copyToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAd1JREFUOE+lk99L
+        U2EYgP1TShlSXdt9RGpSYFB4UVCQRVe70KuuIsMgqxkLnG0Tc5ayzc70RKSLlJlraTJzrl+TlkFtMJVz
+        dDmnZ/a480mzLdgEX3juvvd5f3zfV1a235DHv6AjjYUFzuEgvfI77tpk9uTWkwvDMRTgastTjtY1lpZ4
+        RsN5+ZmtP3T0vcLrD3O+qb20xDkyIwTeCEgfIBRVeeh4iTSh4h5XcPkUHo8omAeXBRfvx/K76pUDuQ42
+        NjOoq2liiaQQFEZr/yJVV/yC3H7sbp841+3fxDSsclP6RXNPlL7XS/8JmqwJ5EmVIw1DAiGxZOfV515L
+        aSwqKRZiK3yKLmF/EReCNikjCM2vcMkU53DDcw6dHaCy/smOQJ93Pa3lKhvtEa5ZPvLAtZDXgfpbY/7n
+        Ov65VazSNIbTXbsCNZnm8/cEM19jBEI/GHv/jZbuneu90Z/EaIlz4V6EM7dmBVZpCkNd566g6uRlCmk2
+        zwqBlh0voWjMRdcYDap43izzaCBARY25+BtpbJ0Ugn8r/+2g0/2W8hOm4oJz132kNrawDwaxeaaxPpsS
+        lfVki3OCg8fvFBfUGL3ZbbsElfUODKdsVNR2UF7dnk1u48Cx26Wf+Z4+034PbQPvwt9VHJdeuQAAAABJ
+        RU5ErkJggg==
+</value>
+  </data>
+  <data name="pasteToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAk9JREFUOE+1k1lI
+        lGEUhn/owm6KFuqqq4LoJooIqouMwixMmzASMzInYlRKRpk0HVJLU3Rym7RsjFwGNbdKlJQiERKHdg3H
+        aJFIjZwmaxbXyeLp/78YclovogMv5+Z7l3M4nyT9j+pqzabjagbNFSloo3bxR4+m6kJmoyL/AA5bDeO2
+        Swz155GkCaQwS8d5gx5jVqKAj6BCnnI24nE1MOWoxVyqY2K0iqRoFU+7kzl5LJhk9XpsXYcYbVuONnL3
+        zwIK2eOq40L2QXoseTjfFDPSr+eV5TAtZSqiI/ypSV3Go0KJ2P0/jNRQlS/cPc4rGFIjSdeFo48L40Rs
+        KDqNinh1MDERARRpVwiB8CB/3wS15QamnfVM201MDOdgfxKHtWqxQF/lInpK53Hf6CfICgI2rfUVMJuy
+        mbRXMDmYycSzo4w/3ouzdT4FlW3kmJo5da6eZIOZ+IwyolOMRCbk+gqUl2QwNmRkvF/D2INg3HfW8e76
+        EkH2lmfmMw7XFIMjDsJiThMSpf8uUlaQhvN5Ju57gbg7V+NqX8pQpSSclSq/1iVgquugb8AmyLe6rewI
+        VX8TKclN4UPvcVwdq3DeWIi90Y+By5KI/WnmCx/dsvNbB30vbVh6XxMUEU+gTN62cw/+m7cgFZ1JxH43
+        RiYv4H3TXIar52C9IKGVZ1ZiexNclBMUm9tp6bSKrmDjmpVIZ9MTxIF4t+ztGnlhs51vW14IcuPNHura
+        HvoKFKQdkS9MhTp0OyFbNwhlZdvKzF63X3WR4He1T9628uBv+OfP/BWTNfjZ3FJ2xwAAAABJRU5ErkJg
+        gg==
+</value>
+  </data>
+  <data name="indexToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAqRJREFUOE+Fk1tI
+        01EYwOdr0HOJvfdm9FpPBZFQDyFBCb71ZoZooZiXMeetnJs6L9O8m2s6clNRN7VdtDmnS5uXleQQ3Zzm
+        XRMvYfz6b6KVZn3wceBwfr/zfecSIjojqurcbG98F21u7ogODhBlZFwPOWvtqfkAHEiXa5Wa2inUbyaR
+        SgdIT7fxX8kR7HCsUqJyYbGu8M7ko9c0i6bJjSTDfrboJNzRuYjNtk2/ZQurZYPenlV0unkaGieEigb/
+        FJ2E29r9mE0bdHUt09q2SIsANmtnaaifRqVyI5ePkpk9eNjSSVin9wVBvd5Pk2aO+noPlZVTlJRMoFCM
+        kJMzzNMEE7FPDBzDLtd6sGdN0yxa7Rzq1zPU1kzT1OpD1rxOVNEekbItJJU+5CVjxDw2oGsdOBRomseR
+        K5zU1Hl4VfGZsmI3ysJxqrR+4jVQboEPc0J6obbvgAfZXlpMbqa9M4jEEisa7RgSaR+ygiFk+SO8zHNS
+        3eghTg3aIZhf2CQ118jth1XBUe/Y4WackzylA9GzRAMziz6M5lGSU3oQi63BO89qWEJlJhhH8PCoNygp
+        qrUjVS8QHWNElJqupkDZzcKmn9llob9CM9KsPu7lrqEfPRQEIlBFQHDtbhmljSM09O8TerkU0Yv8QWHn
+        XiENmGzjrO1/xWL/RITYh+43wda3vSCcmGlkekk4C/MuF8Jyfr1MSWYfKWk9FBRb8fjnUHXOI2/fOa7A
+        Luwur3TgEeBx4TATitxERFadftopaSaeC6IO8xduJXykw7nP7g8wvPcSfqOAyXko7Vjh/FUl2Urz3/9G
+        mthMUnI3dS2TXIkyIq6eQWPbpdGyQ7xiknPhCmKT3tI/4vv351JVOMlX2ol+1EropSwuhqVy5345MpWV
+        wTF/EP4JaStxoteu5NMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="searchToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAtpJREFUOE+Vk1lP
+        k1EQhutC/CHGGBM1MWpc4oVLSFGhRogfFAREqVCQshSoRRAQSlFUSitQwqKtqChBEepH3IKCC4agxoi4
+        YdSw1FTQCFpE5LEfF1aCXjhX55yced7MzDuzZH9ERrGIdGVyUjbXZ7Zsns8c2ei3cdnIV7ds0vNWnhMy
+        68//086ZJS0ctIjY29q5/roLsa8Fe28uSWIMguEk0Rl2VJmnpwRmxAGTiMEm0tB9hYdfntIzNkBaYwGm
+        V1nEXVaw0VhEmKGDUH0NUbrq6RDdMQdZFgcVnWZanDZuDXfSNdpNj9tFfX8zMVYjcusz1lgaWVumQkgu
+        ZmdKuRciAfLsItZHRZT16rC9t2DvM1L+xE782XrUFUOEHXvL0nNBLDrjz/r8REISSryA1CNNVDjeYRBN
+        7HuwjeTOALQ2PWm1nrKqLmEw16AvKibSHMfiUjmLjwQSpC7yApKMjVReGyOnshLFOTlbxVBU5WZKTzdz
+        o+0Og66PvHe6qL3YRESmhvkFfiiiDV6AJr8Bs8PNgVoXkXoV/pV70NbmcbW1DSl+TMCI+ycDwxNYai6w
+        ThPElshsL2DfoXqSy96gqfqO2txLYIbGM86j9H9w/U52fv7Bi/5xmtufExQRjm+o3guIyz1PfOFtok98
+        Jco0TGj+XfYXGuj7MDSl7Pw04Un+TscLNxUNHWwXgtkgaL0AdU7dlEl2FzxEediJPLcTIV9L09VWBj95
+        lAfGuf/SzZWuURJ02QQIu8jLSp3uBclhETo7IQfvsjTVyDJtOLHaFKrrHDS292C92EFCejbByh3UmcJp
+        siZSYkibDpEcpkwsZXOSGV9VPAq1ESE2B2HnbgIFJWHB27FoNzF4Ss7Pe1HYjqfMhEgOk0wizVkaldRt
+        qWFSzWEKX2IDVvA4eyV91g0MNQeTHrPt77vxr42TADH+y7mpW81evyUo/Vf9H0ACS5B1yxbit3bBVPIv
+        gLX/NgWpi8gAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="menuStrip.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tpRoute.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnOk1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAlarmname.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtAlarmname.Properties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v13.2">
+    <value>Default</value>
+  </data>
+  <data name="txtAlarmname.Properties.Mask.BeepOnError" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtAlarmname.Properties.Mask.EditMask" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAlarmname.Properties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtAlarmname.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v13.2">
+    <value>None</value>
+  </data>
+  <data name="txtAlarmname.Properties.Mask.PlaceHolder" type="System.Char, mscorlib" xml:space="preserve">
+    <value>_</value>
+  </data>
+  <data name="txtAlarmname.Properties.Mask.SaveLiteral" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtAlarmname.Properties.Mask.ShowPlaceHolders" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtAlarmname.Properties.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtAlarmname.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnCancel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnOk.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tpAlarmsMain.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tpGraph.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tpManagers.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="xtraTabPage1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tpAcc.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tpVelocity.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tpDisplacement.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tpBearing.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tpTemprature.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ssStatus.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pbConnection.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnBkwd.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAgZJREFUOE+tk/tL
+        U3EYxv1HQstriQSGipckRPEGSj+IqATGamgNhik4kqEy8EYoSqGI6MQgJPbLQDMLL6XJVsxlQ02TmCKa
+        og2GIKI9nueF+R2BJOSBLwfOOc/ned7LCQm5jKtp6DuCT+PAEkw9Hhg7v0Lf5kJp42cUmuaQVTWD248m
+        kaofQ7LOjjNvio9P/px7Do9O4PMfYef3IbzbB1jZ8ON6dsPFAO5VnzhnGD/CPrMlYuuoFzFZ5n8D6Eyx
+        c3EfHcOrEpvAXvtPRGfWKQBr/ruEQGw6U5xbM4ukchvmPHvofP1DAzxVADYsGBBcM2PTmWJGn57flYZH
+        ZdQqALsdADBiTvWsHIcWnTXzGZ0pHnf+grlvEZF3nigAR0XAstcvwqG367BNbSI2vxntWnw2jOe5bQ0j
+        n7ZQ8+IbItKNCsA5U1xc7xTx/IoPg2+8qO324FaJVaK/er9Bgbx/3O5GeJpBAbgk9yxf8FJ7ybi8W6zL
+        eNDqkvHdvNuFZq3uqq4FgehaXLiWWqkAHBUdA2J+bOhwo0ADpzwcFUBYkg7phg9Iq3gnkKvJegXgeo45
+        tsWZNbPGIrNDW9sJxBf340auReu6SWLHFTyTHSDwbJW524zMw/pYEp9RHJvXJGKOLXC/El+G0MT7CsA5
+        c7fZadK5JBRwVOw2nVkzY9OZ4tCEcgX4nz/6FBsWMRav/6WAAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnFwd.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAgZJREFUOE+tk/tL
+        U3EYxv1HQstriQSGipckRPEGSj+IqATGamgNhik4kqEy8EYoSqGI6MQgJPbLQDMLL6XJVsxlQ02TmCKa
+        og2GIKI9nueF+R2BJOSBLwfOOc/ned7LCQm5jKtp6DuCT+PAEkw9Hhg7v0Lf5kJp42cUmuaQVTWD248m
+        kaofQ7LOjjNvio9P/px7Do9O4PMfYef3IbzbB1jZ8ON6dsPFAO5VnzhnGD/CPrMlYuuoFzFZ5n8D6Eyx
+        c3EfHcOrEpvAXvtPRGfWKQBr/ruEQGw6U5xbM4ukchvmPHvofP1DAzxVADYsGBBcM2PTmWJGn57flYZH
+        ZdQqALsdADBiTvWsHIcWnTXzGZ0pHnf+grlvEZF3nigAR0XAstcvwqG367BNbSI2vxntWnw2jOe5bQ0j
+        n7ZQ8+IbItKNCsA5U1xc7xTx/IoPg2+8qO324FaJVaK/er9Bgbx/3O5GeJpBAbgk9yxf8FJ7ybi8W6zL
+        eNDqkvHdvNuFZq3uqq4FgehaXLiWWqkAHBUdA2J+bOhwo0ADpzwcFUBYkg7phg9Iq3gnkKvJegXgeo45
+        tsWZNbPGIrNDW9sJxBf340auReu6SWLHFTyTHSDwbJW524zMw/pYEp9RHJvXJGKOLXC/El+G0MT7CsA5
+        c7fZadK5JBRwVOw2nVkzY9OZ4tCEcgX4nz/6FBsWMRav/6WAAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnColors.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAgZJREFUOE+tk/tL
+        U3EYxv1HQstriQSGipckRPEGSj+IqATGamgNhik4kqEy8EYoSqGI6MQgJPbLQDMLL6XJVsxlQ02TmCKa
+        og2GIKI9nueF+R2BJOSBLwfOOc/ned7LCQm5jKtp6DuCT+PAEkw9Hhg7v0Lf5kJp42cUmuaQVTWD248m
+        kaofQ7LOjjNvio9P/px7Do9O4PMfYef3IbzbB1jZ8ON6dsPFAO5VnzhnGD/CPrMlYuuoFzFZ5n8D6Eyx
+        c3EfHcOrEpvAXvtPRGfWKQBr/ruEQGw6U5xbM4ukchvmPHvofP1DAzxVADYsGBBcM2PTmWJGn57flYZH
+        ZdQqALsdADBiTvWsHIcWnTXzGZ0pHnf+grlvEZF3nigAR0XAstcvwqG367BNbSI2vxntWnw2jOe5bQ0j
+        n7ZQ8+IbItKNCsA5U1xc7xTx/IoPg2+8qO324FaJVaK/er9Bgbx/3O5GeJpBAbgk9yxf8FJ7ybi8W6zL
+        eNDqkvHdvNuFZq3uqq4FgehaXLiWWqkAHBUdA2J+bOhwo0ADpzwcFUBYkg7phg9Iq3gnkKvJegXgeo45
+        tsWZNbPGIrNDW9sJxBf340auReu6SWLHFTyTHSDwbJW524zMw/pYEp9RHJvXJGKOLXC/El+G0MT7CsA5
+        c7fZadK5JBRwVOw2nVkzY9OZ4tCEcgX4nz/6FBsWMRav/6WAAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="tsbtnColorMainCursor.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAgZJREFUOE+tk/tL
+        U3EYxv1HQstriQSGipckRPEGSj+IqATGamgNhik4kqEy8EYoSqGI6MQgJPbLQDMLL6XJVsxlQ02TmCKa
+        og2GIKI9nueF+R2BJOSBLwfOOc/ned7LCQm5jKtp6DuCT+PAEkw9Hhg7v0Lf5kJp42cUmuaQVTWD248m
+        kaofQ7LOjjNvio9P/px7Do9O4PMfYef3IbzbB1jZ8ON6dsPFAO5VnzhnGD/CPrMlYuuoFzFZ5n8D6Eyx
+        c3EfHcOrEpvAXvtPRGfWKQBr/ruEQGw6U5xbM4ukchvmPHvofP1DAzxVADYsGBBcM2PTmWJGn57flYZH
+        ZdQqALsdADBiTvWsHIcWnTXzGZ0pHnf+grlvEZF3nigAR0XAstcvwqG367BNbSI2vxntWnw2jOe5bQ0j
+        n7ZQ8+IbItKNCsA5U1xc7xTx/IoPg2+8qO324FaJVaK/er9Bgbx/3O5GeJpBAbgk9yxf8FJ7ybi8W6zL
+        eNDqkvHdvNuFZq3uqq4FgehaXLiWWqkAHBUdA2J+bOhwo0ADpzwcFUBYkg7phg9Iq3gnkKvJegXgeo45
+        tsWZNbPGIrNDW9sJxBf340auReu6SWLHFTyTHSDwbJW524zMw/pYEp9RHJvXJGKOLXC/El+G0MT7CsA5
+        c7fZadK5JBRwVOw2nVkzY9OZ4tCEcgX4nz/6FBsWMRav/6WAAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="tsbtnColorBackCursor.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAgZJREFUOE+tk/tL
+        U3EYxv1HQstriQSGipckRPEGSj+IqATGamgNhik4kqEy8EYoSqGI6MQgJPbLQDMLL6XJVsxlQ02TmCKa
+        og2GIKI9nueF+R2BJOSBLwfOOc/ned7LCQm5jKtp6DuCT+PAEkw9Hhg7v0Lf5kJp42cUmuaQVTWD248m
+        kaofQ7LOjjNvio9P/px7Do9O4PMfYef3IbzbB1jZ8ON6dsPFAO5VnzhnGD/CPrMlYuuoFzFZ5n8D6Eyx
+        c3EfHcOrEpvAXvtPRGfWKQBr/ruEQGw6U5xbM4ukchvmPHvofP1DAzxVADYsGBBcM2PTmWJGn57flYZH
+        ZdQqALsdADBiTvWsHIcWnTXzGZ0pHnf+grlvEZF3nigAR0XAstcvwqG367BNbSI2vxntWnw2jOe5bQ0j
+        n7ZQ8+IbItKNCsA5U1xc7xTx/IoPg2+8qO324FaJVaK/er9Bgbx/3O5GeJpBAbgk9yxf8FJ7ybi8W6zL
+        eNDqkvHdvNuFZq3uqq4FgehaXLiWWqkAHBUdA2J+bOhwo0ADpzwcFUBYkg7phg9Iq3gnkKvJegXgeo45
+        tsWZNbPGIrNDW9sJxBf340auReu6SWLHFTyTHSDwbJW524zMw/pYEp9RHJvXJGKOLXC/El+G0MT7CsA5
+        c7fZadK5JBRwVOw2nVkzY9OZ4tCEcgX4nz/6FBsWMRav/6WAAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="tsbtnColorFwdCursor.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAgZJREFUOE+tk/tL
+        U3EYxv1HQstriQSGipckRPEGSj+IqATGamgNhik4kqEy8EYoSqGI6MQgJPbLQDMLL6XJVsxlQ02TmCKa
+        og2GIKI9nueF+R2BJOSBLwfOOc/ned7LCQm5jKtp6DuCT+PAEkw9Hhg7v0Lf5kJp42cUmuaQVTWD248m
+        kaofQ7LOjjNvio9P/px7Do9O4PMfYef3IbzbB1jZ8ON6dsPFAO5VnzhnGD/CPrMlYuuoFzFZ5n8D6Eyx
+        c3EfHcOrEpvAXvtPRGfWKQBr/ruEQGw6U5xbM4ukchvmPHvofP1DAzxVADYsGBBcM2PTmWJGn57flYZH
+        ZdQqALsdADBiTvWsHIcWnTXzGZ0pHnf+grlvEZF3nigAR0XAstcvwqG367BNbSI2vxntWnw2jOe5bQ0j
+        n7ZQ8+IbItKNCsA5U1xc7xTx/IoPg2+8qO324FaJVaK/er9Bgbx/3O5GeJpBAbgk9yxf8FJ7ybi8W6zL
+        eNDqkvHdvNuFZq3uqq4FgehaXLiWWqkAHBUdA2J+bOhwo0ADpzwcFUBYkg7phg9Iq3gnkKvJegXgeo45
+        tsWZNbPGIrNDW9sJxBf340auReu6SWLHFTyTHSDwbJW524zMw/pYEp9RHJvXJGKOLXC/El+G0MT7CsA5
+        c7fZadK5JBRwVOw2nVkzY9OZ4tCEcgX4nz/6FBsWMRav/6WAAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnZoom.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAgZJREFUOE+tk/tL
+        U3EYxv1HQstriQSGipckRPEGSj+IqATGamgNhik4kqEy8EYoSqGI6MQgJPbLQDMLL6XJVsxlQ02TmCKa
+        og2GIKI9nueF+R2BJOSBLwfOOc/ned7LCQm5jKtp6DuCT+PAEkw9Hhg7v0Lf5kJp42cUmuaQVTWD248m
+        kaofQ7LOjjNvio9P/px7Do9O4PMfYef3IbzbB1jZ8ON6dsPFAO5VnzhnGD/CPrMlYuuoFzFZ5n8D6Eyx
+        c3EfHcOrEpvAXvtPRGfWKQBr/ruEQGw6U5xbM4ukchvmPHvofP1DAzxVADYsGBBcM2PTmWJGn57flYZH
+        ZdQqALsdADBiTvWsHIcWnTXzGZ0pHnf+grlvEZF3nigAR0XAstcvwqG367BNbSI2vxntWnw2jOe5bQ0j
+        n7ZQ8+IbItKNCsA5U1xc7xTx/IoPg2+8qO324FaJVaK/er9Bgbx/3O5GeJpBAbgk9yxf8FJ7ybi8W6zL
+        eNDqkvHdvNuFZq3uqq4FgehaXLiWWqkAHBUdA2J+bOhwo0ADpzwcFUBYkg7phg9Iq3gnkKvJegXgeo45
+        tsWZNbPGIrNDW9sJxBf340auReu6SWLHFTyTHSDwbJW524zMw/pYEp9RHJvXJGKOLXC/El+G0MT7CsA5
+        c7fZadK5JBRwVOw2nVkzY9OZ4tCEcgX4nz/6FBsWMRav/6WAAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnUnZoom.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAgZJREFUOE+tk/tL
+        U3EYxv1HQstriQSGipckRPEGSj+IqATGamgNhik4kqEy8EYoSqGI6MQgJPbLQDMLL6XJVsxlQ02TmCKa
+        og2GIKI9nueF+R2BJOSBLwfOOc/ned7LCQm5jKtp6DuCT+PAEkw9Hhg7v0Lf5kJp42cUmuaQVTWD248m
+        kaofQ7LOjjNvio9P/px7Do9O4PMfYef3IbzbB1jZ8ON6dsPFAO5VnzhnGD/CPrMlYuuoFzFZ5n8D6Eyx
+        c3EfHcOrEpvAXvtPRGfWKQBr/ruEQGw6U5xbM4ukchvmPHvofP1DAzxVADYsGBBcM2PTmWJGn57flYZH
+        ZdQqALsdADBiTvWsHIcWnTXzGZ0pHnf+grlvEZF3nigAR0XAstcvwqG367BNbSI2vxntWnw2jOe5bQ0j
+        n7ZQ8+IbItKNCsA5U1xc7xTx/IoPg2+8qO324FaJVaK/er9Bgbx/3O5GeJpBAbgk9yxf8FJ7ybi8W6zL
+        eNDqkvHdvNuFZq3uqq4FgehaXLiWWqkAHBUdA2J+bOhwo0ADpzwcFUBYkg7phg9Iq3gnkKvJegXgeo45
+        tsWZNbPGIrNDW9sJxBf340auReu6SWLHFTyTHSDwbJW524zMw/pYEp9RHJvXJGKOLXC/El+G0MT7CsA5
+        c7fZadK5JBRwVOw2nVkzY9OZ4tCEcgX4nz/6FBsWMRav/6WAAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnTrend.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAgZJREFUOE+tk/tL
+        U3EYxv1HQstriQSGipckRPEGSj+IqATGamgNhik4kqEy8EYoSqGI6MQgJPbLQDMLL6XJVsxlQ02TmCKa
+        og2GIKI9nueF+R2BJOSBLwfOOc/ned7LCQm5jKtp6DuCT+PAEkw9Hhg7v0Lf5kJp42cUmuaQVTWD248m
+        kaofQ7LOjjNvio9P/px7Do9O4PMfYef3IbzbB1jZ8ON6dsPFAO5VnzhnGD/CPrMlYuuoFzFZ5n8D6Eyx
+        c3EfHcOrEpvAXvtPRGfWKQBr/ruEQGw6U5xbM4ukchvmPHvofP1DAzxVADYsGBBcM2PTmWJGn57flYZH
+        ZdQqALsdADBiTvWsHIcWnTXzGZ0pHnf+grlvEZF3nigAR0XAstcvwqG367BNbSI2vxntWnw2jOe5bQ0j
+        n7ZQ8+IbItKNCsA5U1xc7xTx/IoPg2+8qO324FaJVaK/er9Bgbx/3O5GeJpBAbgk9yxf8FJ7ybi8W6zL
+        eNDqkvHdvNuFZq3uqq4FgehaXLiWWqkAHBUdA2J+bOhwo0ADpzwcFUBYkg7phg9Iq3gnkKvJegXgeo45
+        tsWZNbPGIrNDW9sJxBf340auReu6SWLHFTyTHSDwbJW524zMw/pYEp9RHJvXJGKOLXC/El+G0MT7CsA5
+        c7fZadK5JBRwVOw2nVkzY9OZ4tCEcgX4nz/6FBsWMRav/6WAAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnWaterFall.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAgZJREFUOE+tk/tL
+        U3EYxv1HQstriQSGipckRPEGSj+IqATGamgNhik4kqEy8EYoSqGI6MQgJPbLQDMLL6XJVsxlQ02TmCKa
+        og2GIKI9nueF+R2BJOSBLwfOOc/ned7LCQm5jKtp6DuCT+PAEkw9Hhg7v0Lf5kJp42cUmuaQVTWD248m
+        kaofQ7LOjjNvio9P/px7Do9O4PMfYef3IbzbB1jZ8ON6dsPFAO5VnzhnGD/CPrMlYuuoFzFZ5n8D6Eyx
+        c3EfHcOrEpvAXvtPRGfWKQBr/ruEQGw6U5xbM4ukchvmPHvofP1DAzxVADYsGBBcM2PTmWJGn57flYZH
+        ZdQqALsdADBiTvWsHIcWnTXzGZ0pHnf+grlvEZF3nigAR0XAstcvwqG367BNbSI2vxntWnw2jOe5bQ0j
+        n7ZQ8+IbItKNCsA5U1xc7xTx/IoPg2+8qO324FaJVaK/er9Bgbx/3O5GeJpBAbgk9yxf8FJ7ybi8W6zL
+        eNDqkvHdvNuFZq3uqq4FgehaXLiWWqkAHBUdA2J+bOhwo0ADpzwcFUBYkg7phg9Iq3gnkKvJegXgeo45
+        tsWZNbPGIrNDW9sJxBf340auReu6SWLHFTyTHSDwbJW524zMw/pYEp9RHJvXJGKOLXC/El+G0MT7CsA5
+        c7fZadK5JBRwVOw2nVkzY9OZ4tCEcgX4nz/6FBsWMRav/6WAAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnOrbit.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAgZJREFUOE+tk/tL
+        U3EYxv1HQstriQSGipckRPEGSj+IqATGamgNhik4kqEy8EYoSqGI6MQgJPbLQDMLL6XJVsxlQ02TmCKa
+        og2GIKI9nueF+R2BJOSBLwfOOc/ned7LCQm5jKtp6DuCT+PAEkw9Hhg7v0Lf5kJp42cUmuaQVTWD248m
+        kaofQ7LOjjNvio9P/px7Do9O4PMfYef3IbzbB1jZ8ON6dsPFAO5VnzhnGD/CPrMlYuuoFzFZ5n8D6Eyx
+        c3EfHcOrEpvAXvtPRGfWKQBr/ruEQGw6U5xbM4ukchvmPHvofP1DAzxVADYsGBBcM2PTmWJGn57flYZH
+        ZdQqALsdADBiTvWsHIcWnTXzGZ0pHnf+grlvEZF3nigAR0XAstcvwqG367BNbSI2vxntWnw2jOe5bQ0j
+        n7ZQ8+IbItKNCsA5U1xc7xTx/IoPg2+8qO324FaJVaK/er9Bgbx/3O5GeJpBAbgk9yxf8FJ7ybi8W6zL
+        eNDqkvHdvNuFZq3uqq4FgehaXLiWWqkAHBUdA2J+bOhwo0ADpzwcFUBYkg7phg9Iq3gnkKvJegXgeo45
+        tsWZNbPGIrNDW9sJxBf340auReu6SWLHFTyTHSDwbJW524zMw/pYEp9RHJvXJGKOLXC/El+G0MT7CsA5
+        c7fZadK5JBRwVOw2nVkzY9OZ4tCEcgX4nz/6FBsWMRav/6WAAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnAreaGraph.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAgZJREFUOE+tk/tL
+        U3EYxv1HQstriQSGipckRPEGSj+IqATGamgNhik4kqEy8EYoSqGI6MQgJPbLQDMLL6XJVsxlQ02TmCKa
+        og2GIKI9nueF+R2BJOSBLwfOOc/ned7LCQm5jKtp6DuCT+PAEkw9Hhg7v0Lf5kJp42cUmuaQVTWD248m
+        kaofQ7LOjjNvio9P/px7Do9O4PMfYef3IbzbB1jZ8ON6dsPFAO5VnzhnGD/CPrMlYuuoFzFZ5n8D6Eyx
+        c3EfHcOrEpvAXvtPRGfWKQBr/ruEQGw6U5xbM4ukchvmPHvofP1DAzxVADYsGBBcM2PTmWJGn57flYZH
+        ZdQqALsdADBiTvWsHIcWnTXzGZ0pHnf+grlvEZF3nigAR0XAstcvwqG367BNbSI2vxntWnw2jOe5bQ0j
+        n7ZQ8+IbItKNCsA5U1xc7xTx/IoPg2+8qO324FaJVaK/er9Bgbx/3O5GeJpBAbgk9yxf8FJ7ybi8W6zL
+        eNDqkvHdvNuFZq3uqq4FgehaXLiWWqkAHBUdA2J+bOhwo0ADpzwcFUBYkg7phg9Iq3gnkKvJegXgeo45
+        tsWZNbPGIrNDW9sJxBf340auReu6SWLHFTyTHSDwbJW524zMw/pYEp9RHJvXJGKOLXC/El+G0MT7CsA5
+        c7fZadK5JBRwVOw2nVkzY9OZ4tCEcgX4nz/6FBsWMRav/6WAAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="tsBtnFaultFreq.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAgZJREFUOE+tk/tL
+        U3EYxv1HQstriQSGipckRPEGSj+IqATGamgNhik4kqEy8EYoSqGI6MQgJPbLQDMLL6XJVsxlQ02TmCKa
+        og2GIKI9nueF+R2BJOSBLwfOOc/ned7LCQm5jKtp6DuCT+PAEkw9Hhg7v0Lf5kJp42cUmuaQVTWD248m
+        kaofQ7LOjjNvio9P/px7Do9O4PMfYef3IbzbB1jZ8ON6dsPFAO5VnzhnGD/CPrMlYuuoFzFZ5n8D6Eyx
+        c3EfHcOrEpvAXvtPRGfWKQBr/ruEQGw6U5xbM4ukchvmPHvofP1DAzxVADYsGBBcM2PTmWJGn57flYZH
+        ZdQqALsdADBiTvWsHIcWnTXzGZ0pHnf+grlvEZF3nigAR0XAstcvwqG367BNbSI2vxntWnw2jOe5bQ0j
+        n7ZQ8+IbItKNCsA5U1xc7xTx/IoPg2+8qO324FaJVaK/er9Bgbx/3O5GeJpBAbgk9yxf8FJ7ybi8W6zL
+        eNDqkvHdvNuFZq3uqq4FgehaXLiWWqkAHBUdA2J+bOhwo0ADpzwcFUBYkg7phg9Iq3gnkKvJegXgeo45
+        tsWZNbPGIrNDW9sJxBf340auReu6SWLHFTyTHSDwbJW524zMw/pYEp9RHJvXJGKOLXC/El+G0MT7CsA5
+        c7fZadK5JBRwVOw2nVkzY9OZ4tCEcgX4nz/6FBsWMRav/6WAAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="tsbtnRpm.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAgZJREFUOE+tk/tL
+        U3EYxv1HQstriQSGipckRPEGSj+IqATGamgNhik4kqEy8EYoSqGI6MQgJPbLQDMLL6XJVsxlQ02TmCKa
+        og2GIKI9nueF+R2BJOSBLwfOOc/ned7LCQm5jKtp6DuCT+PAEkw9Hhg7v0Lf5kJp42cUmuaQVTWD248m
+        kaofQ7LOjjNvio9P/px7Do9O4PMfYef3IbzbB1jZ8ON6dsPFAO5VnzhnGD/CPrMlYuuoFzFZ5n8D6Eyx
+        c3EfHcOrEpvAXvtPRGfWKQBr/ruEQGw6U5xbM4ukchvmPHvofP1DAzxVADYsGBBcM2PTmWJGn57flYZH
+        ZdQqALsdADBiTvWsHIcWnTXzGZ0pHnf+grlvEZF3nigAR0XAstcvwqG367BNbSI2vxntWnw2jOe5bQ0j
+        n7ZQ8+IbItKNCsA5U1xc7xTx/IoPg2+8qO324FaJVaK/er9Bgbx/3O5GeJpBAbgk9yxf8FJ7ybi8W6zL
+        eNDqkvHdvNuFZq3uqq4FgehaXLiWWqkAHBUdA2J+bOhwo0ADpzwcFUBYkg7phg9Iq3gnkKvJegXgeo45
+        tsWZNbPGIrNDW9sJxBf340auReu6SWLHFTyTHSDwbJW524zMw/pYEp9RHJvXJGKOLXC/El+G0MT7CsA5
+        c7fZadK5JBRwVOw2nVkzY9OZ4tCEcgX4nz/6FBsWMRav/6WAAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="tsbtnCopyValues.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAgZJREFUOE+tk/tL
+        U3EYxv1HQstriQSGipckRPEGSj+IqATGamgNhik4kqEy8EYoSqGI6MQgJPbLQDMLL6XJVsxlQ02TmCKa
+        og2GIKI9nueF+R2BJOSBLwfOOc/ned7LCQm5jKtp6DuCT+PAEkw9Hhg7v0Lf5kJp42cUmuaQVTWD248m
+        kaofQ7LOjjNvio9P/px7Do9O4PMfYef3IbzbB1jZ8ON6dsPFAO5VnzhnGD/CPrMlYuuoFzFZ5n8D6Eyx
+        c3EfHcOrEpvAXvtPRGfWKQBr/ruEQGw6U5xbM4ukchvmPHvofP1DAzxVADYsGBBcM2PTmWJGn57flYZH
+        ZdQqALsdADBiTvWsHIcWnTXzGZ0pHnf+grlvEZF3nigAR0XAstcvwqG367BNbSI2vxntWnw2jOe5bQ0j
+        n7ZQ8+IbItKNCsA5U1xc7xTx/IoPg2+8qO324FaJVaK/er9Bgbx/3O5GeJpBAbgk9yxf8FJ7ybi8W6zL
+        eNDqkvHdvNuFZq3uqq4FgehaXLiWWqkAHBUdA2J+bOhwo0ADpzwcFUBYkg7phg9Iq3gnkKvJegXgeo45
+        tsWZNbPGIrNDW9sJxBf340auReu6SWLHFTyTHSDwbJW524zMw/pYEp9RHJvXJGKOLXC/El+G0MT7CsA5
+        c7fZadK5JBRwVOw2nVkzY9OZ4tCEcgX4nz/6FBsWMRav/6WAAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnCopyGraphToClipBord.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAgZJREFUOE+tk/tL
+        U3EYxv1HQstriQSGipckRPEGSj+IqATGamgNhik4kqEy8EYoSqGI6MQgJPbLQDMLL6XJVsxlQ02TmCKa
+        og2GIKI9nueF+R2BJOSBLwfOOc/ned7LCQm5jKtp6DuCT+PAEkw9Hhg7v0Lf5kJp42cUmuaQVTWD248m
+        kaofQ7LOjjNvio9P/px7Do9O4PMfYef3IbzbB1jZ8ON6dsPFAO5VnzhnGD/CPrMlYuuoFzFZ5n8D6Eyx
+        c3EfHcOrEpvAXvtPRGfWKQBr/ruEQGw6U5xbM4ukchvmPHvofP1DAzxVADYsGBBcM2PTmWJGn57flYZH
+        ZdQqALsdADBiTvWsHIcWnTXzGZ0pHnf+grlvEZF3nigAR0XAstcvwqG367BNbSI2vxntWnw2jOe5bQ0j
+        n7ZQ8+IbItKNCsA5U1xc7xTx/IoPg2+8qO324FaJVaK/er9Bgbx/3O5GeJpBAbgk9yxf8FJ7ybi8W6zL
+        eNDqkvHdvNuFZq3uqq4FgehaXLiWWqkAHBUdA2J+bOhwo0ADpzwcFUBYkg7phg9Iq3gnkKvJegXgeo45
+        tsWZNbPGIrNDW9sJxBf340auReu6SWLHFTyTHSDwbJW524zMw/pYEp9RHJvXJGKOLXC/El+G0MT7CsA5
+        c7fZadK5JBRwVOw2nVkzY9OZ4tCEcgX4nz/6FBsWMRav/6WAAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="tsBtnHighestFive.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAgZJREFUOE+tk/tL
+        U3EYxv1HQstriQSGipckRPEGSj+IqATGamgNhik4kqEy8EYoSqGI6MQgJPbLQDMLL6XJVsxlQ02TmCKa
+        og2GIKI9nueF+R2BJOSBLwfOOc/ned7LCQm5jKtp6DuCT+PAEkw9Hhg7v0Lf5kJp42cUmuaQVTWD248m
+        kaofQ7LOjjNvio9P/px7Do9O4PMfYef3IbzbB1jZ8ON6dsPFAO5VnzhnGD/CPrMlYuuoFzFZ5n8D6Eyx
+        c3EfHcOrEpvAXvtPRGfWKQBr/ruEQGw6U5xbM4ukchvmPHvofP1DAzxVADYsGBBcM2PTmWJGn57flYZH
+        ZdQqALsdADBiTvWsHIcWnTXzGZ0pHnf+grlvEZF3nigAR0XAstcvwqG367BNbSI2vxntWnw2jOe5bQ0j
+        n7ZQ8+IbItKNCsA5U1xc7xTx/IoPg2+8qO324FaJVaK/er9Bgbx/3O5GeJpBAbgk9yxf8FJ7ybi8W6zL
+        eNDqkvHdvNuFZq3uqq4FgehaXLiWWqkAHBUdA2J+bOhwo0ADpzwcFUBYkg7phg9Iq3gnkKvJegXgeo45
+        tsWZNbPGIrNDW9sJxBf340auReu6SWLHFTyTHSDwbJW524zMw/pYEp9RHJvXJGKOLXC/El+G0MT7CsA5
+        c7fZadK5JBRwVOw2nVkzY9OZ4tCEcgX4nz/6FBsWMRav/6WAAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="tsbtnComparePoints.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAgxJREFUOE+lkvtL
+        U2EYx+0PEbtpFwnBKPGKiJImGP0gYhIYs1E5GF5gIxkpA00JRSmMEF0ohMh+GaRWYlqabMVcNdS2QpaI
+        VqiDIYhk397vA6fXhCjyhYdzeM/5fp7vczkAdeL2cwho7v/wWzT1zcN+Pwhr51uY2/y41PQaF+wzKKiZ
+        QvaN58g0jyLd5KEUcQbg+84P/Cm2tncQjW3j68YWIqubCC3FcOJc478BAuGoZM6zvoRnakXEruEIjhc4
+        /g5gZop9c+voGAyLbQIfeBZxLL9BA1jzXvuGbWamuKh+GmmVbswE19A59FEBbmoAG7YbsLtm2mZmiml9
+        cvabNDwpz6YB7LYBoMXCumkJr7LOmnnHzBQ/9X2Bo2cOibm1GsBREbAQiYmw/8lnuCeWkVzcgnZlnw1j
+        3HV/wuNXK6i/9x5Hc6wawDlTXHbLJ+LZUBQPRyKwdQdxutwl1h+NLXHh5Ht1ewBHsiwawCW57HyDAfWR
+        dvl0uhZQ1eqX8aVc7EKLqrum651ATLf9OJx5XQM4KmY0xPzZ0hFAiQJnXB0WwME0E3IsL5B17ZlADqWb
+        NYDrOepdlcysmTWWOrxqbceRWtaLk0VO1XW72D5Vckd2gMBfq8zdpmUG62NJvKM4+XyziDk24xmfWoGE
+        s1c0gHPmbrPTpHNJKOCo2G1mZs20zcwUJ5yp1AB5+8/zEwgF5GMVDxh4AAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="tsBtnExtraZoom.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAgZJREFUOE+tk/tL
+        U3EYxv1HQstriQSGipckRPEGSj+IqATGamgNhik4kqEy8EYoSqGI6MQgJPbLQDMLL6XJVsxlQ02TmCKa
+        og2GIKI9nueF+R2BJOSBLwfOOc/ned7LCQm5jKtp6DuCT+PAEkw9Hhg7v0Lf5kJp42cUmuaQVTWD248m
+        kaofQ7LOjjNvio9P/px7Do9O4PMfYef3IbzbB1jZ8ON6dsPFAO5VnzhnGD/CPrMlYuuoFzFZ5n8D6Eyx
+        c3EfHcOrEpvAXvtPRGfWKQBr/ruEQGw6U5xbM4ukchvmPHvofP1DAzxVADYsGBBcM2PTmWJGn57flYZH
+        ZdQqALsdADBiTvWsHIcWnTXzGZ0pHnf+grlvEZF3nigAR0XAstcvwqG367BNbSI2vxntWnw2jOe5bQ0j
+        n7ZQ8+IbItKNCsA5U1xc7xTx/IoPg2+8qO324FaJVaK/er9Bgbx/3O5GeJpBAbgk9yxf8FJ7ybi8W6zL
+        eNDqkvHdvNuFZq3uqq4FgehaXLiWWqkAHBUdA2J+bOhwo0ADpzwcFUBYkg7phg9Iq3gnkKvJegXgeo45
+        tsWZNbPGIrNDW9sJxBf340auReu6SWLHFTyTHSDwbJW524zMw/pYEp9RHJvXJGKOLXC/El+G0MT7CsA5
+        c7fZadK5JBRwVOw2nVkzY9OZ4tCEcgX4nz/6FBsWMRav/6WAAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="tsbtnSideBandValue.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAgZJREFUOE+tk/tL
+        U3EYxv1HQstriQSGipckRPEGSj+IqATGamgNhik4kqEy8EYoSqGI6MQgJPbLQDMLL6XJVsxlQ02TmCKa
+        og2GIKI9nueF+R2BJOSBLwfOOc/ned7LCQm5jKtp6DuCT+PAEkw9Hhg7v0Lf5kJp42cUmuaQVTWD248m
+        kaofQ7LOjjNvio9P/px7Do9O4PMfYef3IbzbB1jZ8ON6dsPFAO5VnzhnGD/CPrMlYuuoFzFZ5n8D6Eyx
+        c3EfHcOrEpvAXvtPRGfWKQBr/ruEQGw6U5xbM4ukchvmPHvofP1DAzxVADYsGBBcM2PTmWJGn57flYZH
+        ZdQqALsdADBiTvWsHIcWnTXzGZ0pHnf+grlvEZF3nigAR0XAstcvwqG367BNbSI2vxntWnw2jOe5bQ0j
+        n7ZQ8+IbItKNCsA5U1xc7xTx/IoPg2+8qO324FaJVaK/er9Bgbx/3O5GeJpBAbgk9yxf8FJ7ybi8W6zL
+        eNDqkvHdvNuFZq3uqq4FgehaXLiWWqkAHBUdA2J+bOhwo0ADpzwcFUBYkg7phg9Iq3gnkKvJegXgeo45
+        tsWZNbPGIrNDW9sJxBf340auReu6SWLHFTyTHSDwbJW524zMw/pYEp9RHJvXJGKOLXC/El+G0MT7CsA5
+        c7fZadK5JBRwVOw2nVkzY9OZ4tCEcgX4nz/6FBsWMRav/6WAAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="tsBtnSideBandRatio.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAgZJREFUOE+tk/tL
+        U3EYxv1HQstriQSGipckRPEGSj+IqATGamgNhik4kqEy8EYoSqGI6MQgJPbLQDMLL6XJVsxlQ02TmCKa
+        og2GIKI9nueF+R2BJOSBLwfOOc/ned7LCQm5jKtp6DuCT+PAEkw9Hhg7v0Lf5kJp42cUmuaQVTWD248m
+        kaofQ7LOjjNvio9P/px7Do9O4PMfYef3IbzbB1jZ8ON6dsPFAO5VnzhnGD/CPrMlYuuoFzFZ5n8D6Eyx
+        c3EfHcOrEpvAXvtPRGfWKQBr/ruEQGw6U5xbM4ukchvmPHvofP1DAzxVADYsGBBcM2PTmWJGn57flYZH
+        ZdQqALsdADBiTvWsHIcWnTXzGZ0pHnf+grlvEZF3nigAR0XAstcvwqG367BNbSI2vxntWnw2jOe5bQ0j
+        n7ZQ8+IbItKNCsA5U1xc7xTx/IoPg2+8qO324FaJVaK/er9Bgbx/3O5GeJpBAbgk9yxf8FJ7ybi8W6zL
+        eNDqkvHdvNuFZq3uqq4FgehaXLiWWqkAHBUdA2J+bOhwo0ADpzwcFUBYkg7phg9Iq3gnkKvJegXgeo45
+        tsWZNbPGIrNDW9sJxBf340auReu6SWLHFTyTHSDwbJW524zMw/pYEp9RHJvXJGKOLXC/El+G0MT7CsA5
+        c7fZadK5JBRwVOw2nVkzY9OZ4tCEcgX4nz/6FBsWMRav/6WAAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="tsBtnSideBandTrend.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAgZJREFUOE+tk/tL
+        U3EYxv1HQstriQSGipckRPEGSj+IqATGamgNhik4kqEy8EYoSqGI6MQgJPbLQDMLL6XJVsxlQ02TmCKa
+        og2GIKI9nueF+R2BJOSBLwfOOc/ned7LCQm5jKtp6DuCT+PAEkw9Hhg7v0Lf5kJp42cUmuaQVTWD248m
+        kaofQ7LOjjNvio9P/px7Do9O4PMfYef3IbzbB1jZ8ON6dsPFAO5VnzhnGD/CPrMlYuuoFzFZ5n8D6Eyx
+        c3EfHcOrEpvAXvtPRGfWKQBr/ruEQGw6U5xbM4ukchvmPHvofP1DAzxVADYsGBBcM2PTmWJGn57flYZH
+        ZdQqALsdADBiTvWsHIcWnTXzGZ0pHnf+grlvEZF3nigAR0XAstcvwqG367BNbSI2vxntWnw2jOe5bQ0j
+        n7ZQ8+IbItKNCsA5U1xc7xTx/IoPg2+8qO324FaJVaK/er9Bgbx/3O5GeJpBAbgk9yxf8FJ7ybi8W6zL
+        eNDqkvHdvNuFZq3uqq4FgehaXLiWWqkAHBUdA2J+bOhwo0ADpzwcFUBYkg7phg9Iq3gnkKvJegXgeo45
+        tsWZNbPGIrNDW9sJxBf340auReu6SWLHFTyTHSDwbJW524zMw/pYEp9RHJvXJGKOLXC/El+G0MT7CsA5
+        c7fZadK5JBRwVOw2nVkzY9OZ4tCEcgX4nz/6FBsWMRav/6WAAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="tsBotom1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tsBotom1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="barEditItem1.Glyph" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        Qk2mGgAAAAAAADYAAAAoAAAAMAAAAC8AAAABABgAAAAAAAAAAADEDgAAxA4AAAAAAAAAAAAA////////
+        ////+///8/7/6ff9o6+1iZOa9v//9vz/8vf6+////f///f/////////+///+///+///+//7///z///v/
+        //v///v///z///3///7////+///+///8///8///7///7///7///7///8///8///+//////////7///7/
+        //7///7////+///++//++//+////////////+/7/9/z/7vf/eYWPQk5Y0eHo8f7/7/n/9fv/+/7///7/
+        //7//////////f//+v//+v////7///7///7//f///f/++//++//++//++//++//+/f////////7///7/
+        //3///7//f//+////f7///7///3///3///3///7//////f/++//8+//8//7//////////f//+Pr/7vb/
+        XG16IzpJRF5swNjk6v3/7vv/9P3/+v3//f7////////+///++///+v//+///+///+v//+v/++v/8+v/8
+        +v/8+v/8+v/++//+/f////7///7///3///z///3//f//+////f7///7///3///3///7///7//f///f/+
+        +//++//+/f7///7/////////+fr+8/7/TGl4GEBTBjFEIUlbbo2cp8HPy+Lx5Pn/8f//9//9+vvy///7
+        //v++vb8/f7/9fn69fv6+v/++v/7+f33+//5/f/5///8+/z6///+//z7//j4//7+//39///+///+/f/+
+        /////////////////////f///f///f///f//+////f7//f///////////P7+7/v/UXKCAy9GG01kATFJ
+        GD5WDS9GNVdudZWo1/P67////f/7///7//v/+vX+9/f9+P3/+v//+P79+f78+v/7/f/8/v/7///+//r7
+        //7///z9//r7//7///38///+///+///+///+///+///////+/////////////////////////f///f//
+        ///////+9vz77Pv+epOjEDVLCTdPBDRQDTpbE0BiCTRbEjtcc5Ws4fz/6/n47fTx8/z/9v7/+vz/9/r/
+        +fz/9vv+7fX19Pz8+v//8/f4//3///r///z///v//Pv/+/3/+Pr/+/7///7///7///7///////7/////
+        //7//////////////////////f/////+///+///++v7/9P7/vczcHThNEj5VF0tpBztgGEl1FER0GERz
+        G0ZnncLY4///5/7/3Pb/4fj/6fb/7fP/6fD/6PL/6fv/6Pv/5vn/7vz/+v3///3///z///z/+v3/9/3/
+        9/r/+/7///3///7///3///7///7///7///7///7///7///7///7///7////+///8///8///+/vb9+fX/
+        9vn/bICSFUBTHVZvGFJ2Fk16G0qAHEuBDT5qZZi5sOL5gLDIbZy7aJK3XHWhc4OxaHqjWXGVVnuVVYCT
+        fKi1zfH57f3/+P7//P3//P7/+///+f78//38//////7//f3///3///7///7///7///7///7/////////
+        ///+///+///8///8///7///+//v//fP/+Pv/x97uPXCAFVVtGFp9HlqII1aOIFGJDkRzG1Z+MW2RPHOa
+        WIO0XHewjZDNgnq3hH63k5rLiqfMcZy3X4+hYomX4/b++P7//P3/+/39+v/++f78//76///+//7/+/7/
+        /f7//f7//f7//f///f///f/////////////+///+///8///7///8//////v/+/v/5fX/1/3/tfH/P4mh
+        IGqOIGKSJVmOKViODERzMGyWZaDNfKbbmaPpwav5wYrTsG2yvoLC2bLq0sv2xtn6s9PqkrDB2+j2+vz/
+        /fr/+vr/+P//+P3///v///3//f//+v//+///+///+///+///+///+///+///+///+///+//////8///8
+        ///+/f//+vn/8fv/4f3/yvn/mNnuPYamKXWfH2KTHVKFIFCADUFpMmaOf7LdfpnSmILRg0KYmjSGyFSh
+        4nnC8KPh7sj81tH4tMXgrcDV2d7t+vn//Pn/+vv/9v//9P3///z///z//f//+//++//++//++//++///
+        +///+///+///+v//+v//+v/////+/P7+9/v88Pf68Pr/6v//xu37ZJivK2mNPYCtQoi9TI7DQnSiPmqP
+        J1NwOGN+YYepmaDRlF2mhBxzsid+6lOp6WCy84fP6KjkyKvZv77gr7XM6OX1//r//Pn7+v/98//+6/r2
+        +v///v/9/P35/v/7///8/f76+v75/P/9/f/+/P/9/f/++P37+P38+///9/n69vv+9v//8f7/4/f/rcvc
+        U4GZPHKVU4u8V5DHVJHJXZLEdZi6hp60ZnuKjqOyXHSKkY61s3e0gh1omx5utjOEw0qaxmivuoG+rpbG
+        ra3Rr7bP+/j///z//////f/89P/78//7+//8+fr2///6///7///6/v35/fz4//76//79//38///+///+
+        /f//+/39////////////////psHbfqPFbZ7GUoXEUoXEdKPgUoXEg6DFnqOyurKzzb67npeUwcjRl5St
+        v5nDvoS7snazv4XGx5PTpoG/kYe8pq/bpLrdm7HK////////////////////////////////////////
+        ////////////////////////////////////////8fz/7P3/4ff/mrjRPWSKUX+uXpTJVIzHUoXEY4vG
+        dY64j5Spo4WEx5qM7L6svZuOpJyd09DgalZzmIKsn5PHnpjRoZ3Yl5zThpvOiajVlbndn8Da6Pr/9P3/
+        +f7/+f78+//7///////////8//7+/f39/Pv9/Pv9//z+//3///3///z+//7///3///v9//r94/P/4/v/
+        stHqTXaXT4azV5XLQ4O9RoXBTofEYIW3iY+slHh+qWdU0n9j8qeN9r2uiXFzz8rZq6zBTld4fZTChqHZ
+        fpnShKLbganeeqXWhrLbganGwd/y6v7/7Pv97vn2+P/7+//5/P/28vXz+P7/8/z/9v7/9v7/+P7/+v7/
+        +f3/+fz/+vv/+/r+//z+//7/6P3/xeT5apKvSXqgU46/QIK3Q4O9VJDLVY3Ebou3j4CVi1RRtl1C2XhU
+        2optzpWGqI2RaGV06fb/eZOrPWCCa5O9eaLPdZ7PcZ7Rga/fjrvmbpu8irDI1PX/5P//5fv/5vr76Pf5
+        9P//8///6fv/5fv/5/r/6vz/6vr/6/r/7/r/8vv/9v7/+f3/+fz///7/4Pr/lbvTR3aWYZa7Uo21TIe0
+        V4y/T3+zXIm8e42yfFhpgzk1qUUpwF89o2NKoH1wlYSNcHOChZil1PD7Y4CPS2t+ZYefcZ7RcZ7RcZ7R
+        c6DGiLXaQ3GQfKrCr9nwzfL/0vL/zOj/0ef/zOX/y+z/yOz+yer9yuv7zer50ev52/H95fj/5vj/7/3/
+        9f7/8/v74Pr/lbvTR3aWYZa7XpGbUoXEUoXEUoXEUoXEhYybm3V7h0VAkEQuhEMunX51jIWKk5ariJiv
+        QFtpsM3Uyd/kWWxzh52p1O3/2PX/sNLwbJGzbZi5hrTWUoGhPmuMSHOUUXaYVnaZVXWYVneYUXaQT3aM
+        TXSKTnOJUHOHWHiLZoOSc42blqy4xNff7vz/9P//sc7ja5OvWomoUoXEnr+TqcWJs8+UvNOfv86oysux
+        0r+wxauktJ6YpJ2gmae+Uoa7UYO9Z5jKfqO5SGeAucnPuMHFSGeAsbnGy9jow9brudPrkLLPkbbYkbje
+        ia3Vlb/klb/klb/klb/klb/kv9z7v9z7v9z7v9z7v9z7v9z7v9z7v9z7mK/Fj6O1orK/0dzkVniWXomq
+        UoXEi7Svucx3ydZi1ORv3uyC6O6X9va2//zZ+fnrnKqwa4efYo24Uoa7UYO9Z5jKZ5O4SGeAlaWy1t3m
+        oKGrZWdxvMLN7fz/4Pj/hqjFd6HGhK7bg6zdibPilbzolb/kmsPjncjjocjkpsror8/ztdX5tNP0v9z7
+        zer/y+b/zub/utLqd4udn6+7WnmaXomqY46hi6uMyNNf4OFD6e1O8PZh9Ph69vqa8/u/5PTdob7MWoWs
+        V5LEUZHLPXy4UYjFYI7IVneoOlJwv8/gx87dkZeiaXJ/tcnaeJqyapi6Z5/ObqzibKjjbafida3kd67h
+        fbThg7nii77mmMTtmb/vpcf1r832tNDzvdv4uNfwt9Xwz+7/t9fqZYCOVniWXomqVIGWhaeI0dlc6Oc5
+        6ew46/JJ8vhr8/2S5/m0z+vOoMbSVIisRIWxSY7ATYzIVY/QVYjHYovCR2mNW3aLu8vbpLK+fo6bPlhp
+        V4KdbabNXJ/QWZ/aYaLfaabkcKnmdq/nfbbtgLnwf7HrmcX/krX5nrr7tMr/p77sp7/jttLwvtz5s9Tu
+        0PD/gKGwVniWWYSlUYGZdJuCvs5e3OM/4Os73+1H4O5q2+2Kwt2bpsmna5iVXZSjYJ+0UY+zSYK5VIvI
+        UorBXZG/eabHOF91h6GxwdnllrC+QWR4M2eFXpzEXqPVUpjOYZ7WcqfgdqXdeKbgeavnd6jshrH/fZ/5
+        Ynfacn7cm6H0pavutL7uzd//yeD/vNb0yOb/gJuvX3+cV4KjXo6qYIuCnbRqu81cwthavdVfss1wnsF3
+        gbFvaqNwcrCSj86+pOTfh8LRVYq1UIm8T5G6SYytVI+pXI6iRWl5g6SzYIGVLFdyIVqBLG6eXKHTVJXI
+        ZZnIc53Md5zOfKLYfKjlg634dJj2TWbURFDGY2bZiYXqrKn5ycz/2OL/0eL/wNbytMzkf5WnkK/Icpy5
+        Xo6qWoaeWoaeWoaeWoaeWoaejLeigL2ZeMuGfdmIht6YlOOqo+a/peLUfbbLZ6fJXrLLWrHFe8DTk83g
+        irjKRWl5cZ28LnKzLnKzE1aTRInCc67ckrnfmLbZo73imLXifqTeh675aojtV2jgOj3VVlTqcW7zcW7z
+        cW7zusLqvtDtvtDto7TJ////yuX6bJGrVIOfWIikWIaeWoaeVoKfVIehUJGgRJyFQLhgUtRfcOh5jvmZ
+        o/i0qvPTb7PAOYmoQq3CdOHvnvX/rvT/u/X/b6S/Q3efR4C0LnKzHWSnE1aTYJrLn8fqt9Xy0Oz/s9P8
+        eaXbfKX0LEa4HCmzOj3VVlTqcW7zlJT+cW7zrLvpvtDttsfcjZut8Pn/3/b/n8DUSXGNVoenTYOmS4Sr
+        R4CtQYWqOZGhLaR+J8dNM+A+UvVWaflxgfOZedqyM42eQKfOZer/bvP/iPP/ofn/tP3/oeH/MG6eMnOw
+        M37IH226EVyhHl6YksPrrtf3vOL/v+z/aKHVbaH0XHf9HCbKIifaRUn7WV/+bHn5eI7mjajguNP1hJyw
+        qLnG////6v3/0ev7ep62RXOVUom0PXqsQn60Q4q2MIugJ6KAKs5YKd48POpITupgX9+GUL6aJIyjQLji
+        U+v/WfT/d/j/jfr/j+r5b7zXMHejK3OvLXvHI3XGFmazDFOWO3anms31s+L/pNj/ZaTWX5XoPlrnFCHR
+        FyLeKDTuMkTrR1/nZofknsD8h6fKeZOk3vH5////7Pj87P//qsfcUnqdR3erUITASn21O3akQourQ6ac
+        M7psLMVSLcZNO8tkScOHNKaVIpKwScz0TfP/Uv7+Yvz7ev//ivr/edXmV6XJIm2hGGmsNIjUInfFF2eu
+        ElaRVJHDm9L/i8LvY57QYJLkCSaxESLPBRjNDSHSHzrYUHHwi7H/jrTuW3ydutTk5Pb9////9/779P//
+        3vT/qcvpP2mWR3apW4a3WYi0SoGmQo2WPKWANq5uN7NtOrJ4O6aLKpOWII+vRsjrev//ev//ev//ev//
+        ev//kvj/f9LuO4a0FmOhJni/JXrEHHC4F2GhG1uVZZ/Te7LlXZTHYpPdWHrxHTjIAx60BCKxRWfji7L/
+        cZjcR2qVoL7X5Pr/8f//////////////////vtnunsbZfae+eJu8WYi0WYi0baO6R4emR4emR4emR4em
+        R4emXbLIS63LUsniUeXrev//ev//ev//ev//ddvtZrnVZa3XRInCFGKlLnm9Lnm9Lnm9Lnm9Jl2aXZTH
+        XZTHXZTHeqj2Yo7nY4zoa5PmgqnuganaeZ66rMnY///////////////////x////////5Pf/4///s9PZ
+        aoiZSGeAWH6eY5GzU4qpRIOfS4upR4emRYOnR4emMIepOKO+Wt/tXfL8UvD9YfX/dO7/d9v4SJe+UJPE
+        RInCMHe2FGKlMYDDLnm9K3KyJl2aJl2aXZHNX5TNWY/McaTifarneqXYUXeaXX6Svtvg6Pz97/j7+/7/
+        ////+Pb2///x///0////////6/f77f//2PD2j7C/QW2KNGiRRIGzRoe6Q4SwSYewT4u1S4q2NIGvLYu2
+        RbfbXN78V+P/TND1T7zoSqPWOoO9RYPDTYzQRYnMIGuvMH/CNoXIJnS3ImyuDFKVPX7CVZLUW5XXWpDN
+        QG6kQWeRjKvC2vD78f//9vz7//3///z///////7////x//zv+/3+////+v7/8Pj36fv64f3/tNvxaJW6
+        NGeZLWaZQHmmQ36mUIe0Soa0RIm7NIW4Joi4OKXRJ5zJHpC/K4vBKnq3RYbKQ37DS4bLRITFSZDQFGGf
+        LX28MoXDI3K1GWesDFigNXm8OXCpO2eWbZG5udf04/j/7v3/9//+/v7+//z//fX//////Pn7///7///8
+        ////////////+f789v798Pz/6/3/3/n/uNfwgqnFVoKfQXKSPXGZPnmmOXusO4S4PY3CMou+Lou8MIy/
+        OYrDRIrGTInJU4nIVIvIUozHUJLHR5LGHW2iLIG5NYrIIne7AFOfD1aWfKfIvdfo4vf/5/f/7/v/9P3/
+        9vz7/f////7///7///7//////////////////////////////v7+9vr77/X68vz/7f7/4ff/y+f4osTb
+        fKTBWoiqOm6WLGaQLGiWJWaTL3SfMXWiN3enPnmrQXesRHaqRHWnQ3WjPnWgMW2XJGWRFFyLNIK3MoLB
+        HXK4GF6Zo8vn6P7/7///8fz/9fr9+///9vv5+fz6/f///f////////////////////////////z9////
+        //7///7/+/r++Pn9+Pz/8vz/8f7/5vb/4/j/3ff/x+P7sM/ombzWg6vEbJSwYoypVIKhS3qaS3mbU4Gj
+        YousbJOzep68kbXTqtHxnMzwN3GbPoCzNIG6JWugPW+Tv+H53/X/8Pn/9/r+///+/P35+//6/f/+/f//
+        //7///7///////////////////7///z+//r8//3///7///39+/v7+fv7+Pz99Pn89P3/8///8f7/7P3/
+        6v3/5/n/5PX/4vf/3fr/2vz/1fr/0/j/1vb/2vT/4PL/7Pz/4/b/3fj/tt39Sn+kQYKuQ4azJ2ONd6TJ
+        3/r/7fn/9vX+/////////////f/8/f////7///3/////////////////+/3+/f7///7//v3//v7+/f78
+        ///8///8/v35+vv3+v75+f/69/779v369P369vz7/////f//8v7/6fz/5Pz/5f3/7P//8///+f3/+/v/
+        9ff/7/j/5Pz/ocbgPnGRS4mvPH6vHlaHqMru6vr/+/z////++/zz+Pzx/f/7/f/+//3///z/////////
+        /////f//8/f4+////f///f///f///f78+Pn1+fv1/v74/f/5/v/6/f/7/f/7+//8+//8///7//32//34
+        /f76+f/99f/+8v/99v79+/78//z7//z7//v9+/3/7Pn/2fP/osjgLmGCR4m6N3OnWH6o2ez/7vH/////
+        /P30/v/3/f/7///+//7///z//////////////f//+v7/+v//9vr79fr5+////f/+/P/9/f/++v/9+//+
+        +f789/38+f/+9///9v7++f/+///6///6///8///8///+///+///+///8//77/fr2//399vv+8Pr/5vn/
+        3vb/kLbUNGybTIW4PWSLpr7a6PP/+v//+v75+f71/f/8///+//7///3/////////////////+vz9/f//
+        +/39+/39/f//+fv79ff3/f//9vv6+v7/+P3++f7/+P7/+P7/8/v/9fz//P/9/v/7//79//38//38//79
+        ///8///8//35//76+/788/j59P7/7fn/6fb/3vb/c6DGOmyWW4GjWXeQ2+797fn/+P//9fr4/f/8///+
+        //////7///////////////////////7///7///7///7///7///7///7///7///7//f3//f3/+/3/+/3/
+        +/z/+v3/+P//+P///f////7///7///7///7+///8///8+//8+P/+9v//9v//9v7/+P3/8fv/3/r/eJ25
+        R2uDYYKVhJ6u5fn/8///9vv8/f/////+///8///8//////////////////7///7///7///7///7///7/
+        //7///7///7///3///3///3///3///3///z//f3/9v//9v//+/7///7///3///7///7+///8///8+//8
+        +v/8+P/++v//+/////7/+/3/6/j/3/b/g6CvS2x7U3OAyODs7vr/+v7///7////+/f/7+//7////////
+        //////////7///7///7///7///////7///7///7///7///7///7////+///+///+//7+////+v//+P//
+        +/////7////////+///+///8///8///7///7///8///8///8///+///+9/n69P//6v//k7C5SWl0mrTA
+        6vb/9Pb///7////+/f/7+v/7/////////////////f//+////f///f/////////////+///+///+///8
+        ///8///7///7///7///7///8/f//+////f/////////+///+///8///8///8///7///8///7///7///7
+        ///7///7///89/r47Pv94/z/aoaNkaey8/3/+fv///3////++//8+v/7
+</value>
+  </data>
+  <data name="barEditItem1.LargeGlyph" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        Qk2mGgAAAAAAADYAAAAoAAAAMAAAAC8AAAABABgAAAAAAAAAAADEDgAAxA4AAAAAAAAAAAAA////////
+        ////+///8/7/6ff9o6+1iZOa9v//9vz/8vf6+////f///f/////////+///+///+///+//7///z///v/
+        //v///v///z///3///7////+///+///8///8///7///7///7///7///8///8///+//////////7///7/
+        //7///7////+///++//++//+////////////+/7/9/z/7vf/eYWPQk5Y0eHo8f7/7/n/9fv/+/7///7/
+        //7//////////f//+v//+v////7///7///7//f///f/++//++//++//++//++//+/f////////7///7/
+        //3///7//f//+////f7///7///3///3///3///7//////f/++//8+//8//7//////////f//+Pr/7vb/
+        XG16IzpJRF5swNjk6v3/7vv/9P3/+v3//f7////////+///++///+v//+///+///+v//+v/++v/8+v/8
+        +v/8+v/8+v/++//+/f////7///7///3///z///3//f//+////f7///7///3///3///7///7//f///f/+
+        +//++//+/f7///7/////////+fr+8/7/TGl4GEBTBjFEIUlbbo2cp8HPy+Lx5Pn/8f//9//9+vvy///7
+        //v++vb8/f7/9fn69fv6+v/++v/7+f33+//5/f/5///8+/z6///+//z7//j4//7+//39///+///+/f/+
+        /////////////////////f///f///f///f//+////f7//f///////////P7+7/v/UXKCAy9GG01kATFJ
+        GD5WDS9GNVdudZWo1/P67////f/7///7//v/+vX+9/f9+P3/+v//+P79+f78+v/7/f/8/v/7///+//r7
+        //7///z9//r7//7///38///+///+///+///+///+///////+/////////////////////////f///f//
+        ///////+9vz77Pv+epOjEDVLCTdPBDRQDTpbE0BiCTRbEjtcc5Ws4fz/6/n47fTx8/z/9v7/+vz/9/r/
+        +fz/9vv+7fX19Pz8+v//8/f4//3///r///z///v//Pv/+/3/+Pr/+/7///7///7///7///////7/////
+        //7//////////////////////f/////+///+///++v7/9P7/vczcHThNEj5VF0tpBztgGEl1FER0GERz
+        G0ZnncLY4///5/7/3Pb/4fj/6fb/7fP/6fD/6PL/6fv/6Pv/5vn/7vz/+v3///3///z///z/+v3/9/3/
+        9/r/+/7///3///7///3///7///7///7///7///7///7///7///7///7////+///8///8///+/vb9+fX/
+        9vn/bICSFUBTHVZvGFJ2Fk16G0qAHEuBDT5qZZi5sOL5gLDIbZy7aJK3XHWhc4OxaHqjWXGVVnuVVYCT
+        fKi1zfH57f3/+P7//P3//P7/+///+f78//38//////7//f3///3///7///7///7///7///7/////////
+        ///+///+///8///8///7///+//v//fP/+Pv/x97uPXCAFVVtGFp9HlqII1aOIFGJDkRzG1Z+MW2RPHOa
+        WIO0XHewjZDNgnq3hH63k5rLiqfMcZy3X4+hYomX4/b++P7//P3/+/39+v/++f78//76///+//7/+/7/
+        /f7//f7//f7//f///f///f/////////////+///+///8///7///8//////v/+/v/5fX/1/3/tfH/P4mh
+        IGqOIGKSJVmOKViODERzMGyWZaDNfKbbmaPpwav5wYrTsG2yvoLC2bLq0sv2xtn6s9PqkrDB2+j2+vz/
+        /fr/+vr/+P//+P3///v///3//f//+v//+///+///+///+///+///+///+///+///+///+//////8///8
+        ///+/f//+vn/8fv/4f3/yvn/mNnuPYamKXWfH2KTHVKFIFCADUFpMmaOf7LdfpnSmILRg0KYmjSGyFSh
+        4nnC8KPh7sj81tH4tMXgrcDV2d7t+vn//Pn/+vv/9v//9P3///z///z//f//+//++//++//++//++///
+        +///+///+///+v//+v//+v/////+/P7+9/v88Pf68Pr/6v//xu37ZJivK2mNPYCtQoi9TI7DQnSiPmqP
+        J1NwOGN+YYepmaDRlF2mhBxzsid+6lOp6WCy84fP6KjkyKvZv77gr7XM6OX1//r//Pn7+v/98//+6/r2
+        +v///v/9/P35/v/7///8/f76+v75/P/9/f/+/P/9/f/++P37+P38+///9/n69vv+9v//8f7/4/f/rcvc
+        U4GZPHKVU4u8V5DHVJHJXZLEdZi6hp60ZnuKjqOyXHSKkY61s3e0gh1omx5utjOEw0qaxmivuoG+rpbG
+        ra3Rr7bP+/j///z//////f/89P/78//7+//8+fr2///6///7///6/v35/fz4//76//79//38///+///+
+        /f//+/39////////////////psHbfqPFbZ7GUoXEUoXEdKPgUoXEg6DFnqOyurKzzb67npeUwcjRl5St
+        v5nDvoS7snazv4XGx5PTpoG/kYe8pq/bpLrdm7HK////////////////////////////////////////
+        ////////////////////////////////////////8fz/7P3/4ff/mrjRPWSKUX+uXpTJVIzHUoXEY4vG
+        dY64j5Spo4WEx5qM7L6svZuOpJyd09DgalZzmIKsn5PHnpjRoZ3Yl5zThpvOiajVlbndn8Da6Pr/9P3/
+        +f7/+f78+//7///////////8//7+/f39/Pv9/Pv9//z+//3///3///z+//7///3///v9//r94/P/4/v/
+        stHqTXaXT4azV5XLQ4O9RoXBTofEYIW3iY+slHh+qWdU0n9j8qeN9r2uiXFzz8rZq6zBTld4fZTChqHZ
+        fpnShKLbganeeqXWhrLbganGwd/y6v7/7Pv97vn2+P/7+//5/P/28vXz+P7/8/z/9v7/9v7/+P7/+v7/
+        +f3/+fz/+vv/+/r+//z+//7/6P3/xeT5apKvSXqgU46/QIK3Q4O9VJDLVY3Ebou3j4CVi1RRtl1C2XhU
+        2optzpWGqI2RaGV06fb/eZOrPWCCa5O9eaLPdZ7PcZ7Rga/fjrvmbpu8irDI1PX/5P//5fv/5vr76Pf5
+        9P//8///6fv/5fv/5/r/6vz/6vr/6/r/7/r/8vv/9v7/+f3/+fz///7/4Pr/lbvTR3aWYZa7Uo21TIe0
+        V4y/T3+zXIm8e42yfFhpgzk1qUUpwF89o2NKoH1wlYSNcHOChZil1PD7Y4CPS2t+ZYefcZ7RcZ7RcZ7R
+        c6DGiLXaQ3GQfKrCr9nwzfL/0vL/zOj/0ef/zOX/y+z/yOz+yer9yuv7zer50ev52/H95fj/5vj/7/3/
+        9f7/8/v74Pr/lbvTR3aWYZa7XpGbUoXEUoXEUoXEUoXEhYybm3V7h0VAkEQuhEMunX51jIWKk5ariJiv
+        QFtpsM3Uyd/kWWxzh52p1O3/2PX/sNLwbJGzbZi5hrTWUoGhPmuMSHOUUXaYVnaZVXWYVneYUXaQT3aM
+        TXSKTnOJUHOHWHiLZoOSc42blqy4xNff7vz/9P//sc7ja5OvWomoUoXEnr+TqcWJs8+UvNOfv86oysux
+        0r+wxauktJ6YpJ2gmae+Uoa7UYO9Z5jKfqO5SGeAucnPuMHFSGeAsbnGy9jow9brudPrkLLPkbbYkbje
+        ia3Vlb/klb/klb/klb/klb/kv9z7v9z7v9z7v9z7v9z7v9z7v9z7v9z7mK/Fj6O1orK/0dzkVniWXomq
+        UoXEi7Svucx3ydZi1ORv3uyC6O6X9va2//zZ+fnrnKqwa4efYo24Uoa7UYO9Z5jKZ5O4SGeAlaWy1t3m
+        oKGrZWdxvMLN7fz/4Pj/hqjFd6HGhK7bg6zdibPilbzolb/kmsPjncjjocjkpsror8/ztdX5tNP0v9z7
+        zer/y+b/zub/utLqd4udn6+7WnmaXomqY46hi6uMyNNf4OFD6e1O8PZh9Ph69vqa8/u/5PTdob7MWoWs
+        V5LEUZHLPXy4UYjFYI7IVneoOlJwv8/gx87dkZeiaXJ/tcnaeJqyapi6Z5/ObqzibKjjbafida3kd67h
+        fbThg7nii77mmMTtmb/vpcf1r832tNDzvdv4uNfwt9Xwz+7/t9fqZYCOVniWXomqVIGWhaeI0dlc6Oc5
+        6ew46/JJ8vhr8/2S5/m0z+vOoMbSVIisRIWxSY7ATYzIVY/QVYjHYovCR2mNW3aLu8vbpLK+fo6bPlhp
+        V4KdbabNXJ/QWZ/aYaLfaabkcKnmdq/nfbbtgLnwf7HrmcX/krX5nrr7tMr/p77sp7/jttLwvtz5s9Tu
+        0PD/gKGwVniWWYSlUYGZdJuCvs5e3OM/4Os73+1H4O5q2+2Kwt2bpsmna5iVXZSjYJ+0UY+zSYK5VIvI
+        UorBXZG/eabHOF91h6GxwdnllrC+QWR4M2eFXpzEXqPVUpjOYZ7WcqfgdqXdeKbgeavnd6jshrH/fZ/5
+        Ynfacn7cm6H0pavutL7uzd//yeD/vNb0yOb/gJuvX3+cV4KjXo6qYIuCnbRqu81cwthavdVfss1wnsF3
+        gbFvaqNwcrCSj86+pOTfh8LRVYq1UIm8T5G6SYytVI+pXI6iRWl5g6SzYIGVLFdyIVqBLG6eXKHTVJXI
+        ZZnIc53Md5zOfKLYfKjlg634dJj2TWbURFDGY2bZiYXqrKn5ycz/2OL/0eL/wNbytMzkf5WnkK/Icpy5
+        Xo6qWoaeWoaeWoaeWoaeWoaejLeigL2ZeMuGfdmIht6YlOOqo+a/peLUfbbLZ6fJXrLLWrHFe8DTk83g
+        irjKRWl5cZ28LnKzLnKzE1aTRInCc67ckrnfmLbZo73imLXifqTeh675aojtV2jgOj3VVlTqcW7zcW7z
+        cW7zusLqvtDtvtDto7TJ////yuX6bJGrVIOfWIikWIaeWoaeVoKfVIehUJGgRJyFQLhgUtRfcOh5jvmZ
+        o/i0qvPTb7PAOYmoQq3CdOHvnvX/rvT/u/X/b6S/Q3efR4C0LnKzHWSnE1aTYJrLn8fqt9Xy0Oz/s9P8
+        eaXbfKX0LEa4HCmzOj3VVlTqcW7zlJT+cW7zrLvpvtDttsfcjZut8Pn/3/b/n8DUSXGNVoenTYOmS4Sr
+        R4CtQYWqOZGhLaR+J8dNM+A+UvVWaflxgfOZedqyM42eQKfOZer/bvP/iPP/ofn/tP3/oeH/MG6eMnOw
+        M37IH226EVyhHl6YksPrrtf3vOL/v+z/aKHVbaH0XHf9HCbKIifaRUn7WV/+bHn5eI7mjajguNP1hJyw
+        qLnG////6v3/0ev7ep62RXOVUom0PXqsQn60Q4q2MIugJ6KAKs5YKd48POpITupgX9+GUL6aJIyjQLji
+        U+v/WfT/d/j/jfr/j+r5b7zXMHejK3OvLXvHI3XGFmazDFOWO3anms31s+L/pNj/ZaTWX5XoPlrnFCHR
+        FyLeKDTuMkTrR1/nZofknsD8h6fKeZOk3vH5////7Pj87P//qsfcUnqdR3erUITASn21O3akQourQ6ac
+        M7psLMVSLcZNO8tkScOHNKaVIpKwScz0TfP/Uv7+Yvz7ev//ivr/edXmV6XJIm2hGGmsNIjUInfFF2eu
+        ElaRVJHDm9L/i8LvY57QYJLkCSaxESLPBRjNDSHSHzrYUHHwi7H/jrTuW3ydutTk5Pb9////9/779P//
+        3vT/qcvpP2mWR3apW4a3WYi0SoGmQo2WPKWANq5uN7NtOrJ4O6aLKpOWII+vRsjrev//ev//ev//ev//
+        ev//kvj/f9LuO4a0FmOhJni/JXrEHHC4F2GhG1uVZZ/Te7LlXZTHYpPdWHrxHTjIAx60BCKxRWfji7L/
+        cZjcR2qVoL7X5Pr/8f//////////////////vtnunsbZfae+eJu8WYi0WYi0baO6R4emR4emR4emR4em
+        R4emXbLIS63LUsniUeXrev//ev//ev//ev//ddvtZrnVZa3XRInCFGKlLnm9Lnm9Lnm9Lnm9Jl2aXZTH
+        XZTHXZTHeqj2Yo7nY4zoa5PmgqnuganaeZ66rMnY///////////////////x////////5Pf/4///s9PZ
+        aoiZSGeAWH6eY5GzU4qpRIOfS4upR4emRYOnR4emMIepOKO+Wt/tXfL8UvD9YfX/dO7/d9v4SJe+UJPE
+        RInCMHe2FGKlMYDDLnm9K3KyJl2aJl2aXZHNX5TNWY/McaTifarneqXYUXeaXX6Svtvg6Pz97/j7+/7/
+        ////+Pb2///x///0////////6/f77f//2PD2j7C/QW2KNGiRRIGzRoe6Q4SwSYewT4u1S4q2NIGvLYu2
+        RbfbXN78V+P/TND1T7zoSqPWOoO9RYPDTYzQRYnMIGuvMH/CNoXIJnS3ImyuDFKVPX7CVZLUW5XXWpDN
+        QG6kQWeRjKvC2vD78f//9vz7//3///z///////7////x//zv+/3+////+v7/8Pj36fv64f3/tNvxaJW6
+        NGeZLWaZQHmmQ36mUIe0Soa0RIm7NIW4Joi4OKXRJ5zJHpC/K4vBKnq3RYbKQ37DS4bLRITFSZDQFGGf
+        LX28MoXDI3K1GWesDFigNXm8OXCpO2eWbZG5udf04/j/7v3/9//+/v7+//z//fX//////Pn7///7///8
+        ////////////+f789v798Pz/6/3/3/n/uNfwgqnFVoKfQXKSPXGZPnmmOXusO4S4PY3CMou+Lou8MIy/
+        OYrDRIrGTInJU4nIVIvIUozHUJLHR5LGHW2iLIG5NYrIIne7AFOfD1aWfKfIvdfo4vf/5/f/7/v/9P3/
+        9vz7/f////7///7///7//////////////////////////////v7+9vr77/X68vz/7f7/4ff/y+f4osTb
+        fKTBWoiqOm6WLGaQLGiWJWaTL3SfMXWiN3enPnmrQXesRHaqRHWnQ3WjPnWgMW2XJGWRFFyLNIK3MoLB
+        HXK4GF6Zo8vn6P7/7///8fz/9fr9+///9vv5+fz6/f///f////////////////////////////z9////
+        //7///7/+/r++Pn9+Pz/8vz/8f7/5vb/4/j/3ff/x+P7sM/ombzWg6vEbJSwYoypVIKhS3qaS3mbU4Gj
+        YousbJOzep68kbXTqtHxnMzwN3GbPoCzNIG6JWugPW+Tv+H53/X/8Pn/9/r+///+/P35+//6/f/+/f//
+        //7///7///////////////////7///z+//r8//3///7///39+/v7+fv7+Pz99Pn89P3/8///8f7/7P3/
+        6v3/5/n/5PX/4vf/3fr/2vz/1fr/0/j/1vb/2vT/4PL/7Pz/4/b/3fj/tt39Sn+kQYKuQ4azJ2ONd6TJ
+        3/r/7fn/9vX+/////////////f/8/f////7///3/////////////////+/3+/f7///7//v3//v7+/f78
+        ///8///8/v35+vv3+v75+f/69/779v369P369vz7/////f//8v7/6fz/5Pz/5f3/7P//8///+f3/+/v/
+        9ff/7/j/5Pz/ocbgPnGRS4mvPH6vHlaHqMru6vr/+/z////++/zz+Pzx/f/7/f/+//3///z/////////
+        /////f//8/f4+////f///f///f///f78+Pn1+fv1/v74/f/5/v/6/f/7/f/7+//8+//8///7//32//34
+        /f76+f/99f/+8v/99v79+/78//z7//z7//v9+/3/7Pn/2fP/osjgLmGCR4m6N3OnWH6o2ez/7vH/////
+        /P30/v/3/f/7///+//7///z//////////////f//+v7/+v//9vr79fr5+////f/+/P/9/f/++v/9+//+
+        +f789/38+f/+9///9v7++f/+///6///6///8///8///+///+///+///8//77/fr2//399vv+8Pr/5vn/
+        3vb/kLbUNGybTIW4PWSLpr7a6PP/+v//+v75+f71/f/8///+//7///3/////////////////+vz9/f//
+        +/39+/39/f//+fv79ff3/f//9vv6+v7/+P3++f7/+P7/+P7/8/v/9fz//P/9/v/7//79//38//38//79
+        ///8///8//35//76+/788/j59P7/7fn/6fb/3vb/c6DGOmyWW4GjWXeQ2+797fn/+P//9fr4/f/8///+
+        //////7///////////////////////7///7///7///7///7///7///7///7///7//f3//f3/+/3/+/3/
+        +/z/+v3/+P//+P///f////7///7///7///7+///8///8+//8+P/+9v//9v//9v7/+P3/8fv/3/r/eJ25
+        R2uDYYKVhJ6u5fn/8///9vv8/f/////+///8///8//////////////////7///7///7///7///7///7/
+        //7///7///7///3///3///3///3///3///z//f3/9v//9v//+/7///7///3///7///7+///8///8+//8
+        +v/8+P/++v//+/////7/+/3/6/j/3/b/g6CvS2x7U3OAyODs7vr/+v7///7////+/f/7+//7////////
+        //////////7///7///7///7///////7///7///7///7///7///7////+///+///+//7+////+v//+P//
+        +/////7////////+///+///8///8///7///7///8///8///8///+///+9/n69P//6v//k7C5SWl0mrTA
+        6vb/9Pb///7////+/f/7+v/7/////////////////f//+////f///f/////////////+///+///+///8
+        ///8///7///7///7///7///8/f//+////f/////////+///+///8///8///8///7///8///7///7///7
+        ///7///7///89/r47Pv94/z/aoaNkaey8/3/+fv///3////++//8+v/7
+</value>
+  </data>
+  <data name="repositoryItemColorEdit2.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v13.2">
+    <value>Default</value>
+  </data>
+  <data name="repositoryItemColorEdit2.Mask.BeepOnError" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="repositoryItemColorEdit2.Mask.EditMask" xml:space="preserve">
+    <value />
+  </data>
+  <data name="repositoryItemColorEdit2.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="repositoryItemColorEdit2.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v13.2">
+    <value>None</value>
+  </data>
+  <data name="repositoryItemColorEdit2.Mask.PlaceHolder" type="System.Char, mscorlib" xml:space="preserve">
+    <value>_</value>
+  </data>
+  <data name="repositoryItemColorEdit2.Mask.SaveLiteral" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="repositoryItemColorEdit2.Mask.ShowPlaceHolders" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="repositoryItemColorEdit2.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="repositoryItemColorEdit1.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v13.2">
+    <value>Default</value>
+  </data>
+  <data name="repositoryItemColorEdit1.Mask.BeepOnError" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="repositoryItemColorEdit1.Mask.EditMask" xml:space="preserve">
+    <value />
+  </data>
+  <data name="repositoryItemColorEdit1.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="repositoryItemColorEdit1.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v13.2">
+    <value>None</value>
+  </data>
+  <data name="repositoryItemColorEdit1.Mask.PlaceHolder" type="System.Char, mscorlib" xml:space="preserve">
+    <value>_</value>
+  </data>
+  <data name="repositoryItemColorEdit1.Mask.SaveLiteral" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="repositoryItemColorEdit1.Mask.ShowPlaceHolders" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="repositoryItemColorEdit1.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="ribbonStatusBar1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ribbonControl1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlRoute.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlGraph.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnDelSdAlarm.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label5.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cmbSDAlarmList.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cmbSDAlarmList.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSDValue.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtSDValue.Properties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v13.2">
+    <value>Default</value>
+  </data>
+  <data name="txtSDValue.Properties.Mask.BeepOnError" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtSDValue.Properties.Mask.EditMask" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSDValue.Properties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtSDValue.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v13.2">
+    <value>None</value>
+  </data>
+  <data name="txtSDValue.Properties.Mask.PlaceHolder" type="System.Char, mscorlib" xml:space="preserve">
+    <value>_</value>
+  </data>
+  <data name="txtSDValue.Properties.Mask.SaveLiteral" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtSDValue.Properties.Mask.ShowPlaceHolders" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtSDValue.Properties.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtSDValue.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSDNew.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gbSD.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnDelPAlarm.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label3.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label2.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPValue.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtPValue.Properties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v13.2">
+    <value>Default</value>
+  </data>
+  <data name="txtPValue.Properties.Mask.BeepOnError" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtPValue.Properties.Mask.EditMask" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPValue.Properties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtPValue.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v13.2">
+    <value>None</value>
+  </data>
+  <data name="txtPValue.Properties.Mask.PlaceHolder" type="System.Char, mscorlib" xml:space="preserve">
+    <value>_</value>
+  </data>
+  <data name="txtPValue.Properties.Mask.SaveLiteral" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtPValue.Properties.Mask.ShowPlaceHolders" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtPValue.Properties.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtPValue.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnPNew.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cmbPAlarmList.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cmbPAlarmList.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gbPInc.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label1.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox7.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSave.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTLow.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtTLow.Properties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v13.2">
+    <value>Default</value>
+  </data>
+  <data name="txtTLow.Properties.Mask.BeepOnError" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtTLow.Properties.Mask.EditMask" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTLow.Properties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtTLow.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v13.2">
+    <value>None</value>
+  </data>
+  <data name="txtTLow.Properties.Mask.PlaceHolder" type="System.Char, mscorlib" xml:space="preserve">
+    <value>_</value>
+  </data>
+  <data name="txtTLow.Properties.Mask.SaveLiteral" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtTLow.Properties.Mask.ShowPlaceHolders" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtTLow.Properties.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtTLow.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label106.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label107.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTHigh.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtTHigh.Properties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v13.2">
+    <value>Default</value>
+  </data>
+  <data name="txtTHigh.Properties.Mask.BeepOnError" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtTHigh.Properties.Mask.EditMask" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTHigh.Properties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtTHigh.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v13.2">
+    <value>None</value>
+  </data>
+  <data name="txtTHigh.Properties.Mask.PlaceHolder" type="System.Char, mscorlib" xml:space="preserve">
+    <value>_</value>
+  </data>
+  <data name="txtTHigh.Properties.Mask.SaveLiteral" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtTHigh.Properties.Mask.ShowPlaceHolders" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtTHigh.Properties.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtTHigh.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label101.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label102.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtBVertLow.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtBVertLow.Properties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v13.2">
+    <value>Default</value>
+  </data>
+  <data name="txtBVertLow.Properties.Mask.BeepOnError" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtBVertLow.Properties.Mask.EditMask" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtBVertLow.Properties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtBVertLow.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v13.2">
+    <value>None</value>
+  </data>
+  <data name="txtBVertLow.Properties.Mask.PlaceHolder" type="System.Char, mscorlib" xml:space="preserve">
+    <value>_</value>
+  </data>
+  <data name="txtBVertLow.Properties.Mask.SaveLiteral" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtBVertLow.Properties.Mask.ShowPlaceHolders" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtBVertLow.Properties.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtBVertLow.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtBHorizLow.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtBHorizLow.Properties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v13.2">
+    <value>Default</value>
+  </data>
+  <data name="txtBHorizLow.Properties.Mask.BeepOnError" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtBHorizLow.Properties.Mask.EditMask" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtBHorizLow.Properties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtBHorizLow.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v13.2">
+    <value>None</value>
+  </data>
+  <data name="txtBHorizLow.Properties.Mask.PlaceHolder" type="System.Char, mscorlib" xml:space="preserve">
+    <value>_</value>
+  </data>
+  <data name="txtBHorizLow.Properties.Mask.SaveLiteral" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtBHorizLow.Properties.Mask.ShowPlaceHolders" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtBHorizLow.Properties.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtBHorizLow.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtBAxialLow.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtBAxialLow.Properties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v13.2">
+    <value>Default</value>
+  </data>
+  <data name="txtBAxialLow.Properties.Mask.BeepOnError" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtBAxialLow.Properties.Mask.EditMask" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtBAxialLow.Properties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtBAxialLow.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v13.2">
+    <value>None</value>
+  </data>
+  <data name="txtBAxialLow.Properties.Mask.PlaceHolder" type="System.Char, mscorlib" xml:space="preserve">
+    <value>_</value>
+  </data>
+  <data name="txtBAxialLow.Properties.Mask.SaveLiteral" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtBAxialLow.Properties.Mask.ShowPlaceHolders" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtBAxialLow.Properties.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtBAxialLow.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtBVertHigh.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtBVertHigh.Properties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v13.2">
+    <value>Default</value>
+  </data>
+  <data name="txtBVertHigh.Properties.Mask.BeepOnError" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtBVertHigh.Properties.Mask.EditMask" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtBVertHigh.Properties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtBVertHigh.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v13.2">
+    <value>None</value>
+  </data>
+  <data name="txtBVertHigh.Properties.Mask.PlaceHolder" type="System.Char, mscorlib" xml:space="preserve">
+    <value>_</value>
+  </data>
+  <data name="txtBVertHigh.Properties.Mask.SaveLiteral" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtBVertHigh.Properties.Mask.ShowPlaceHolders" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtBVertHigh.Properties.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtBVertHigh.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label103.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtBHorizHigh.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtBHorizHigh.Properties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v13.2">
+    <value>Default</value>
+  </data>
+  <data name="txtBHorizHigh.Properties.Mask.BeepOnError" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtBHorizHigh.Properties.Mask.EditMask" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtBHorizHigh.Properties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtBHorizHigh.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v13.2">
+    <value>None</value>
+  </data>
+  <data name="txtBHorizHigh.Properties.Mask.PlaceHolder" type="System.Char, mscorlib" xml:space="preserve">
+    <value>_</value>
+  </data>
+  <data name="txtBHorizHigh.Properties.Mask.SaveLiteral" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtBHorizHigh.Properties.Mask.ShowPlaceHolders" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtBHorizHigh.Properties.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtBHorizHigh.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label104.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtBAxialHigh.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtBAxialHigh.Properties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v13.2">
+    <value>Default</value>
+  </data>
+  <data name="txtBAxialHigh.Properties.Mask.BeepOnError" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtBAxialHigh.Properties.Mask.EditMask" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtBAxialHigh.Properties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtBAxialHigh.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v13.2">
+    <value>None</value>
+  </data>
+  <data name="txtBAxialHigh.Properties.Mask.PlaceHolder" type="System.Char, mscorlib" xml:space="preserve">
+    <value>_</value>
+  </data>
+  <data name="txtBAxialHigh.Properties.Mask.SaveLiteral" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtBAxialHigh.Properties.Mask.ShowPlaceHolders" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtBAxialHigh.Properties.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtBAxialHigh.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label105.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label91.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label92.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtVVertLow.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtVVertLow.Properties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v13.2">
+    <value>Default</value>
+  </data>
+  <data name="txtVVertLow.Properties.Mask.BeepOnError" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtVVertLow.Properties.Mask.EditMask" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtVVertLow.Properties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtVVertLow.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v13.2">
+    <value>None</value>
+  </data>
+  <data name="txtVVertLow.Properties.Mask.PlaceHolder" type="System.Char, mscorlib" xml:space="preserve">
+    <value>_</value>
+  </data>
+  <data name="txtVVertLow.Properties.Mask.SaveLiteral" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtVVertLow.Properties.Mask.ShowPlaceHolders" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtVVertLow.Properties.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtVVertLow.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtVHorizLow.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtVHorizLow.Properties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v13.2">
+    <value>Default</value>
+  </data>
+  <data name="txtVHorizLow.Properties.Mask.BeepOnError" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtVHorizLow.Properties.Mask.EditMask" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtVHorizLow.Properties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtVHorizLow.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v13.2">
+    <value>None</value>
+  </data>
+  <data name="txtVHorizLow.Properties.Mask.PlaceHolder" type="System.Char, mscorlib" xml:space="preserve">
+    <value>_</value>
+  </data>
+  <data name="txtVHorizLow.Properties.Mask.SaveLiteral" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtVHorizLow.Properties.Mask.ShowPlaceHolders" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtVHorizLow.Properties.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtVHorizLow.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtVAxialLow.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtVAxialLow.Properties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v13.2">
+    <value>Default</value>
+  </data>
+  <data name="txtVAxialLow.Properties.Mask.BeepOnError" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtVAxialLow.Properties.Mask.EditMask" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtVAxialLow.Properties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtVAxialLow.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v13.2">
+    <value>None</value>
+  </data>
+  <data name="txtVAxialLow.Properties.Mask.PlaceHolder" type="System.Char, mscorlib" xml:space="preserve">
+    <value>_</value>
+  </data>
+  <data name="txtVAxialLow.Properties.Mask.SaveLiteral" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtVAxialLow.Properties.Mask.ShowPlaceHolders" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtVAxialLow.Properties.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtVAxialLow.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtVVertHigh.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtVVertHigh.Properties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v13.2">
+    <value>Default</value>
+  </data>
+  <data name="txtVVertHigh.Properties.Mask.BeepOnError" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtVVertHigh.Properties.Mask.EditMask" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtVVertHigh.Properties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtVVertHigh.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v13.2">
+    <value>None</value>
+  </data>
+  <data name="txtVVertHigh.Properties.Mask.PlaceHolder" type="System.Char, mscorlib" xml:space="preserve">
+    <value>_</value>
+  </data>
+  <data name="txtVVertHigh.Properties.Mask.SaveLiteral" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtVVertHigh.Properties.Mask.ShowPlaceHolders" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtVVertHigh.Properties.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtVVertHigh.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label93.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtVHorizHigh.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtVHorizHigh.Properties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v13.2">
+    <value>Default</value>
+  </data>
+  <data name="txtVHorizHigh.Properties.Mask.BeepOnError" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtVHorizHigh.Properties.Mask.EditMask" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtVHorizHigh.Properties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtVHorizHigh.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v13.2">
+    <value>None</value>
+  </data>
+  <data name="txtVHorizHigh.Properties.Mask.PlaceHolder" type="System.Char, mscorlib" xml:space="preserve">
+    <value>_</value>
+  </data>
+  <data name="txtVHorizHigh.Properties.Mask.SaveLiteral" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtVHorizHigh.Properties.Mask.ShowPlaceHolders" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtVHorizHigh.Properties.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtVHorizHigh.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label94.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtVAxialHigh.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtVAxialHigh.Properties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v13.2">
+    <value>Default</value>
+  </data>
+  <data name="txtVAxialHigh.Properties.Mask.BeepOnError" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtVAxialHigh.Properties.Mask.EditMask" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtVAxialHigh.Properties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtVAxialHigh.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v13.2">
+    <value>None</value>
+  </data>
+  <data name="txtVAxialHigh.Properties.Mask.PlaceHolder" type="System.Char, mscorlib" xml:space="preserve">
+    <value>_</value>
+  </data>
+  <data name="txtVAxialHigh.Properties.Mask.SaveLiteral" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtVAxialHigh.Properties.Mask.ShowPlaceHolders" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtVAxialHigh.Properties.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtVAxialHigh.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label95.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label96.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label97.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDVertLow.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtDVertLow.Properties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v13.2">
+    <value>Default</value>
+  </data>
+  <data name="txtDVertLow.Properties.Mask.BeepOnError" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtDVertLow.Properties.Mask.EditMask" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDVertLow.Properties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtDVertLow.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v13.2">
+    <value>None</value>
+  </data>
+  <data name="txtDVertLow.Properties.Mask.PlaceHolder" type="System.Char, mscorlib" xml:space="preserve">
+    <value>_</value>
+  </data>
+  <data name="txtDVertLow.Properties.Mask.SaveLiteral" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtDVertLow.Properties.Mask.ShowPlaceHolders" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtDVertLow.Properties.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtDVertLow.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDHorizLow.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtDHorizLow.Properties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v13.2">
+    <value>Default</value>
+  </data>
+  <data name="txtDHorizLow.Properties.Mask.BeepOnError" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtDHorizLow.Properties.Mask.EditMask" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDHorizLow.Properties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtDHorizLow.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v13.2">
+    <value>None</value>
+  </data>
+  <data name="txtDHorizLow.Properties.Mask.PlaceHolder" type="System.Char, mscorlib" xml:space="preserve">
+    <value>_</value>
+  </data>
+  <data name="txtDHorizLow.Properties.Mask.SaveLiteral" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtDHorizLow.Properties.Mask.ShowPlaceHolders" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtDHorizLow.Properties.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtDHorizLow.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDAxialLow.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtDAxialLow.Properties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v13.2">
+    <value>Default</value>
+  </data>
+  <data name="txtDAxialLow.Properties.Mask.BeepOnError" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtDAxialLow.Properties.Mask.EditMask" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDAxialLow.Properties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtDAxialLow.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v13.2">
+    <value>None</value>
+  </data>
+  <data name="txtDAxialLow.Properties.Mask.PlaceHolder" type="System.Char, mscorlib" xml:space="preserve">
+    <value>_</value>
+  </data>
+  <data name="txtDAxialLow.Properties.Mask.SaveLiteral" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtDAxialLow.Properties.Mask.ShowPlaceHolders" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtDAxialLow.Properties.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtDAxialLow.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDVertHigh.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtDVertHigh.Properties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v13.2">
+    <value>Default</value>
+  </data>
+  <data name="txtDVertHigh.Properties.Mask.BeepOnError" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtDVertHigh.Properties.Mask.EditMask" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDVertHigh.Properties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtDVertHigh.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v13.2">
+    <value>None</value>
+  </data>
+  <data name="txtDVertHigh.Properties.Mask.PlaceHolder" type="System.Char, mscorlib" xml:space="preserve">
+    <value>_</value>
+  </data>
+  <data name="txtDVertHigh.Properties.Mask.SaveLiteral" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtDVertHigh.Properties.Mask.ShowPlaceHolders" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtDVertHigh.Properties.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtDVertHigh.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label98.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDHorizHigh.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtDHorizHigh.Properties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v13.2">
+    <value>Default</value>
+  </data>
+  <data name="txtDHorizHigh.Properties.Mask.BeepOnError" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtDHorizHigh.Properties.Mask.EditMask" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDHorizHigh.Properties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtDHorizHigh.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v13.2">
+    <value>None</value>
+  </data>
+  <data name="txtDHorizHigh.Properties.Mask.PlaceHolder" type="System.Char, mscorlib" xml:space="preserve">
+    <value>_</value>
+  </data>
+  <data name="txtDHorizHigh.Properties.Mask.SaveLiteral" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtDHorizHigh.Properties.Mask.ShowPlaceHolders" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtDHorizHigh.Properties.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtDHorizHigh.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label99.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDAxialHigh.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtDAxialHigh.Properties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v13.2">
+    <value>Default</value>
+  </data>
+  <data name="txtDAxialHigh.Properties.Mask.BeepOnError" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtDAxialHigh.Properties.Mask.EditMask" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDAxialHigh.Properties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtDAxialHigh.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v13.2">
+    <value>None</value>
+  </data>
+  <data name="txtDAxialHigh.Properties.Mask.PlaceHolder" type="System.Char, mscorlib" xml:space="preserve">
+    <value>_</value>
+  </data>
+  <data name="txtDAxialHigh.Properties.Mask.SaveLiteral" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtDAxialHigh.Properties.Mask.ShowPlaceHolders" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtDAxialHigh.Properties.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtDAxialHigh.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label100.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label89.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label90.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtVerticalLow.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtVerticalLow.Properties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v13.2">
+    <value>Default</value>
+  </data>
+  <data name="txtVerticalLow.Properties.Mask.BeepOnError" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtVerticalLow.Properties.Mask.EditMask" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtVerticalLow.Properties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtVerticalLow.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v13.2">
+    <value>None</value>
+  </data>
+  <data name="txtVerticalLow.Properties.Mask.PlaceHolder" type="System.Char, mscorlib" xml:space="preserve">
+    <value>_</value>
+  </data>
+  <data name="txtVerticalLow.Properties.Mask.SaveLiteral" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtVerticalLow.Properties.Mask.ShowPlaceHolders" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtVerticalLow.Properties.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtVerticalLow.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtHorizontalLow.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtHorizontalLow.Properties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v13.2">
+    <value>Default</value>
+  </data>
+  <data name="txtHorizontalLow.Properties.Mask.BeepOnError" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtHorizontalLow.Properties.Mask.EditMask" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtHorizontalLow.Properties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtHorizontalLow.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v13.2">
+    <value>None</value>
+  </data>
+  <data name="txtHorizontalLow.Properties.Mask.PlaceHolder" type="System.Char, mscorlib" xml:space="preserve">
+    <value>_</value>
+  </data>
+  <data name="txtHorizontalLow.Properties.Mask.SaveLiteral" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtHorizontalLow.Properties.Mask.ShowPlaceHolders" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtHorizontalLow.Properties.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtHorizontalLow.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAxialLow.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtAxialLow.Properties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v13.2">
+    <value>Default</value>
+  </data>
+  <data name="txtAxialLow.Properties.Mask.BeepOnError" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtAxialLow.Properties.Mask.EditMask" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAxialLow.Properties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtAxialLow.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v13.2">
+    <value>None</value>
+  </data>
+  <data name="txtAxialLow.Properties.Mask.PlaceHolder" type="System.Char, mscorlib" xml:space="preserve">
+    <value>_</value>
+  </data>
+  <data name="txtAxialLow.Properties.Mask.SaveLiteral" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtAxialLow.Properties.Mask.ShowPlaceHolders" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtAxialLow.Properties.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtAxialLow.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtVerticalHigh.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtVerticalHigh.Properties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v13.2">
+    <value>Default</value>
+  </data>
+  <data name="txtVerticalHigh.Properties.Mask.BeepOnError" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtVerticalHigh.Properties.Mask.EditMask" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtVerticalHigh.Properties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtVerticalHigh.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v13.2">
+    <value>None</value>
+  </data>
+  <data name="txtVerticalHigh.Properties.Mask.PlaceHolder" type="System.Char, mscorlib" xml:space="preserve">
+    <value>_</value>
+  </data>
+  <data name="txtVerticalHigh.Properties.Mask.SaveLiteral" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtVerticalHigh.Properties.Mask.ShowPlaceHolders" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtVerticalHigh.Properties.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtVerticalHigh.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblVerticalHigh.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtHorizontalHigh.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtHorizontalHigh.Properties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v13.2">
+    <value>Default</value>
+  </data>
+  <data name="txtHorizontalHigh.Properties.Mask.BeepOnError" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtHorizontalHigh.Properties.Mask.EditMask" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtHorizontalHigh.Properties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtHorizontalHigh.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v13.2">
+    <value>None</value>
+  </data>
+  <data name="txtHorizontalHigh.Properties.Mask.PlaceHolder" type="System.Char, mscorlib" xml:space="preserve">
+    <value>_</value>
+  </data>
+  <data name="txtHorizontalHigh.Properties.Mask.SaveLiteral" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtHorizontalHigh.Properties.Mask.ShowPlaceHolders" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtHorizontalHigh.Properties.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtHorizontalHigh.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblHorizontal.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAxialHigh.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtAxialHigh.Properties.Mask.AutoComplete" type="DevExpress.XtraEditors.Mask.AutoCompleteType, DevExpress.XtraEditors.v13.2">
+    <value>Default</value>
+  </data>
+  <data name="txtAxialHigh.Properties.Mask.BeepOnError" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtAxialHigh.Properties.Mask.EditMask" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAxialHigh.Properties.Mask.IgnoreMaskBlank" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtAxialHigh.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v13.2">
+    <value>None</value>
+  </data>
+  <data name="txtAxialHigh.Properties.Mask.PlaceHolder" type="System.Char, mscorlib" xml:space="preserve">
+    <value>_</value>
+  </data>
+  <data name="txtAxialHigh.Properties.Mask.SaveLiteral" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtAxialHigh.Properties.Mask.ShowPlaceHolders" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtAxialHigh.Properties.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtAxialHigh.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAxial.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnModifyAlarm.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnDeleteAlarm.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="button1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cmbAlarmlist.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cmbAlarmlist.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlAlarms.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlMain.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAICAAAAEACACoCAAAFgAAACgAAAAgAAAAQAAAAAEACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AACAgAAAAP//AMTExAD/gAAAx4r9AMwAAACAAP8AQID/AADKAAAAAP8AgP//AAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgICAgICAgICAgICAgICAgICAgIC
+        AgICAgICAgICAAACAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAAAICAgICAgICAgICAgICAgIC
+        AgICAgICAgICAgICAgAAAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAAACAgICAgICAgICAgIC
+        AgICAgICAgICAgICAgICAgIAAAICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgAAAgICAgICAgIC
+        AgICAgICAgICAgICAgICAgICAgICAAABAQICAgICAgICAgICAgICAgICAgICAgICAgICAgIAAAEBAgIC
+        AgICAgICAgICAgICAgICAgICAgICAgkCAgAAAQECAgICAgICAgICAgICAgICCQICAgICAgIJCQkCAAAB
+        CgICAgICAgICAgICAgICAgkJCQICAgICCQkCCQkAAAEKAgICAgkCAgICAgICAgIJCQIJCQICAgkJAgIC
+        CQAAAQoCAgIJCQkCAgICAgICCQkCAgIJCQIJCQICAgICAAABCgICCQkCCQkCAgICAgkJAgICAgIJCQkC
+        AgICAgIAAAEKAwMCAgICCQkCAgIJCQICAgICAgIJAgICAgICAgAAAQEDAwICAgICCQkCCQkCAgICAgIC
+        AgICAgICAgICAAABAQMDAgICAgICCQkJAgICAgICAgICAgICAgICAgIAAAEBAwMEBAICAgICCQICAgIC
+        AgICAgICAgICAgICAgAAAQEDAwQEBQUCAgICAgICAgICAgICAgICAgICAgICAAABAQMDBAQFBQYGAgIC
+        AgICAgcHAgICAgICAgICAgIAAAEBAwMEBAUFBgYCAgICAgICBwcCAgICAgICAgICAgAAAQEDAwQEBQUG
+        BgMDAgICBwcHBwcHAgICAgICAgICAAABAQMDBAQFBQYGAwMICAIHBwcHBwcCAgICAgICAgIAAAEBAwME
+        BAUFBgYDAwICAgICBwcCAgICAgICAgICAgAAAQEDAwQEBQUGBgICAgICAgIHBwICAgICAgICAgICAAAB
+        AQMDBAQFBQYGAgICAgICAgICAgICAgICAgICAgIAAAEBAwMEBAUFAgICAgICAgICAgICAgICAgICAgIC
+        AgAAAQEDAwQEAgICAgICAgICAgICAgICAgICAgICAgICAAABAQMDAgICAgICAgICAgICAgICAgICAgIC
+        AgICAgIAAAEBAgICAgICAgICAgICAgICAgICAgICAgICAgICAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAA
+</value>
+  </data>
+  <data name="$this.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tpFactoryManager.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+</root>
