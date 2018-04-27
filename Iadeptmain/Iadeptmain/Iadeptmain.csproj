@@ -1,0 +1,2195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="12.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B498F713-6F29-4D26-AA02-50AFC61F5BEA}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Iadeptmain</RootNamespace>
+    <AssemblyName>Iadeptmain</AssemblyName>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ProductName>VibAnalyst</ProductName>
+    <PublisherName>Iadept Marketing Pvt. Ltd.</PublisherName>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>3</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>Iadeptmain.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>projectimage.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup />
+  <PropertyGroup />
+  <PropertyGroup />
+  <PropertyGroup />
+  <PropertyGroup />
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>3D5FD19A8ABF0B7C15DEB8F40B15210904BEE774</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Iadeptmain_2_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="akshasp">
+      <HintPath>.\akshasp.dll</HintPath>
+    </Reference>
+    <Reference Include="ConvertToFFT">
+      <HintPath>.\ConvertToFFT.dll</HintPath>
+    </Reference>
+    <Reference Include="DevComponents.DotNetBar2">
+      <HintPath>..\..\..\Vibanalyst with Hasp NEW1 - Copy\DevComponents.DotNetBar2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.BonusSkins.v13.2, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.CodeParser.v13.2, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Data.v13.2, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.DataAccess.v13.2, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.DataAccess.v13.2.UI, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Dashboard.v13.2.Core, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.DemoReports.v13.2, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Office.v13.2.Core, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.PivotGrid.v13.2.Core, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Printing.v13.2.Core, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.RichEdit.v13.2.Core, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v13.2, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v13.2.UI, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Xpo.v13.2, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraBars.v13.2, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Charts.v13.2.Core, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraCharts.v13.2, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraCharts.v13.2.Extensions, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraCharts.v13.2.UI, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v13.2.Wizard, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Dashboard.v13.2.Win, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v13.2, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v13.2.Design, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.XtraGauges.v13.2.Core, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraGauges.v13.2.Presets, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraGauges.v13.2.Win, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v13.2, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v13.2, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraNavBar.v13.2, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPivotGrid.v13.2, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraPrinting.v13.2, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Sparkline.v13.2.Core, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraReports.v13.2, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraReports.v13.2.Extensions, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraRichEdit.v13.2, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraRichEdit.v13.2.Extensions, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraTreeList.v13.2, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.XtraVerticalGrid.v13.2, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraWizard.v13.2, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DllForUser, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\DllForUser.dll</HintPath>
+    </Reference>
+    <Reference Include="hasp_net_windows">
+      <HintPath>.\hasp_net_windows.dll</HintPath>
+    </Reference>
+    <Reference Include="iAdeptMarketing.Designer.ClassesStructs">
+      <HintPath>.\iAdeptMarketing.Designer.ClassesStructs.dll</HintPath>
+    </Reference>
+    <Reference Include="iAMChart3DNet">
+      <HintPath>.\iAMChart3DNet.dll</HintPath>
+    </Reference>
+    <Reference Include="IMChart2D">
+      <HintPath>.\IMChart2D.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\..\..\Vibanalyst with Hasp NEW1 - Copy\iAdeptMain\bin\debug\Microsoft.Office.Interop.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.QualityTools.Testing.Fakes, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.SqlServerCe.Client, Version=4.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\Microsoft.SqlServerCe.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="microsoft.sqlserverce.client.resources, Version=3.5.0.0, Culture=zh-CHS, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\microsoft.sqlserverce.client.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs">
+      <HintPath>C:\Users\rohit_000\Desktop\Microsoft.VisualBasic.PowerPacks.Vs.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=6.8.3.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="MySqlBackup">
+      <HintPath>.\MySqlBackup.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenNETCF">
+      <HintPath>.\OpenNETCF.dll</HintPath>
+    </Reference>
+    <Reference Include="R4ND_VS2005_Control">
+      <HintPath>.\R4ND_VS2005_Control.dll</HintPath>
+    </Reference>
+    <Reference Include="RKLib.ExportData">
+      <HintPath>.\RKLib.ExportData.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Runtime.Serialization.Formatters.Soap" />
+    <Reference Include="System.ServiceModel.Web" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="trial6, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\trial6.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BaseUserControl\3DGraphControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BaseUserControl\3DGraphControl.designer.cs">
+      <DependentUpon>3DGraphControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BaseUserControl\BarChart.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BaseUserControl\BarChart.Designer.cs">
+      <DependentUpon>BarChart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BaseUserControl\C2DGraphView.cs" />
+    <Compile Include="BaseUserControl\C3DGraph.cs" />
+    <Compile Include="BaseUserControl\CDataDaseWork.cs" />
+    <Compile Include="BaseUserControl\frmgraphcontrol.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BaseUserControl\frmgraphcontrol.Designer.cs">
+      <DependentUpon>frmgraphcontrol.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BaseUserControl\GraphView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BaseUserControl\GraphView.Designer.cs">
+      <DependentUpon>GraphView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BaseUserControl\IadeptUserControl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BaseUserControl\IadeptUserControl.designer.cs">
+      <DependentUpon>IadeptUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BaseUserControl\LineGraphControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BaseUserControl\LineGraphControl.Designer.cs">
+      <DependentUpon>LineGraphControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BaseUserControl\uc3DGraphControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BaseUserControl\uc3DGraphControl.designer.cs">
+      <DependentUpon>uc3DGraphControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BaseUserControl\_PolarPlot.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BaseUserControl\_PolarPlot.Designer.cs">
+      <DependentUpon>_PolarPlot.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\BearingData.cs" />
+    <Compile Include="Classes\BearingFF_Control.cs" />
+    <Compile Include="Classes\BearingFF_Interface.cs" />
+    <Compile Include="Classes\buttonComponents.cs" />
+    <Compile Include="Classes\C911_class.cs" />
+    <Compile Include="Classes\CImageCreation.cs" />
+    <Compile Include="Classes\Class_extractdata.cs" />
+    <Compile Include="Classes\clsC911.cs" />
+    <Compile Include="Classes\ClsSdftodb.cs" />
+    <Compile Include="Classes\Common.cs" />
+    <Compile Include="Classes\CreateSdfFile.cs" />
+    <Compile Include="Classes\CSysPro.cs" />
+    <Compile Include="Classes\CValues.cs" />
+    <Compile Include="Classes\FaultDiagnostic.cs" />
+    <Compile Include="Classes\Icomponents.cs" />
+    <Compile Include="Classes\Imageclass.cs" />
+    <Compile Include="Classes\ImpaqHandler.cs" />
+    <Compile Include="Classes\MCW.cs" />
+    <Compile Include="Classes\ResizeArray_Control.cs" />
+    <Compile Include="Classes\ResizeArray_Interface.cs" />
+    <Compile Include="Classes\RouteConn.cs" />
+    <Compile Include="Classes\UploadData.cs" />
+    <Compile Include="Datasets\Alarmdata.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Alarmdata.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Datasets\AllReportData.cs">
+      <DependentUpon>AllReportData.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Datasets\AllReportData.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AllReportData.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Datasets\MultiData.cs">
+      <DependentUpon>MultiData.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Datasets\MultiData1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MultiData.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Datasets\NewKribhco.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>NewKribhco.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Datasets\overallvalues.cs">
+      <DependentUpon>overallvalues.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Datasets\overallvalues.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>overallvalues.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="GlobalClasses\Class1.cs" />
+    <Compile Include="GlobalClasses\ClsCommon.cs" />
+    <Compile Include="GlobalClasses\DbClass.cs" />
+    <Compile Include="GlobalClasses\Errorlogfile.cs" />
+    <Compile Include="GlobalClasses\PublicClass.cs" />
+    <Compile Include="GlobalClasses\SqlceClass.cs" />
+    <Compile Include="Images\ImageResources.Designer.cs" />
+    <Compile Include="Mainforms\Alarms.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mainforms\Alarms.designer.cs">
+      <DependentUpon>Alarms.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mainforms\DeleteBenstonDatabase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mainforms\DeleteBenstonDatabase.designer.cs">
+      <DependentUpon>DeleteBenstonDatabase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mainforms\Form_MotorDes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mainforms\Form_MotorDes.designer.cs">
+      <DependentUpon>Form_MotorDes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mainforms\frmFailure.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mainforms\frmFailure.Designer.cs">
+      <DependentUpon>frmFailure.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mainforms\frmFailureTime.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mainforms\frmFailureTime.Designer.cs">
+      <DependentUpon>frmFailureTime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mainforms\frmmachine.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mainforms\frmmachine.designer.cs">
+      <DependentUpon>frmmachine.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mainforms\frmabout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mainforms\frmabout.Designer.cs">
+      <DependentUpon>frmabout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mainforms\frmAllDashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mainforms\frmAllDashboard.designer.cs">
+      <DependentUpon>frmAllDashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mainforms\frmallgraphs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mainforms\frmallgraphs.Designer.cs">
+      <DependentUpon>frmallgraphs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mainforms\frmbackup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mainforms\frmbackup.designer.cs">
+      <DependentUpon>frmbackup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mainforms\frmBackupdatabaseNew.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mainforms\frmBackupdatabaseNew.Designer.cs">
+      <DependentUpon>frmBackupdatabaseNew.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mainforms\frmBandAlarms.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mainforms\frmBandAlarms.Designer.cs">
+      <DependentUpon>frmBandAlarms.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mainforms\frmCompleteImage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mainforms\frmCompleteImage.designer.cs">
+      <DependentUpon>frmCompleteImage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mainforms\frmDashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mainforms\frmDashboard.designer.cs">
+      <DependentUpon>frmDashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mainforms\frmDashboardRibbon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mainforms\frmDashboardRibbon.Designer.cs">
+      <DependentUpon>frmDashboardRibbon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mainforms\frmDBConverter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mainforms\frmDBConverter.designer.cs">
+      <DependentUpon>frmDBConverter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mainforms\frmDeleteDatabase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mainforms\frmDeleteDatabase.Designer.cs">
+      <DependentUpon>frmDeleteDatabase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mainforms\frmDiagnosticRPM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mainforms\frmDiagnosticRPM.designer.cs">
+      <DependentUpon>frmDiagnosticRPM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mainforms\frmdownload.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mainforms\frmdownload.Designer.cs">
+      <DependentUpon>frmdownload.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mainforms\frmGControls.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mainforms\frmGControls.Designer.cs">
+      <DependentUpon>frmGControls.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mainforms\frmHasp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mainforms\frmHasp.designer.cs">
+      <DependentUpon>frmHasp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mainforms\frmMachineComparision.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mainforms\frmMachineComparision.Designer.cs">
+      <DependentUpon>frmMachineComparision.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mainforms\frmmultiplegraph.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mainforms\frmmultiplegraph.Designer.cs">
+      <DependentUpon>frmmultiplegraph.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mainforms\frmNotes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mainforms\frmNotes.designer.cs">
+      <DependentUpon>frmNotes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mainforms\frmPointDashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mainforms\frmPointDashboard.designer.cs">
+      <DependentUpon>frmPointDashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mainforms\frmPointInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mainforms\frmPointInfo.Designer.cs">
+      <DependentUpon>frmPointInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mainforms\frmRestore.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mainforms\frmRestore.Designer.cs">
+      <DependentUpon>frmRestore.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mainforms\frmroute.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mainforms\frmroute.designer.cs">
+      <DependentUpon>frmroute.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mainforms\frmRpmCount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mainforms\frmRpmCount.Designer.cs">
+      <DependentUpon>frmRpmCount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mainforms\frmSearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mainforms\frmSearch.designer.cs">
+      <DependentUpon>frmSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mainforms\frmIAdeptMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mainforms\frmIAdeptMain.designer.cs">
+      <DependentUpon>frmIAdeptMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mainforms\FrmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mainforms\FrmLogin.Designer.cs">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mainforms\frmNewDataBaseCreation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mainforms\frmNewDataBaseCreation.Designer.cs">
+      <DependentUpon>frmNewDataBaseCreation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mainforms\FrmOpenDatabase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mainforms\FrmOpenDatabase.designer.cs">
+      <DependentUpon>FrmOpenDatabase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mainforms\frmPAlarm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mainforms\frmPAlarm.designer.cs">
+      <DependentUpon>frmPAlarm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mainforms\frmSDAlarm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mainforms\frmSDAlarm.designer.cs">
+      <DependentUpon>frmSDAlarm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mainforms\frmsplash1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mainforms\frmsplash1.Designer.cs">
+      <DependentUpon>frmsplash1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mainforms\frmtest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mainforms\frmtest.Designer.cs">
+      <DependentUpon>frmtest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mainforms\frmupdownload.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mainforms\frmupdownload.Designer.cs">
+      <DependentUpon>frmupdownload.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mainforms\frmUpload.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mainforms\frmUpload.Designer.cs">
+      <DependentUpon>frmUpload.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mainforms\frmUserEntry.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mainforms\frmUserEntry.Designer.cs">
+      <DependentUpon>frmUserEntry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mainforms\frmUSetings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mainforms\frmUSetings.designer.cs">
+      <DependentUpon>frmUSetings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mainforms\frmValues.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mainforms\frmValues.Designer.cs">
+      <DependentUpon>frmValues.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mainforms\GenerateDIDatabase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mainforms\GenerateDIDatabase.Designer.cs">
+      <DependentUpon>GenerateDIDatabase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mainforms\GeneratingfromSdf.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mainforms\GeneratingfromSdf.designer.cs">
+      <DependentUpon>GeneratingfromSdf.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mainforms\MultigraphSelection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mainforms\MultigraphSelection.Designer.cs">
+      <DependentUpon>MultigraphSelection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mainforms\NewAlarm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mainforms\NewAlarm.designer.cs">
+      <DependentUpon>NewAlarm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mainforms\FrmPointType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mainforms\FrmPointType.designer.cs">
+      <DependentUpon>FrmPointType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mainforms\octaveSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mainforms\octaveSettings.Designer.cs">
+      <DependentUpon>octaveSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mainforms\ReportSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mainforms\ReportSetting.designer.cs">
+      <DependentUpon>ReportSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mainforms\Sensor Type.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mainforms\Sensor Type.designer.cs">
+      <DependentUpon>Sensor Type.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mainforms\Sensor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mainforms\Sensor.designer.cs">
+      <DependentUpon>Sensor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mainforms\Sensor_Manufacture.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mainforms\Sensor_Manufacture.designer.cs">
+      <DependentUpon>Sensor_Manufacture.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mainforms\SideBandRatio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mainforms\SideBandRatio.Designer.cs">
+      <DependentUpon>SideBandRatio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mainforms\SideBandTrend.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mainforms\SideBandTrend.Designer.cs">
+      <DependentUpon>SideBandTrend.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mainforms\SideBandValue.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mainforms\SideBandValue.Designer.cs">
+      <DependentUpon>SideBandValue.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mainforms\frmdiagnostic.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mainforms\frmdiagnostic.Designer.cs">
+      <DependentUpon>frmdiagnostic.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mainforms\frmUnit_IMXA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mainforms\frmUnit_IMXA.Designer.cs">
+      <DependentUpon>frmUnit_IMXA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mainforms\test1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mainforms\test1.Designer.cs">
+      <DependentUpon>test1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mainforms\UserDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mainforms\UserDetail.designer.cs">
+      <DependentUpon>UserDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mainforms\WaitForm1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mainforms\WaitForm1.designer.cs">
+      <DependentUpon>WaitForm1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mainforms\WaitForm2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mainforms\WaitForm2.designer.cs">
+      <DependentUpon>WaitForm2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mainforms\WaitForm3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mainforms\WaitForm3.designer.cs">
+      <DependentUpon>WaitForm3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mainforms\WaitForm4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mainforms\WaitForm4.designer.cs">
+      <DependentUpon>WaitForm4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PrintRibbonControllerResources.Designer.cs" />
+    <Compile Include="PrintRibbonControllerResources1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PrintRibbonControllerResources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Reports\OverDueReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\OverDueReport.Designer.cs">
+      <DependentUpon>OverDueReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\RptAllforDI.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\RptAllforDI.Designer.cs">
+      <DependentUpon>RptAllforDI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="XRDesignRibbonControllerResources1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XRDesignRibbonControllerResources.resx</DependentUpon>
+    </Compile>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="app.manifest" />
+    <None Include="bin\Debug\VibAnalyst.chm" />
+    <None Include="Datasets\Alarmdata.xsc">
+      <DependentUpon>Alarmdata.xsd</DependentUpon>
+    </None>
+    <None Include="Datasets\Alarmdata.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Alarmdata.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Datasets\Alarmdata.xss">
+      <DependentUpon>Alarmdata.xsd</DependentUpon>
+    </None>
+    <None Include="Datasets\AllReportData.xsc">
+      <DependentUpon>AllReportData.xsd</DependentUpon>
+    </None>
+    <None Include="Datasets\AllReportData.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AllReportData.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Datasets\AllReportData.xss">
+      <DependentUpon>AllReportData.xsd</DependentUpon>
+    </None>
+    <None Include="Datasets\MultiData.xsc">
+      <DependentUpon>MultiData.xsd</DependentUpon>
+    </None>
+    <None Include="Datasets\MultiData.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MultiData1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Datasets\MultiData.xss">
+      <DependentUpon>MultiData.xsd</DependentUpon>
+    </None>
+    <None Include="Datasets\NewKribhco.xsc">
+      <DependentUpon>NewKribhco.xsd</DependentUpon>
+    </None>
+    <None Include="Datasets\NewKribhco.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>NewKribhco.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Datasets\NewKribhco.xss">
+      <DependentUpon>NewKribhco.xsd</DependentUpon>
+    </None>
+    <None Include="Datasets\overallvalues.xsc">
+      <DependentUpon>overallvalues.xsd</DependentUpon>
+    </None>
+    <None Include="Datasets\overallvalues.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>overallvalues.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Datasets\overallvalues.xss">
+      <DependentUpon>overallvalues.xsd</DependentUpon>
+    </None>
+    <None Include="Reports\frmReport.resx.bak" />
+    <None Include="Resources\PrintRibbonControllerResources.Designer.cs" />
+    <Compile Include="Reports\NavGeneralReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\NavGeneralReport.Designer.cs">
+      <DependentUpon>NavGeneralReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\RouteDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\RouteDetail.Designer.cs">
+      <DependentUpon>RouteDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\RptAlarms.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\RptAlarms.Designer.cs">
+      <DependentUpon>RptAlarms.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\RptAllgraph.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\RptAllgraph.designer.cs">
+      <DependentUpon>RptAllgraph.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\frmHierrarchySelection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\frmHierrarchySelection.Designer.cs">
+      <DependentUpon>frmHierrarchySelection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\frmReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\frmReport.designer.cs">
+      <DependentUpon>frmReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\frmreportselection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\frmreportselection.Designer.cs">
+      <DependentUpon>frmreportselection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\frmReportSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\frmReportSettings.Designer.cs">
+      <DependentUpon>frmReportSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\rptmultireport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rptmultireport.Designer.cs">
+      <DependentUpon>rptmultireport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\rptnewoverall.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rptnewoverall.Designer.cs">
+      <DependentUpon>rptnewoverall.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\RptNotes.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\RptNotes.Designer.cs">
+      <DependentUpon>RptNotes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\RptOverallwithgraph.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\RptOverallwithgraph.Designer.cs">
+      <DependentUpon>RptOverallwithgraph.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\rptroute.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rptroute.Designer.cs">
+      <DependentUpon>rptroute.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\RptVibrationMeasurement.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\RptVibrationMeasurement.designer.cs">
+      <DependentUpon>RptVibrationMeasurement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="XRDesignRibbonControllerResources.Designer.cs" />
+    <EmbeddedResource Include="BaseUserControl\3DGraphControl.resx">
+      <DependentUpon>3DGraphControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BaseUserControl\BarChart.resx">
+      <DependentUpon>BarChart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BaseUserControl\frmgraphcontrol.resx">
+      <DependentUpon>frmgraphcontrol.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BaseUserControl\GraphView.resx">
+      <DependentUpon>GraphView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BaseUserControl\IadeptUserControl.resx">
+      <DependentUpon>IadeptUserControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BaseUserControl\LineGraphControl.resx">
+      <DependentUpon>LineGraphControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BaseUserControl\uc3DGraphControl.resx">
+      <DependentUpon>uc3DGraphControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BaseUserControl\_PolarPlot.resx">
+      <DependentUpon>_PolarPlot.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Datasets\MultiData.resx">
+      <DependentUpon>MultiData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Images\ImageResources.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mainforms\Alarms.resx">
+      <DependentUpon>Alarms.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mainforms\DeleteBenstonDatabase.resx">
+      <DependentUpon>DeleteBenstonDatabase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mainforms\Form_MotorDes.resx">
+      <DependentUpon>Form_MotorDes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mainforms\frmFailure.resx">
+      <DependentUpon>frmFailure.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mainforms\frmFailureTime.resx">
+      <DependentUpon>frmFailureTime.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mainforms\frmIAdeptMain.de.resx">
+      <DependentUpon>frmIAdeptMain.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mainforms\frmmachine.resx">
+      <DependentUpon>frmmachine.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mainforms\frmabout.resx">
+      <DependentUpon>frmabout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mainforms\frmAllDashboard.resx">
+      <DependentUpon>frmAllDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mainforms\frmallgraphs.resx">
+      <DependentUpon>frmallgraphs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mainforms\frmbackup.resx">
+      <DependentUpon>frmbackup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mainforms\frmBackupdatabaseNew.resx">
+      <DependentUpon>frmBackupdatabaseNew.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mainforms\frmBandAlarms.resx">
+      <DependentUpon>frmBandAlarms.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mainforms\frmCompleteImage.resx">
+      <DependentUpon>frmCompleteImage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mainforms\frmDashboard.resx">
+      <DependentUpon>frmDashboard.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mainforms\frmDashboardRibbon.resx">
+      <DependentUpon>frmDashboardRibbon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mainforms\frmDBConverter.resx">
+      <DependentUpon>frmDBConverter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mainforms\frmDeleteDatabase.resx">
+      <DependentUpon>frmDeleteDatabase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mainforms\frmDiagnosticRPM.resx">
+      <DependentUpon>frmDiagnosticRPM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mainforms\frmdownload.resx">
+      <DependentUpon>frmdownload.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mainforms\frmGControls.resx">
+      <DependentUpon>frmGControls.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mainforms\frmHasp.resx">
+      <DependentUpon>frmHasp.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mainforms\frmMachineComparision.resx">
+      <DependentUpon>frmMachineComparision.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mainforms\frmmultiplegraph.resx">
+      <DependentUpon>frmmultiplegraph.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mainforms\frmNotes.resx">
+      <DependentUpon>frmNotes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mainforms\frmPointDashboard.resx">
+      <DependentUpon>frmPointDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mainforms\frmPointInfo.resx">
+      <DependentUpon>frmPointInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mainforms\frmRestore.resx">
+      <DependentUpon>frmRestore.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mainforms\frmroute.resx">
+      <DependentUpon>frmroute.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mainforms\frmRpmCount.resx">
+      <DependentUpon>frmRpmCount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mainforms\frmSearch.resx">
+      <DependentUpon>frmSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mainforms\frmIAdeptMain.af.resx">
+      <DependentUpon>frmIAdeptMain.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mainforms\frmIAdeptMain.pa-IN.resx">
+      <DependentUpon>frmIAdeptMain.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mainforms\frmIAdeptMain.resx">
+      <DependentUpon>frmIAdeptMain.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mainforms\frmIAdeptMain.sr-Latn.resx">
+      <DependentUpon>frmIAdeptMain.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mainforms\frmIAdeptMain.zh.resx">
+      <DependentUpon>frmIAdeptMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mainforms\FrmLogin.resx">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mainforms\frmNewDataBaseCreation.resx">
+      <DependentUpon>frmNewDataBaseCreation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mainforms\FrmOpenDatabase.resx">
+      <DependentUpon>FrmOpenDatabase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mainforms\frmPAlarm.resx">
+      <DependentUpon>frmPAlarm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mainforms\frmSDAlarm.resx">
+      <DependentUpon>frmSDAlarm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mainforms\frmsplash1.resx">
+      <DependentUpon>frmsplash1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mainforms\frmtest.resx">
+      <DependentUpon>frmtest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mainforms\frmupdownload.resx">
+      <DependentUpon>frmupdownload.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mainforms\frmUpload.resx">
+      <DependentUpon>frmUpload.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mainforms\frmUserEntry.resx">
+      <DependentUpon>frmUserEntry.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mainforms\frmUSetings.resx">
+      <DependentUpon>frmUSetings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mainforms\frmValues.resx">
+      <DependentUpon>frmValues.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mainforms\GenerateDIDatabase.resx">
+      <DependentUpon>GenerateDIDatabase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mainforms\GeneratingfromSdf.resx">
+      <DependentUpon>GeneratingfromSdf.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mainforms\MultigraphSelection.resx">
+      <DependentUpon>MultigraphSelection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mainforms\NewAlarm.resx">
+      <DependentUpon>NewAlarm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mainforms\FrmPointType.resx">
+      <DependentUpon>FrmPointType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mainforms\octaveSettings.resx">
+      <DependentUpon>octaveSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mainforms\ReportSetting.resx">
+      <DependentUpon>ReportSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mainforms\Sensor Type.resx">
+      <DependentUpon>Sensor Type.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mainforms\Sensor.resx">
+      <DependentUpon>Sensor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mainforms\Sensor_Manufacture.resx">
+      <DependentUpon>Sensor_Manufacture.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mainforms\SideBandRatio.resx">
+      <DependentUpon>SideBandRatio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mainforms\SideBandTrend.resx">
+      <DependentUpon>SideBandTrend.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mainforms\SideBandValue.resx">
+      <DependentUpon>SideBandValue.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mainforms\frmdiagnostic.resx">
+      <DependentUpon>frmdiagnostic.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mainforms\frmUnit_IMXA.resx">
+      <DependentUpon>frmUnit_IMXA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mainforms\test1.af.resx">
+      <DependentUpon>test1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mainforms\test1.resx">
+      <DependentUpon>test1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mainforms\UserDetail.resx">
+      <DependentUpon>UserDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mainforms\WaitForm1.resx">
+      <DependentUpon>WaitForm1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mainforms\WaitForm2.resx">
+      <DependentUpon>WaitForm2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mainforms\WaitForm3.resx">
+      <DependentUpon>WaitForm3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mainforms\WaitForm4.resx">
+      <DependentUpon>WaitForm4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrintRibbonControllerResources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>PrintRibbonControllerResources1.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Resources\PrintRibbonControllerResources.resx" />
+    <EmbeddedResource Include="Reports\frmHierrarchySelection.resx">
+      <DependentUpon>frmHierrarchySelection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\frmReport.resx">
+      <DependentUpon>frmReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\frmreportselection.resx">
+      <DependentUpon>frmreportselection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\frmReportSettings.resx">
+      <DependentUpon>frmReportSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\NavGeneralReport.resx">
+      <DependentUpon>NavGeneralReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\OverDueReport.resx">
+      <DependentUpon>OverDueReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RouteDetail.resx">
+      <DependentUpon>RouteDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RptAlarms.resx">
+      <DependentUpon>RptAlarms.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RptAllforDI.resx">
+      <DependentUpon>RptAllforDI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RptAllgraph.resx">
+      <DependentUpon>RptAllgraph.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptmultireport.resx">
+      <DependentUpon>rptmultireport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptnewoverall.resx">
+      <DependentUpon>rptnewoverall.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RptNotes.resx">
+      <DependentUpon>RptNotes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RptOverallwithgraph.resx">
+      <DependentUpon>RptOverallwithgraph.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptroute.resx">
+      <DependentUpon>rptroute.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RptVibrationMeasurement.resx">
+      <DependentUpon>RptVibrationMeasurement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XRDesignRibbonControllerResources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>XRDesignRibbonControllerResources1.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Mainforms\frmIAdeptMain.af.resx.bak" />
+    <None Include="Mainforms\frmIAdeptMain.resx.bak" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Resources\hourgla2.ani" />
+    <None Include="Resources\replace1.pdn" />
+    <None Include="Resources\Thumbs.db" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="FactoryManager.ico" />
+    <Content Include="Images\Calendar_16x16.png" />
+    <Content Include="Images\Drafts_16x16.png" />
+    <Content Include="Images\field.jpg" />
+    <Content Include="Images\Inbox_16x16.png" />
+    <Content Include="Images\Mail_16x16.png" />
+    <Content Include="Images\Organizer_16x16.png" />
+    <Content Include="Images\Outbox_16x16.png" />
+    <Content Include="Images\Ribbon_AlignCenter_16x16.png" />
+    <Content Include="Images\Ribbon_AlignLeft_16x16.png" />
+    <Content Include="Images\Ribbon_AlignRight_16x16.png" />
+    <Content Include="Images\Ribbon_Bold_16x16.png" />
+    <Content Include="Images\Ribbon_Close_16x16.png" />
+    <Content Include="Images\Ribbon_Close_32x32.png" />
+    <Content Include="Images\Ribbon_Content_16x16.png" />
+    <Content Include="Images\Ribbon_Content_32x32.png" />
+    <Content Include="Images\Ribbon_Exit_16x16.png" />
+    <Content Include="Images\Ribbon_Exit_32x32.png" />
+    <Content Include="Images\Ribbon_Find_16x16.png" />
+    <Content Include="Images\Ribbon_Find_32x32.png" />
+    <Content Include="Images\Ribbon_Info_16x16.png" />
+    <Content Include="Images\Ribbon_Info_32x32.png" />
+    <Content Include="Images\Ribbon_Italic_16x16.png" />
+    <Content Include="Images\Ribbon_New_16x16.png" />
+    <Content Include="Images\Ribbon_New_32x32.png" />
+    <Content Include="Images\Ribbon_Open_16x16.png" />
+    <Content Include="Images\Ribbon_Open_32x32.png" />
+    <Content Include="Images\Ribbon_SaveAs_16x16.png" />
+    <Content Include="Images\Ribbon_SaveAs_32x32.png" />
+    <Content Include="Images\Ribbon_Save_16x16.png" />
+    <Content Include="Images\Ribbon_Save_32x32.png" />
+    <Content Include="Images\Ribbon_Underline_16x16.png" />
+    <Content Include="Images\Tasks_16x16.png" />
+    <Content Include="Images\Trash_16x16.png" />
+    <Content Include="Images\wav.png" />
+    <Content Include="projectimage.ico" />
+    <Content Include="Resources\1.bmp" />
+    <None Include="Resources\ZoomIn31.bmp" />
+    <None Include="Resources\ZoomIn3.bmp" />
+    <None Include="Resources\ZoomIn2.bmp" />
+    <None Include="Resources\ZoomIn1.bmp" />
+    <None Include="Resources\11.bmp" />
+    <None Include="Resources\12.bmp" />
+    <None Include="Resources\13.bmp" />
+    <None Include="Resources\131.bmp" />
+    <Content Include="Resources\2.bmp" />
+    <None Include="Resources\21.bmp" />
+    <None Include="Resources\22.bmp" />
+    <None Include="Resources\23.bmp" />
+    <None Include="Resources\231.bmp" />
+    <Content Include="Resources\3.bmp" />
+    <None Include="Resources\31.bmp" />
+    <None Include="Resources\32.bmp" />
+    <None Include="Resources\33.bmp" />
+    <None Include="Resources\331.bmp" />
+    <Content Include="Resources\4.bmp" />
+    <None Include="Resources\41.bmp" />
+    <None Include="Resources\42.bmp" />
+    <None Include="Resources\43.bmp" />
+    <None Include="Resources\431.bmp" />
+    <Content Include="Resources\5.bmp" />
+    <None Include="Resources\51.bmp" />
+    <None Include="Resources\52.bmp" />
+    <None Include="Resources\53.bmp" />
+    <None Include="Resources\531.bmp" />
+    <Content Include="Resources\6.bmp" />
+    <None Include="Resources\61.bmp" />
+    <None Include="Resources\62.bmp" />
+    <None Include="Resources\63.bmp" />
+    <None Include="Resources\631.bmp" />
+    <Content Include="Resources\7.bmp" />
+    <None Include="Resources\71.bmp" />
+    <None Include="Resources\72.bmp" />
+    <None Include="Resources\73.bmp" />
+    <None Include="Resources\731.bmp" />
+    <Content Include="Resources\a1.bmp" />
+    <Content Include="Resources\a2.bmp" />
+    <Content Include="Resources\a3.bmp" />
+    <Content Include="Resources\a4.bmp" />
+    <Content Include="Resources\a5.bmp" />
+    <Content Include="Resources\a6.bmp" />
+    <Content Include="Resources\a7.bmp" />
+    <Content Include="Resources\aa.bmp" />
+    <Content Include="Resources\aa1.bmp" />
+    <None Include="Resources\aa2.bmp" />
+    <None Include="Resources\aa11.bmp" />
+    <None Include="Resources\aa3.bmp" />
+    <None Include="Resources\aa12.bmp" />
+    <None Include="Resources\aa4.bmp" />
+    <None Include="Resources\aa13.bmp" />
+    <None Include="Resources\aa131.bmp" />
+    <None Include="Resources\aa41.bmp" />
+    <None Include="Resources\alarm %281%29.png" />
+    <None Include="Resources\add_users-icon.gif" />
+    <Content Include="Resources\Alarm.bmp" />
+    <None Include="Resources\Alarm1.bmp" />
+    <None Include="Resources\Alarm2.bmp" />
+    <None Include="Resources\Alarm3.bmp" />
+    <None Include="Resources\Alarm31.bmp" />
+    <None Include="Resources\alarm2.jpg" />
+    <Content Include="Resources\AppExit.bmp" />
+    <None Include="Resources\AppExit1.bmp" />
+    <None Include="Resources\AppExit2.bmp" />
+    <None Include="Resources\AppExit3.bmp" />
+    <None Include="Resources\AppExit31.bmp" />
+    <Content Include="Resources\AquaMarine.bmp" />
+    <None Include="Resources\AquaMarine1.bmp" />
+    <None Include="Resources\AquaMarine2.bmp" />
+    <None Include="Resources\AquaMarine3.bmp" />
+    <None Include="Resources\AquaMarine31.bmp" />
+    <None Include="Resources\area.png" />
+    <Content Include="Resources\AreaPlot.gif" />
+    <None Include="Resources\AreaPlot1.gif" />
+    <None Include="Resources\AreaPlot2.gif" />
+    <None Include="Resources\AreaPlot3.gif" />
+    <None Include="Resources\AreaPlot31.gif" />
+    <Content Include="Resources\arrow left.png" />
+    <None Include="Resources\arrow left1.png" />
+    <None Include="Resources\arrow left2.png" />
+    <None Include="Resources\arrow left3.png" />
+    <None Include="Resources\arrow left31.png" />
+    <Content Include="Resources\arrow right.png" />
+    <None Include="Resources\arrow right1.png" />
+    <None Include="Resources\arrow right2.png" />
+    <None Include="Resources\arrow right3.png" />
+    <None Include="Resources\arrow right31.png" />
+    <None Include="Resources\arrow.jpg" />
+    <Content Include="Resources\arrow1.gif" />
+    <None Include="Resources\arrow11.gif" />
+    <None Include="Resources\arrow12.gif" />
+    <None Include="Resources\arrow13.gif" />
+    <None Include="Resources\arrow1.jpg" />
+    <None Include="Resources\arrow1311.gif" />
+    <None Include="Resources\arrow131.gif" />
+    <None Include="Resources\arrow132.png" />
+    <Content Include="Resources\arrow1_1.gif" />
+    <None Include="Resources\arrow1_11.gif" />
+    <None Include="Resources\arrow1_12.gif" />
+    <None Include="Resources\arrow1_13.gif" />
+    <None Include="Resources\arrow1_131.gif" />
+    <Content Include="Resources\arrow1_2.gif" />
+    <None Include="Resources\arrow1_21.gif" />
+    <None Include="Resources\arrow1_22.gif" />
+    <None Include="Resources\arrow1_23.gif" />
+    <None Include="Resources\arrow1_231.gif" />
+    <Content Include="Resources\arrow2.gif" />
+    <None Include="Resources\arrow21.gif" />
+    <None Include="Resources\arrow22.gif" />
+    <None Include="Resources\arrow23.gif" />
+    <None Include="Resources\arrow231.gif" />
+    <None Include="Resources\arrow2.jpg" />
+    <Content Include="Resources\arrow2_1.gif" />
+    <None Include="Resources\arrow2_11.gif" />
+    <None Include="Resources\arrow2_12.gif" />
+    <None Include="Resources\arrow2_13.gif" />
+    <None Include="Resources\arrow2_131.gif" />
+    <Content Include="Resources\arrow2_2.gif" />
+    <None Include="Resources\arrow2_21.gif" />
+    <None Include="Resources\arrow2_22.gif" />
+    <None Include="Resources\arrow2_23.gif" />
+    <None Include="Resources\arrow2_231.gif" />
+    <None Include="Resources\Autoreport_icon.jpg" />
+    <Content Include="Resources\back_color.bmp" />
+    <None Include="Resources\back_color1.bmp" />
+    <None Include="Resources\back_color2.bmp" />
+    <None Include="Resources\back_color3.bmp" />
+    <None Include="Resources\back_color31.bmp" />
+    <None Include="Resources\barDashboard.jpg" />
+    <Content Include="Resources\Bearing 1.bmp" />
+    <Content Include="Resources\Bearing.bmp" />
+    <Content Include="Resources\Bisque.bmp" />
+    <None Include="Resources\Bisque1.bmp" />
+    <None Include="Resources\Bisque2.bmp" />
+    <None Include="Resources\Bisque3.bmp" />
+    <None Include="Resources\Bisque31.bmp" />
+    <Content Include="Resources\Black.bmp" />
+    <None Include="Resources\Black1.bmp" />
+    <None Include="Resources\Black2.bmp" />
+    <None Include="Resources\Black3.bmp" />
+    <None Include="Resources\Black31.bmp" />
+    <Content Include="Resources\Blue.bmp" />
+    <None Include="Resources\Blue1.bmp" />
+    <None Include="Resources\Blue2.bmp" />
+    <None Include="Resources\Blue3.bmp" />
+    <None Include="Resources\Blue31.bmp" />
+    <Content Include="Resources\BlueViolet.bmp" />
+    <None Include="Resources\BlueViolet1.bmp" />
+    <None Include="Resources\BlueViolet2.bmp" />
+    <None Include="Resources\BlueViolet3.bmp" />
+    <None Include="Resources\BlueViolet31.bmp" />
+    <Content Include="Resources\busy.gif" />
+    <Content Include="Resources\busy.jpeg" />
+    <Content Include="Resources\busy1.jpeg" />
+    <Content Include="Resources\busy1.JPG" />
+    <None Include="Resources\busy11.JPG" />
+    <None Include="Resources\busy12.JPG" />
+    <None Include="Resources\busy13.JPG" />
+    <None Include="Resources\busy131.JPG" />
+    <Content Include="Resources\busygf.gif" />
+    <Content Include="Resources\busygf1.gif" />
+    <None Include="Resources\busygf11.gif" />
+    <None Include="Resources\busygf12.gif" />
+    <None Include="Resources\busygf13.gif" />
+    <None Include="Resources\busygf131.gif" />
+    <None Include="Resources\cep1.png" />
+    <None Include="Resources\chain1.jpg" />
+    <None Include="Resources\chain_big1.png" />
+    <Content Include="Resources\Chocolate.bmp" />
+    <None Include="Resources\Chocolate1.bmp" />
+    <None Include="Resources\Chocolate2.bmp" />
+    <None Include="Resources\Chocolate3.bmp" />
+    <None Include="Resources\Chocolate31.bmp" />
+    <Content Include="Resources\clear.bmp" />
+    <Content Include="Resources\clear.JPG" />
+    <None Include="Resources\clear1.JPG" />
+    <None Include="Resources\clear1.bmp" />
+    <None Include="Resources\clear2.JPG" />
+    <None Include="Resources\clear2.bmp" />
+    <None Include="Resources\clear3.JPG" />
+    <None Include="Resources\clear3.bmp" />
+    <None Include="Resources\clear31.bmp" />
+    <None Include="Resources\clear31.JPG" />
+    <None Include="Resources\clutch1.jpg" />
+    <None Include="Resources\clutch_big1.png" />
+    <None Include="Resources\combustor1.jpg" />
+    <None Include="Resources\combustor_big1.png" />
+    <Content Include="Resources\company-name.jpg" />
+    <None Include="Resources\company-name1.jpg" />
+    <None Include="Resources\company-name2.jpg" />
+    <None Include="Resources\company-name3.jpg" />
+    <None Include="Resources\company-name31.jpg" />
+    <Content Include="Resources\company_name.JPG" />
+    <None Include="Resources\company_name1.JPG" />
+    <None Include="Resources\company_name2.JPG" />
+    <None Include="Resources\company_name3.JPG" />
+    <None Include="Resources\company_name31.JPG" />
+    <None Include="Resources\compressor1.jpg" />
+    <None Include="Resources\compressor_big1.png" />
+    <Content Include="Resources\computer small.png" />
+    <None Include="Resources\computer small1.png" />
+    <None Include="Resources\computer small2.png" />
+    <None Include="Resources\computer small3.png" />
+    <None Include="Resources\computer small31.png" />
+    <None Include="Resources\computer.jpg" />
+    <None Include="Resources\computer1.jpg" />
+    <Content Include="Resources\Connection.bmp" />
+    <Content Include="Resources\ConnectivityImage.jpg" />
+    <Content Include="Resources\ConnectivityImageM.bmp" />
+    <None Include="Resources\ConnectivityImageM1.bmp" />
+    <None Include="Resources\ConnectivityImageM2.bmp" />
+    <None Include="Resources\ConnectivityImageM3.bmp" />
+    <None Include="Resources\ConnectivityImageM31.bmp" />
+    <Content Include="Resources\copy.jpg" />
+    <None Include="Resources\copy1.jpg" />
+    <None Include="Resources\copy2.jpg" />
+    <None Include="Resources\copy3.jpg" />
+    <None Include="Resources\copy31.jpg" />
+    <Content Include="Resources\CopyGraph.jpg" />
+    <None Include="Resources\CopyGraph1.jpg" />
+    <None Include="Resources\CopyGraph2.jpg" />
+    <None Include="Resources\CopyGraph3.jpg" />
+    <None Include="Resources\CopyGraph31.jpg" />
+    <Content Include="Resources\Coral.bmp" />
+    <None Include="Resources\Coral1.bmp" />
+    <None Include="Resources\Coral2.bmp" />
+    <None Include="Resources\Coral3.bmp" />
+    <None Include="Resources\Coral31.bmp" />
+    <None Include="Resources\crest1.gif" />
+    <None Include="Resources\coupling1.jpg" />
+    <None Include="Resources\coupling_big1.png" />
+    <Content Include="Resources\Cyan.bmp" />
+    <None Include="Resources\Cyan1.bmp" />
+    <None Include="Resources\Cyan2.bmp" />
+    <None Include="Resources\Cyan3.bmp" />
+    <None Include="Resources\Cyan31.bmp" />
+    <Content Include="Resources\DarkBlue.bmp" />
+    <None Include="Resources\DarkBlue1.bmp" />
+    <None Include="Resources\DarkBlue2.bmp" />
+    <None Include="Resources\DarkBlue3.bmp" />
+    <None Include="Resources\DarkBlue31.bmp" />
+    <Content Include="Resources\DarkGoldenRod.bmp" />
+    <None Include="Resources\DarkGoldenRod1.bmp" />
+    <None Include="Resources\DarkGoldenRod2.bmp" />
+    <None Include="Resources\DarkGoldenRod3.bmp" />
+    <None Include="Resources\DarkGoldenRod31.bmp" />
+    <Content Include="Resources\DarkGreen.bmp" />
+    <None Include="Resources\DarkGreen1.bmp" />
+    <None Include="Resources\DarkGreen2.bmp" />
+    <None Include="Resources\DarkGreen3.bmp" />
+    <None Include="Resources\DarkGreen31.bmp" />
+    <Content Include="Resources\DarkKhaki.bmp" />
+    <None Include="Resources\DarkKhaki1.bmp" />
+    <None Include="Resources\DarkKhaki2.bmp" />
+    <None Include="Resources\DarkKhaki3.bmp" />
+    <None Include="Resources\DarkKhaki31.bmp" />
+    <Content Include="Resources\Darkmagenta.bmp" />
+    <None Include="Resources\Darkmagenta1.bmp" />
+    <None Include="Resources\Darkmagenta2.bmp" />
+    <None Include="Resources\Darkmagenta3.bmp" />
+    <None Include="Resources\Darkmagenta31.bmp" />
+    <Content Include="Resources\Darkorange.bmp" />
+    <None Include="Resources\Darkorange1.bmp" />
+    <None Include="Resources\Darkorange2.bmp" />
+    <None Include="Resources\Darkorange3.bmp" />
+    <None Include="Resources\Darkorange31.bmp" />
+    <Content Include="Resources\Darkorchid.bmp" />
+    <None Include="Resources\Darkorchid1.bmp" />
+    <None Include="Resources\Darkorchid2.bmp" />
+    <None Include="Resources\Darkorchid3.bmp" />
+    <None Include="Resources\Darkorchid31.bmp" />
+    <Content Include="Resources\DarkRed.bmp" />
+    <None Include="Resources\DarkRed1.bmp" />
+    <None Include="Resources\DarkRed2.bmp" />
+    <None Include="Resources\DarkRed3.bmp" />
+    <None Include="Resources\DarkRed31.bmp" />
+    <Content Include="Resources\DarkseaGreen.bmp" />
+    <None Include="Resources\DarkseaGreen1.bmp" />
+    <None Include="Resources\DarkseaGreen2.bmp" />
+    <None Include="Resources\DarkseaGreen3.bmp" />
+    <None Include="Resources\DarkseaGreen31.bmp" />
+    <Content Include="Resources\DarkSlateBlue.bmp" />
+    <None Include="Resources\DarkSlateBlue1.bmp" />
+    <None Include="Resources\DarkSlateBlue2.bmp" />
+    <None Include="Resources\DarkSlateBlue3.bmp" />
+    <None Include="Resources\DarkSlateBlue31.bmp" />
+    <Content Include="Resources\DarkVoilet.bmp" />
+    <None Include="Resources\DarkVoilet1.bmp" />
+    <None Include="Resources\DarkVoilet2.bmp" />
+    <None Include="Resources\DarkVoilet3.bmp" />
+    <None Include="Resources\DarkVoilet31.bmp" />
+    <None Include="Resources\data_transfer_icon.jpg" />
+    <None Include="Resources\dashboard.jpg" />
+    <Content Include="Resources\Deeppink.bmp" />
+    <None Include="Resources\Deeppink1.bmp" />
+    <None Include="Resources\Deeppink2.bmp" />
+    <None Include="Resources\Deeppink3.bmp" />
+    <None Include="Resources\Deeppink31.bmp" />
+    <Content Include="Resources\DeepSkyBlue.bmp" />
+    <None Include="Resources\DeepSkyBlue1.bmp" />
+    <None Include="Resources\DeepSkyBlue2.bmp" />
+    <None Include="Resources\DeepSkyBlue3.bmp" />
+    <None Include="Resources\DeepSkyBlue31.bmp" />
+    <Content Include="Resources\del.gif" />
+    <None Include="Resources\del1.gif" />
+    <None Include="Resources\del2.gif" />
+    <None Include="Resources\del3.gif" />
+    <None Include="Resources\del31.gif" />
+    <Content Include="Resources\Delete.bmp" />
+    <Content Include="Resources\DeleteImage.bmp" />
+    <None Include="Resources\DeleteImage1.bmp" />
+    <None Include="Resources\DeleteImage2.bmp" />
+    <None Include="Resources\DeleteImage3.bmp" />
+    <None Include="Resources\DeleteImage31.bmp" />
+    <None Include="Resources\diagnostic.jpg" />
+    <None Include="Resources\delete_icon.jpg" />
+    <Content Include="Resources\DimGrey.bmp" />
+    <None Include="Resources\DimGrey1.bmp" />
+    <None Include="Resources\DimGrey2.bmp" />
+    <None Include="Resources\DimGrey3.bmp" />
+    <None Include="Resources\DimGrey31.bmp" />
+    <Content Include="Resources\DodgerBlue.bmp" />
+    <None Include="Resources\DodgerBlue1.bmp" />
+    <None Include="Resources\DodgerBlue2.bmp" />
+    <None Include="Resources\DodgerBlue3.bmp" />
+    <None Include="Resources\DodgerBlue31.bmp" />
+    <None Include="Resources\Download1.PNG" />
+    <None Include="Resources\Download2.PNG" />
+    <None Include="Resources\Download3.PNG" />
+    <None Include="Resources\Download31.PNG" />
+    <None Include="Resources\download.png" />
+    <None Include="Resources\downarrow.gif" />
+    <None Include="Resources\download.jpg" />
+    <None Include="Resources\download.gif" />
+    <None Include="Resources\downloadn11.png" />
+    <Content Include="Resources\dt.bmp" />
+    <Content Include="Resources\dt.jpg" />
+    <None Include="Resources\dt1.jpg" />
+    <None Include="Resources\dt1.bmp" />
+    <None Include="Resources\dt2.jpg" />
+    <None Include="Resources\dt2.bmp" />
+    <None Include="Resources\dt3.jpg" />
+    <None Include="Resources\dt3.bmp" />
+    <None Include="Resources\dt31.bmp" />
+    <None Include="Resources\dt31.jpg" />
+    <None Include="Resources\d_log.jpg" />
+    <None Include="Resources\dual.png" />
+    <None Include="Resources\Ejector1.jpg" />
+    <None Include="Resources\Ejector_big1.png" />
+    <Content Include="Resources\element new.bmp" />
+    <Content Include="Resources\element new.gif" />
+    <None Include="Resources\element new1.gif" />
+    <None Include="Resources\element new2.gif" />
+    <None Include="Resources\element new3.gif" />
+    <None Include="Resources\element new31.gif" />
+    <Content Include="Resources\element.bmp" />
+    <Content Include="Resources\element.jpg" />
+    <Content Include="Resources\element1.bmp" />
+    <None Include="Resources\element1.jpg" />
+    <None Include="Resources\element11.bmp" />
+    <None Include="Resources\element2.jpg" />
+    <None Include="Resources\element12.bmp" />
+    <None Include="Resources\element3.jpg" />
+    <None Include="Resources\element13.bmp" />
+    <None Include="Resources\element31.jpg" />
+    <None Include="Resources\element131.bmp" />
+    <Content Include="Resources\elite.png" />
+    <Content Include="Resources\elite1.jpg" />
+    <None Include="Resources\elite1.png" />
+    <None Include="Resources\elite11.jpg" />
+    <None Include="Resources\elite12.jpg" />
+    <None Include="Resources\elite13.jpg" />
+    <None Include="Resources\elite131.jpg" />
+    <Content Include="Resources\elite2.jpg" />
+    <None Include="Resources\elite21.jpg" />
+    <None Include="Resources\elite2.png" />
+    <None Include="Resources\elite22.jpg" />
+    <None Include="Resources\elite3.png" />
+    <None Include="Resources\elite23.jpg" />
+    <None Include="Resources\elite231.jpg" />
+    <None Include="Resources\elite31.png" />
+    <None Include="Resources\Engine1.jpg" />
+    <None Include="Resources\Engine_big1.png" />
+    <Content Include="Resources\envhasp_splash.jpg" />
+    <None Include="Resources\exit.png" />
+    <None Include="Resources\Exciter1.jpg" />
+    <None Include="Resources\Exciter_big1.png" />
+    <Content Include="Resources\ExtraZooming.gif" />
+    <Content Include="Resources\ExtraZooming.jpg" />
+    <None Include="Resources\ExtraZooming1.gif" />
+    <None Include="Resources\ExtraZooming2.gif" />
+    <None Include="Resources\ExtraZooming3.gif" />
+    <None Include="Resources\ExtraZooming31.gif" />
+    <None Include="Resources\f1.jpg" />
+    <None Include="Resources\f1.gif" />
+    <Content Include="Resources\Factory.gif" />
+    <None Include="Resources\Factory1.gif" />
+    <None Include="Resources\factory.jpg" />
+    <Content Include="Resources\factory13.bmp" />
+    <None Include="Resources\factory131.bmp" />
+    <None Include="Resources\Factory2.gif" />
+    <None Include="Resources\factory132.bmp" />
+    <None Include="Resources\Factory3.gif" />
+    <None Include="Resources\factory133.bmp" />
+    <None Include="Resources\factory1331.bmp" />
+    <None Include="Resources\Factory31.gif" />
+    <None Include="Resources\Factory4.gif" />
+    <None Include="Resources\factory134.bmp" />
+    <Content Include="Resources\FactoryManager.ico" />
+    <None Include="Resources\fan_big1.png" />
+    <None Include="Resources\fan21.bmp" />
+    <Content Include="Resources\FailureTIme.png" />
+    <None Include="Resources\FailureTIme1.png" />
+    <Content Include="Resources\FaultFrequency.gif" />
+    <Content Include="Resources\FaultFrequency.jpg" />
+    <None Include="Resources\FaultFrequency1.gif" />
+    <None Include="Resources\FaultFrequency2.gif" />
+    <None Include="Resources\FaultFrequency3.gif" />
+    <None Include="Resources\FaultFrequency31.gif" />
+    <Content Include="Resources\fftimage.bmp" />
+    <None Include="Resources\fftimage1.bmp" />
+    <None Include="Resources\fftimage2.bmp" />
+    <None Include="Resources\fftimage3.bmp" />
+    <None Include="Resources\fftimage31.bmp" />
+    <None Include="Resources\fieldpac1.png" />
+    <None Include="Resources\fieldpac2.png" />
+    <None Include="Resources\fieldpac3.png" />
+    <None Include="Resources\fieldpac31.png" />
+    <None Include="Resources\fieldpaqnew2.jpg" />
+    <None Include="Resources\fieldpaqnew.bmp" />
+    <Content Include="Resources\FinalNewDB.bmp" />
+    <None Include="Resources\FinalNewDB1.bmp" />
+    <None Include="Resources\FinalNewDB2.bmp" />
+    <None Include="Resources\FinalNewDB3.bmp" />
+    <None Include="Resources\FinalNewDB31.bmp" />
+    <Content Include="Resources\Find Replace.bmp" />
+    <None Include="Resources\Find Replace1.bmp" />
+    <None Include="Resources\Find Replace2.bmp" />
+    <None Include="Resources\Find Replace3.bmp" />
+    <None Include="Resources\Find Replace31.bmp" />
+    <Content Include="Resources\Find.bmp" />
+    <None Include="Resources\Find1.bmp" />
+    <None Include="Resources\Find2.bmp" />
+    <None Include="Resources\Find3.bmp" />
+    <None Include="Resources\Find31.bmp" />
+    <Content Include="Resources\FireBrick.bmp" />
+    <None Include="Resources\FireBrick1.bmp" />
+    <None Include="Resources\FireBrick2.bmp" />
+    <None Include="Resources\FireBrick3.bmp" />
+    <None Include="Resources\FireBrick31.bmp" />
+    <Content Include="Resources\first.bmp" />
+    <None Include="Resources\first1.bmp" />
+    <None Include="Resources\first2.bmp" />
+    <None Include="Resources\first3.bmp" />
+    <None Include="Resources\first31.bmp" />
+    <None Include="Resources\font.jpg" />
+    <Content Include="Resources\ForestGreen.bmp" />
+    <None Include="Resources\ForestGreen1.bmp" />
+    <None Include="Resources\ForestGreen2.bmp" />
+    <None Include="Resources\ForestGreen3.bmp" />
+    <None Include="Resources\ForestGreen31.bmp" />
+    <Content Include="Resources\ftod.png" />
+    <None Include="Resources\ftod1.png" />
+    <None Include="Resources\ftod2.png" />
+    <None Include="Resources\ftod3.png" />
+    <None Include="Resources\ftod31.png" />
+    <None Include="Resources\Furnace_big1.png" />
+    <None Include="Resources\Furnace31.jpg" />
+    <Content Include="Resources\g1.bmp" />
+    <None Include="Resources\g11.bmp" />
+    <None Include="Resources\g12.bmp" />
+    <None Include="Resources\g13.bmp" />
+    <None Include="Resources\g131.bmp" />
+    <Content Include="Resources\g1_1.bmp" />
+    <None Include="Resources\g1_11.bmp" />
+    <None Include="Resources\g1_12.bmp" />
+    <None Include="Resources\g1_13.bmp" />
+    <None Include="Resources\g1_131.bmp" />
+    <Content Include="Resources\g1_2.bmp" />
+    <None Include="Resources\g1_21.bmp" />
+    <None Include="Resources\g1_22.bmp" />
+    <None Include="Resources\g1_23.bmp" />
+    <None Include="Resources\g1_231.bmp" />
+    <Content Include="Resources\g1_3.bmp" />
+    <None Include="Resources\g1_31.bmp" />
+    <None Include="Resources\g1_32.bmp" />
+    <None Include="Resources\g1_33.bmp" />
+    <None Include="Resources\g1_331.bmp" />
+    <Content Include="Resources\Gear.bmp" />
+    <None Include="Resources\Gear1.bmp" />
+    <None Include="Resources\Gear2.bmp" />
+    <None Include="Resources\Gear3.bmp" />
+    <None Include="Resources\Gear31.bmp" />
+    <None Include="Resources\general_reports_icon.jpg" />
+    <None Include="Resources\Gear1.jpg" />
+    <None Include="Resources\Gear_big1.png" />
+    <None Include="Resources\Generator1.jpg" />
+    <None Include="Resources\Generator_big1.png" />
+    <Content Include="Resources\Graph.bmp" />
+    <Content Include="Resources\graph.jpg" />
+    <None Include="Resources\Graph1.bmp" />
+    <None Include="Resources\graph1.jpg" />
+    <None Include="Resources\Graph2.bmp" />
+    <None Include="Resources\graph2.jpg" />
+    <None Include="Resources\GraphNotGenerated.jpg" />
+    <None Include="Resources\Graph3.bmp" />
+    <None Include="Resources\graph3.jpg" />
+    <None Include="Resources\GraphNotGenerated1.jpg" />
+    <None Include="Resources\graph31.jpg" />
+    <None Include="Resources\Graph31.bmp" />
+    <None Include="Resources\GraphNotGenerated11.jpg" />
+    <None Include="Resources\gre.bmp" />
+    <None Include="Resources\grayandwhite.png" />
+    <Content Include="Resources\green.bmp" />
+    <Content Include="Resources\greenFlag.bmp" />
+    <None Include="Resources\greenFlag1.bmp" />
+    <None Include="Resources\greenFlag2.bmp" />
+    <None Include="Resources\greenFlag3.bmp" />
+    <None Include="Resources\greenFlag31.bmp" />
+    <Content Include="Resources\GreenYellow.bmp" />
+    <None Include="Resources\GreenYellow1.bmp" />
+    <None Include="Resources\GreenYellow2.bmp" />
+    <None Include="Resources\GreenYellow3.bmp" />
+    <None Include="Resources\GreenYellow31.bmp" />
+    <Content Include="Resources\green_light.gif" />
+    <None Include="Resources\green_light1.gif" />
+    <None Include="Resources\green_light2.gif" />
+    <None Include="Resources\green_light3.gif" />
+    <None Include="Resources\green_light31.gif" />
+    <Content Include="Resources\green_plain.bmp" />
+    <None Include="Resources\green_plain1.bmp" />
+    <None Include="Resources\green_plain2.bmp" />
+    <None Include="Resources\green_plain3.bmp" />
+    <None Include="Resources\green_plain31.bmp" />
+    <Content Include="Resources\HASP.JPG" />
+    <Content Include="Resources\HASP1.JPG" />
+    <None Include="Resources\HASP2.JPG" />
+    <None Include="Resources\HASP3.JPG" />
+    <None Include="Resources\HASP4.JPG" />
+    <None Include="Resources\HASP41.JPG" />
+    <None Include="Resources\help5.jpg" />
+    <Content Include="Resources\HotPink.bmp" />
+    <None Include="Resources\HotPink1.bmp" />
+    <None Include="Resources\HotPink2.bmp" />
+    <None Include="Resources\HotPink3.bmp" />
+    <None Include="Resources\HotPink31.bmp" />
+    <None Include="Resources\import.jpg" />
+    <None Include="Resources\images %281%29.jpg" />
+    <None Include="Resources\images %283%29.jpg" />
+    <None Include="Resources\Hydraulic1.png" />
+    <None Include="Resources\Hydraulic_big1.png" />
+    <Content Include="Resources\IndianRed.bmp" />
+    <None Include="Resources\IndianRed1.bmp" />
+    <None Include="Resources\IndianRed2.bmp" />
+    <None Include="Resources\IndianRed3.bmp" />
+    <None Include="Resources\IndianRed31.bmp" />
+    <Content Include="Resources\Key.bmp" />
+    <None Include="Resources\Key1.bmp" />
+    <None Include="Resources\Key2.bmp" />
+    <None Include="Resources\Key3.bmp" />
+    <None Include="Resources\Key31.bmp" />
+    <None Include="Resources\kohtect.bmp" />
+    <Content Include="Resources\lanscaper_kit.gif" />
+    <Content Include="Resources\last.bmp" />
+    <None Include="Resources\last1.bmp" />
+    <None Include="Resources\last2.bmp" />
+    <None Include="Resources\last3.bmp" />
+    <None Include="Resources\last31.bmp" />
+    <Content Include="Resources\LightGreen.bmp" />
+    <Content Include="Resources\line.bmp" />
+    <None Include="Resources\line1.bmp" />
+    <None Include="Resources\line2.bmp" />
+    <None Include="Resources\line3.bmp" />
+    <None Include="Resources\line31.bmp" />
+    <None Include="Resources\LOG.png" />
+    <Content Include="Resources\logo.bmp" />
+    <None Include="Resources\logo1.bmp" />
+    <None Include="Resources\logo2.bmp" />
+    <None Include="Resources\logo3.bmp" />
+    <None Include="Resources\logo31.bmp" />
+    <None Include="Resources\machine1.jpg" />
+    <None Include="Resources\machine3.jpg" />
+    <None Include="Resources\machine31.jpg" />
+    <None Include="Resources\LOGO_NEW.jpg" />
+    <None Include="Resources\machine.jpg" />
+    <None Include="Resources\machine2.jpg" />
+    <Content Include="Resources\magnifying in graph.bmp" />
+    <None Include="Resources\magnifying in graph1.bmp" />
+    <None Include="Resources\magnifying in graph2.bmp" />
+    <None Include="Resources\magnifying in graph3.bmp" />
+    <None Include="Resources\magnifying in graph31.bmp" />
+    <Content Include="Resources\majii.gif" />
+    <None Include="Resources\msen.jpg" />
+    <None Include="Resources\Movglobe.gif" />
+    <None Include="Resources\multiple.jpg" />
+    <None Include="Resources\Motor1.jpg" />
+    <None Include="Resources\Motor_big1.png" />
+    <Content Include="Resources\new.jpg" />
+    <None Include="Resources\new1.jpg" />
+    <Content Include="Resources\NewReport.bmp" />
+    <Content Include="Resources\NewReport.JPG" />
+    <None Include="Resources\NewReport1.bmp" />
+    <None Include="Resources\NewReport2.bmp" />
+    <None Include="Resources\NewReport3.bmp" />
+    <None Include="Resources\NewReport31.bmp" />
+    <Content Include="Resources\Next.bmp" />
+    <None Include="Resources\Next1.bmp" />
+    <None Include="Resources\Next2.bmp" />
+    <None Include="Resources\Next3.bmp" />
+    <None Include="Resources\Next31.bmp" />
+    <None Include="Resources\novian.png" />
+    <Content Include="Resources\NT700.gif" />
+    <Content Include="Resources\onDT.bmp" />
+    <Content Include="Resources\onDT.JPG" />
+    <None Include="Resources\onDT1.JPG" />
+    <None Include="Resources\onDT1.bmp" />
+    <None Include="Resources\onDT2.JPG" />
+    <None Include="Resources\onDT2.bmp" />
+    <None Include="Resources\onDT3.JPG" />
+    <None Include="Resources\onDT3.bmp" />
+    <None Include="Resources\onDT31.bmp" />
+    <None Include="Resources\onDT31.JPG" />
+    <None Include="Resources\open.jpg" />
+    <Content Include="Resources\open1.bmp" />
+    <Content Include="Resources\open1.jpg" />
+    <None Include="Resources\open11.bmp" />
+    <None Include="Resources\open12.bmp" />
+    <None Include="Resources\open13.bmp" />
+    <None Include="Resources\open131.bmp" />
+    <Content Include="Resources\OpenDB.bmp" />
+    <None Include="Resources\OpenDB1.bmp" />
+    <None Include="Resources\OpenDB2.bmp" />
+    <None Include="Resources\OpenDB3.bmp" />
+    <None Include="Resources\OpenDB31.bmp" />
+    <Content Include="Resources\Orange.bmp" />
+    <None Include="Resources\Orange1.bmp" />
+    <None Include="Resources\Orange2.bmp" />
+    <None Include="Resources\Orange3.bmp" />
+    <None Include="Resources\Orange31.bmp" />
+    <Content Include="Resources\orangeFlag.bmp" />
+    <None Include="Resources\orangeFlag1.bmp" />
+    <None Include="Resources\orangeFlag2.bmp" />
+    <None Include="Resources\orangeFlag3.bmp" />
+    <None Include="Resources\orangeFlag31.bmp" />
+    <Content Include="Resources\orbi1.bmp" />
+    <Content Include="Resources\orbi1.JPG" />
+    <None Include="Resources\orbi11.bmp" />
+    <None Include="Resources\orbi12.bmp" />
+    <None Include="Resources\orbi13.bmp" />
+    <None Include="Resources\orbi131.bmp" />
+    <Content Include="Resources\orbit.gif" />
+    <Content Include="Resources\orbit.jpg" />
+    <None Include="Resources\orbit1.gif" />
+    <None Include="Resources\orbit2.gif" />
+    <None Include="Resources\orbit3.gif" />
+    <None Include="Resources\orbit31.gif" />
+    <None Include="Resources\PieDashboard.jpg" />
+    <Content Include="Resources\PlantMgr.png" />
+    <None Include="Resources\PlantMgr1.png" />
+    <None Include="Resources\PlantMgr2.png" />
+    <None Include="Resources\PlantMgr3.png" />
+    <None Include="Resources\PlantMgr31.png" />
+    <Content Include="Resources\Point.bmp" />
+    <Content Include="Resources\Point.gif" />
+    <Content Include="Resources\point.JPG" />
+    <None Include="Resources\Point1.gif" />
+    <None Include="Resources\Point2.gif" />
+    <None Include="Resources\Point3.gif" />
+    <None Include="Resources\Point31.gif" />
+    <None Include="Resources\point.png" />
+    <Content Include="Resources\previus.bmp" />
+    <None Include="Resources\previus1.bmp" />
+    <None Include="Resources\previus2.bmp" />
+    <None Include="Resources\previus3.bmp" />
+    <None Include="Resources\previus31.bmp" />
+    <Content Include="Resources\progress1.gif" />
+    <None Include="Resources\progress11.gif" />
+    <None Include="Resources\progress12.gif" />
+    <None Include="Resources\progress13.gif" />
+    <None Include="Resources\progress131.gif" />
+    <None Include="Resources\ProgressRoller.gif" />
+    <None Include="Resources\Propeller1.png" />
+    <None Include="Resources\Propeller_big1.png" />
+    <None Include="Resources\Pulveriser1.png" />
+    <None Include="Resources\Pulveriser_big1.png" />
+    <None Include="Resources\Pump1.bmp" />
+    <None Include="Resources\Pump_big1.png" />
+    <Content Include="Resources\red.bmp" />
+    <None Include="Resources\redd.bmp" />
+    <Content Include="Resources\redFlag.bmp" />
+    <None Include="Resources\redFlag1.bmp" />
+    <None Include="Resources\redFlag2.bmp" />
+    <None Include="Resources\redFlag3.bmp" />
+    <None Include="Resources\redFlag31.bmp" />
+    <Content Include="Resources\RedLightAnim.gif" />
+    <None Include="Resources\RedLightAnim1.gif" />
+    <None Include="Resources\RedLightAnim2.gif" />
+    <None Include="Resources\RedLightAnim3.gif" />
+    <None Include="Resources\RedLightAnim31.gif" />
+    <Content Include="Resources\red_light.gif" />
+    <None Include="Resources\red_light1.gif" />
+    <None Include="Resources\red_light2.gif" />
+    <None Include="Resources\red_light3.gif" />
+    <None Include="Resources\red_light31.gif" />
+    <Content Include="Resources\red_plain.bmp" />
+    <None Include="Resources\red_plain1.bmp" />
+    <None Include="Resources\red_plain2.bmp" />
+    <None Include="Resources\red_plain3.bmp" />
+    <None Include="Resources\red_plain31.bmp" />
+    <Content Include="Resources\refresh.bmp" />
+    <None Include="Resources\refresh1.bmp" />
+    <None Include="Resources\refresh2.bmp" />
+    <None Include="Resources\refresh3.bmp" />
+    <None Include="Resources\refresh31.bmp" />
+    <Content Include="Resources\replace.bmp" />
+    <None Include="Resources\replace1.bmp" />
+    <None Include="Resources\replace.jpg" />
+    <Content Include="Resources\replace1.gif" />
+    <None Include="Resources\replace11.gif" />
+    <None Include="Resources\replace2.bmp" />
+    <None Include="Resources\replace12.gif" />
+    <None Include="Resources\replace3.bmp" />
+    <None Include="Resources\replace13.gif" />
+    <None Include="Resources\replace131.gif" />
+    <None Include="Resources\replace31.bmp" />
+    <Content Include="Resources\report.jpg" />
+    <None Include="Resources\Reports.jpg" />
+    <Content Include="Resources\resource.gif" />
+    <None Include="Resources\resource1.gif" />
+    <Content Include="Resources\resource13.bmp" />
+    <None Include="Resources\resource131.bmp" />
+    <None Include="Resources\resource2.gif" />
+    <None Include="Resources\resource132.bmp" />
+    <None Include="Resources\resource3.gif" />
+    <None Include="Resources\resource133.bmp" />
+    <None Include="Resources\resource1331.bmp" />
+    <None Include="Resources\resource31.gif" />
+    <Content Include="Resources\Rotating_globe1.gif" />
+    <None Include="Resources\Rotating_globe11.gif" />
+    <None Include="Resources\Rotating_globe12.gif" />
+    <None Include="Resources\Rotating_globe13.gif" />
+    <None Include="Resources\Rotating_globe131.gif" />
+    <Content Include="Resources\rpm.jpg" />
+    <None Include="Resources\rpm1.jpg" />
+    <None Include="Resources\rpm2.jpg" />
+    <None Include="Resources\rpm3.jpg" />
+    <None Include="Resources\rpm31.jpg" />
+    <Content Include="Resources\SandyBrown.bmp" />
+    <None Include="Resources\SandyBrown1.bmp" />
+    <None Include="Resources\SandyBrown2.bmp" />
+    <None Include="Resources\SandyBrown3.bmp" />
+    <None Include="Resources\SandyBrown31.bmp" />
+    <Content Include="Resources\SDF.bmp" />
+    <Content Include="Resources\SDF.jpg" />
+    <None Include="Resources\SDF1.bmp" />
+    <None Include="Resources\SDF2.bmp" />
+    <None Include="Resources\SDF3.bmp" />
+    <None Include="Resources\SDF31.bmp" />
+    <None Include="Resources\Search.jpg" />
+    <Content Include="Resources\Search.PNG" />
+    <Content Include="Resources\searchedelement2.bmp" />
+    <None Include="Resources\searchedelement21.bmp" />
+    <None Include="Resources\searchedelement22.bmp" />
+    <None Include="Resources\searchedelement23.bmp" />
+    <None Include="Resources\searchedelement231.bmp" />
+    <Content Include="Resources\searchedsubelement2.bmp" />
+    <None Include="Resources\searchedsubelement21.bmp" />
+    <None Include="Resources\searchedsubelement22.bmp" />
+    <None Include="Resources\searchedsubelement23.bmp" />
+    <None Include="Resources\searchedsubelement231.bmp" />
+    <None Include="Resources\sensor.png" />
+    <None Include="Resources\shaft1.jpg" />
+    <None Include="Resources\shaft_big1.png" />
+    <Content Include="Resources\Side Band Cursor.JPG" />
+    <None Include="Resources\Side Band Cursor1.JPG" />
+    <None Include="Resources\Side Band Cursor2.JPG" />
+    <None Include="Resources\Side Band Cursor3.JPG" />
+    <None Include="Resources\Side Band Cursor31.JPG" />
+    <Content Include="Resources\sideband.bmp" />
+    <None Include="Resources\sideband1.bmp" />
+    <None Include="Resources\sideband2.bmp" />
+    <None Include="Resources\sideband3.bmp" />
+    <None Include="Resources\sideband31.bmp" />
+    <Content Include="Resources\SimpleCursor.bmp" />
+    <None Include="Resources\SimpleCursor1.bmp" />
+    <None Include="Resources\SimpleCursor2.bmp" />
+    <None Include="Resources\SimpleCursor3.bmp" />
+    <None Include="Resources\SimpleCursor31.bmp" />
+    <Content Include="Resources\SparkleRed.bmp" />
+    <None Include="Resources\SplashImage.gif" />
+    <None Include="Resources\style.jpg" />
+    <None Include="Resources\status.jpg" />
+    <None Include="Resources\Spindle1.jpg" />
+    <None Include="Resources\Spindle_big1.png" />
+    <None Include="Resources\Steam Trap1.jpg" />
+    <None Include="Resources\Steam Trap_big1.png" />
+    <Content Include="Resources\sub element.jpg" />
+    <Content Include="Resources\subelement new.bmp" />
+    <Content Include="Resources\subelement new.gif" />
+    <None Include="Resources\subelement new1.gif" />
+    <None Include="Resources\subelement new2.gif" />
+    <None Include="Resources\subelement new3.gif" />
+    <None Include="Resources\subelement new31.gif" />
+    <None Include="Resources\themes.jpg" />
+    <Content Include="Resources\TimeWave.bmp" />
+    <None Include="Resources\TimeWave1.bmp" />
+    <None Include="Resources\TimeWave2.bmp" />
+    <None Include="Resources\TimeWave3.bmp" />
+    <None Include="Resources\TimeWave31.bmp" />
+    <Content Include="Resources\ToolPlantMgr.PNG" />
+    <None Include="Resources\ToolPlantMgr1.PNG" />
+    <None Include="Resources\ToolPlantMgr2.PNG" />
+    <None Include="Resources\ToolPlantMgr3.PNG" />
+    <None Include="Resources\ToolPlantMgr31.PNG" />
+    <Content Include="Resources\Tools.bmp" />
+    <None Include="Resources\transfer.png" />
+    <None Include="Resources\Transformer1.jpg" />
+    <None Include="Resources\Transformer_big1.png" />
+    <Content Include="Resources\trd.jpg" />
+    <None Include="Resources\trd1.jpg" />
+    <None Include="Resources\trd2.jpg" />
+    <None Include="Resources\trd3.jpg" />
+    <None Include="Resources\trd31.jpg" />
+    <Content Include="Resources\trend.jpg" />
+    <Content Include="Resources\trend1.jpg" />
+    <None Include="Resources\trend2.jpg" />
+    <None Include="Resources\trend11.jpg" />
+    <None Include="Resources\trend3.jpg" />
+    <None Include="Resources\trend12.jpg" />
+    <None Include="Resources\trend4.jpg" />
+    <None Include="Resources\trend13.jpg" />
+    <None Include="Resources\trend131.jpg" />
+    <None Include="Resources\trend41.jpg" />
+    <Content Include="Resources\ttback_color.bmp" />
+    <None Include="Resources\ttback_color1.bmp" />
+    <None Include="Resources\ttback_color2.bmp" />
+    <None Include="Resources\ttback_color3.bmp" />
+    <None Include="Resources\ttback_color31.bmp" />
+    <Content Include="Resources\ttfront_color.bmp" />
+    <None Include="Resources\ttfront_color1.bmp" />
+    <None Include="Resources\ttfront_color2.bmp" />
+    <None Include="Resources\ttfront_color3.bmp" />
+    <None Include="Resources\ttfront_color31.bmp" />
+    <None Include="Resources\Turbine1.jpg" />
+    <None Include="Resources\Turbine_big1.png" />
+    <Content Include="Resources\UDReport.bmp" />
+    <Content Include="Resources\UDReport.JPG" />
+    <None Include="Resources\UDReport1.bmp" />
+    <None Include="Resources\UDReport2.bmp" />
+    <None Include="Resources\UDReport3.bmp" />
+    <None Include="Resources\UDReport31.bmp" />
+    <Content Include="Resources\UDReportFormat.bmp" />
+    <Content Include="Resources\UDReportFormat.JPG" />
+    <None Include="Resources\UDReportFormat1.bmp" />
+    <None Include="Resources\UDReportFormat2.bmp" />
+    <None Include="Resources\UDReportFormat3.bmp" />
+    <None Include="Resources\UDReportFormat31.bmp" />
+    <Content Include="Resources\unmagnifying in graph.bmp" />
+    <None Include="Resources\unmagnifying in graph1.bmp" />
+    <None Include="Resources\unmagnifying in graph2.bmp" />
+    <None Include="Resources\unmagnifying in graph3.bmp" />
+    <None Include="Resources\unmagnifying in graph31.bmp" />
+    <Content Include="Resources\untitled2.bmp" />
+    <None Include="Resources\untitled21.bmp" />
+    <None Include="Resources\untitled22.bmp" />
+    <None Include="Resources\untitled23.bmp" />
+    <None Include="Resources\untitled231.bmp" />
+    <None Include="Resources\Upload.gif" />
+    <Content Include="Resources\Upload.PNG" />
+    <None Include="Resources\Upload1.PNG" />
+    <None Include="Resources\Upload2.PNG" />
+    <None Include="Resources\Upload3.PNG" />
+    <None Include="Resources\Upload31.PNG" />
+    <None Include="Resources\wav.png" />
+    <None Include="Resources\upload11.png" />
+    <None Include="Resources\Valve1.jpg" />
+    <None Include="Resources\Valve_big1.png" />
+    <Content Include="Resources\wf.bmp" />
+    <None Include="Resources\wf1.bmp" />
+    <None Include="Resources\wf2.bmp" />
+    <None Include="Resources\wf3.bmp" />
+    <None Include="Resources\wf31.bmp" />
+    <Content Include="Resources\White.bmp" />
+    <Content Include="Resources\White1.bmp" />
+    <None Include="Resources\White2.bmp" />
+    <None Include="Resources\White3.bmp" />
+    <None Include="Resources\White4.bmp" />
+    <None Include="Resources\White41.bmp" />
+    <Content Include="Resources\Wind0ws Explorer.png" />
+    <None Include="Resources\yel.bmp" />
+    <Content Include="Resources\yellow.bmp" />
+    <None Include="Resources\yellow1.bmp" />
+    <None Include="Resources\yellow2.bmp" />
+    <None Include="Resources\yellow3.bmp" />
+    <None Include="Resources\yellow31.bmp" />
+    <Content Include="Resources\YellowFlag.bmp" />
+    <None Include="Resources\YellowFlag1.bmp" />
+    <None Include="Resources\YellowFlag2.bmp" />
+    <None Include="Resources\YellowFlag3.bmp" />
+    <None Include="Resources\YellowFlag31.bmp" />
+    <Content Include="Resources\yes.gif" />
+    <None Include="Resources\yes1.gif" />
+    <None Include="Resources\yes2.gif" />
+    <None Include="Resources\yes3.gif" />
+    <None Include="Resources\yes31.gif" />
+    <Content Include="Resources\ZoomIn.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
