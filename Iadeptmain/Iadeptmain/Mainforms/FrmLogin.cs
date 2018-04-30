@@ -34,8 +34,9 @@ namespace Iadeptmain.Mainforms
             try
             {
                 string lastdbName = null;
+               
                 PublicClass.CreateConnection("route");
-
+                PublicClass.currentInstrument = cmbdata.SelectedItem.ToString();
                 DataTable dtt = new DataTable();
                 dtt = DbClass.getdata(CommandType.Text, "select * from route.lastdatabase where Instrumentname='" + PublicClass.currentInstrument + "'");
 
